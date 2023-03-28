@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj": {}
+    "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj": {}
   },
   "projects": {
-    "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj": {
+    "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj",
+        "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj",
         "projectName": "VSoft.Company.UI.TEA.Team.Client.Main.Code",
-        "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj",
+        "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\VSoft.Company.UI.TEA.Team.Client.Main.Code.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\obj\\",
+        "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main.Code\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

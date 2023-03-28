@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Share\\VSoft.Company.UI.TEA.Team.Client.Share.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Share\\VSoft.Company.UI.TEA.Team.Client.Share.csproj",
       "projectName": "VSoft.Company.UI.TEA.Team.Client.Share",
-      "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Share\\VSoft.Company.UI.TEA.Team.Client.Share.csproj",
+      "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Share\\VSoft.Company.UI.TEA.Team.Client.Share.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Share\\obj\\",
+      "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Share\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
