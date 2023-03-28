@@ -1,34 +1,25 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using VSoft.Company.UI.TEA.Team.Client.Main.Code.Pages;
-using VSoft.Company.UI.TEA.Team.Data.DVO.Data;
+using Blazored.Toast.Services;
+using Microsoft.AspNetCore.Components.Web;
 
 namespace VSoft.Company.UI.TEA.Team.Client.Main.Pages
 {
     public partial class PageCreate
     {
         [Inject] protected IPageCreateServices PageServices { get; set; }
+        [Inject] IToastService ToastService { get; set; }
         protected string? Name;
         protected string? Description;
 
-        private async Task SubmitTask(EditContext context)
+        private async Task OnSubmit(MouseEventArgs e)
         {
-            if (!string.IsNullOrEmpty(Name))
-            {
-                var isCreate = await PageServices.CreateTeams(new TeamDvo() { Name = Name, Description = Description });
-                if (isCreate)
-                {
-
-                }
-                else
-                {
-
-                }
-            }
+            var rs = await PageServices.CreateTeams(Name, Description);
+            if (rs.Key)
+                ToastService.ShowSuccess(rs.Value);
             else
-            {
-
-            }
+                ToastService.ShowError(rs.Value);
         }
     }
 }

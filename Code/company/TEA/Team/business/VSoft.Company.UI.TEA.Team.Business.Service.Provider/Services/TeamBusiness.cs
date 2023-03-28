@@ -1,8 +1,10 @@
 ﻿using System.Threading.Tasks;
+using VegunSoft.Framework.Business.Dto.Response;
+using VSoft.Company.TEA.Team.Business.Dto.Request;
 using VSoft.Company.TEA.Team.Client.Services;
 using VSoft.Company.UI.TEA.Team.Business.Service.Services;
-using VSoft.Company.UI.TEA.Team.Data.DVO.Request;
-using VSoft.Company.UI.TEA.Team.Data.DVO.Response;
+using VSoft.Company.UI.TEA.Team.Data.DVO.Data;
+using VSoft.Company.UI.TEA.Team.Data.DVO.Extension.DataMethods;
 
 namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
 {
@@ -14,50 +16,21 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             ClientService = clientService;
         }
 
-        public Task<TeamInsertDvoResponse> CreateAsync(TeamInsertDvoRequest request)
+        public async Task<MDtoResult<string>> CreateAsync(TeamDvo teamDvo)
         {
-            //var rs = ClientService.FindRangeAsync(request).Result;
-            throw new System.NotImplementedException();
+            var apiRs = await ClientService.CreateAsync(new TeamInsertDtoRequest()
+            {
+                Data = teamDvo.GetDto(),
+            });
+            if (apiRs == null)
+            {
+                if (apiRs.IsSuccess)
+                    return new MDtoResultSuccess<string>(apiRs.Data.Name);
+                else
+                    return new MDtoResultError<string>(apiRs.Message);
+            }
+            return null;
         }
 
-        public Task<TeamInsertRangeDvoResponse> CreateRangeAsync(TeamInsertRangeDvoRequest request)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<TeamDeleteDvoResponse> DeleteAsync(TeamDeleteDvoRequest request)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<TeamDeleteRangeDvoResponse> DeleteRangeAsync(TeamDeleteRangeDvoRequest request)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<TeamFindDvoResponse> FindAsync(string request)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<TeamFindRangeDvoResponse> FindRangeAsync(string request)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<TeamSaveRangeDvoResponse> SaveRangeAsync(TeamSaveRangeDvoRequest request)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<TeamUpdateDvoResponse> UpdateAsync(TeamUpdateDvoRequest request)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<TeamUpdateRangeDvoResponse> UpdateRangeAsync(TeamUpdateRangeDvoRequest request)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }

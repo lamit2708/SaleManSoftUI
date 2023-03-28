@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -15,6 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
+    </Reference>
     <Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
     </Reference>

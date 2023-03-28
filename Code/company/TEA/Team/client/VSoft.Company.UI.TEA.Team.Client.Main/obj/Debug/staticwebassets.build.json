@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ETXsQ4v8fAOYMDgvYrYvvHM0eocdM9eXULcz/dLgdcc=",
+  "Hash": "YH/rzWtzs/YgKd0saJE3Ma9E/rBYUt6/ZKdN2+q4eIU=",
   "Source": "VSoft.Company.UI.TEA.Team.Client.Main",
   "BasePath": "_content/VSoft.Company.UI.TEA.Team.Client.Main",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\nguye\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css",
+      "SourceId": "Blazored.Toast",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\nguye\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Toast",
+      "RelativePath": "Blazored.Toast.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\nguye\\.nuget\\packages\\blazored.toast\\4.1.0\\staticwebassets\\Blazored.Toast.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\obj\\Debug\\scopedcss\\bundle\\VSoft.Company.UI.TEA.Team.Client.Main.styles.css",
+      "SourceId": "VSoft.Company.UI.TEA.Team.Client.Main",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\obj\\Debug\\scopedcss\\bundle\\",
+      "BasePath": "_content/VSoft.Company.UI.TEA.Team.Client.Main",
+      "RelativePath": "VSoft.Company.UI.TEA.Team.Client.Main.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\obj\\Debug\\scopedcss\\bundle\\VSoft.Company.UI.TEA.Team.Client.Main.styles.css"
+    },
     {
       "Identity": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\wwwroot\\background.png",
       "SourceId": "VSoft.Company.UI.TEA.Team.Client.Main",
