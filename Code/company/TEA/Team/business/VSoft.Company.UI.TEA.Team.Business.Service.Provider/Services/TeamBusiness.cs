@@ -14,50 +14,50 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             ClientService = clientService;
         }
 
-        public Task<TeamFindDvoResponse> FindAsync(string request)
-        {
-
-            var rs = ClientService.FindRangeAsync(request).Result;
-        }
-
-        public Task<TeamFindRangeDvoResponse> FindRangeAsync(string request)
-        {
-
-        }
-
         public Task<TeamInsertDvoResponse> CreateAsync(TeamInsertDvoRequest request)
         {
-
+            //var rs = ClientService.FindRangeAsync(request).Result;
+            throw new System.NotImplementedException();
         }
 
         public Task<TeamInsertRangeDvoResponse> CreateRangeAsync(TeamInsertRangeDvoRequest request)
         {
-
-        }
-
-        public Task<TeamUpdateDvoResponse> UpdateAsync(TeamUpdateDvoRequest request)
-        {
-
-        }
-
-        public Task<TeamUpdateRangeDvoResponse> UpdateRangeAsync(TeamUpdateRangeDvoRequest request)
-        {
-
+            throw new System.NotImplementedException();
         }
 
         public Task<TeamDeleteDvoResponse> DeleteAsync(TeamDeleteDvoRequest request)
         {
-
+            throw new System.NotImplementedException();
         }
 
         public Task<TeamDeleteRangeDvoResponse> DeleteRangeAsync(TeamDeleteRangeDvoRequest request)
         {
+            throw new System.NotImplementedException();
+        }
 
+        public Task<TeamFindDvoResponse> FindAsync(string request)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<TeamFindRangeDvoResponse> FindRangeAsync(string request)
+        {
+            throw new System.NotImplementedException();
         }
 
         public Task<TeamSaveRangeDvoResponse> SaveRangeAsync(TeamSaveRangeDvoRequest request)
         {
+            throw new System.NotImplementedException();
+        }
 
+        public Task<TeamUpdateDvoResponse> UpdateAsync(TeamUpdateDvoRequest request)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<TeamUpdateRangeDvoResponse> UpdateRangeAsync(TeamUpdateRangeDvoRequest request)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

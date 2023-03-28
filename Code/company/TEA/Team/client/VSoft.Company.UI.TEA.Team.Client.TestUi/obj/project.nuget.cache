@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MFZvNr3OPtyOkfGJjhmjdTnFfiRlpeMOLxgk6APefzzKwZHnoY6f6VKv3wFWKPM3BiDx2refsu/cqJruQZHM8w==",
+  "dgSpecHash": "RE0B6dEnqp+0IZsHYr3w3Hv5RIy1N4Mn50m8HR8Fj/At8zUtTKfF4Z+WYnuN3OEMFTkKHfq0YMSKZsx4PJVQ7A==",
   "success": true,
-  "projectFilePath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\VSoft.Company.UI.TEA.Team.Client.TestUi.csproj",
+  "projectFilePath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\VSoft.Company.UI.TEA.Team.Client.TestUi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\microsoft.aspnetcore.authorization.6.0.14.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\microsoft.aspnetcore.components.6.0.14.nupkg.sha512",

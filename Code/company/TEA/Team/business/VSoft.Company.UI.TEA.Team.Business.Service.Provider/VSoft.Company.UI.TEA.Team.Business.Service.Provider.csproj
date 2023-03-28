@@ -1,7 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\business</OutputPath>	
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,11 +13,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Api.DtoClient">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.TEA.Team.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
+    </Reference>
     <Reference Include="VSoft.Company.TEA.Team.Client">
-      <HintPath>..\..\..\..\..\..\..\..\library\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
     </Reference>
     <Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
-      <HintPath>..\..\data\VSoft.Company.UI.TEA.Team.Data.DVO\bin\Debug\net6.0\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
     </Reference>
   </ItemGroup>
 

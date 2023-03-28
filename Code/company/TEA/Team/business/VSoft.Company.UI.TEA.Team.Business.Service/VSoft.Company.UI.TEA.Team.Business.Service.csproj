@@ -1,12 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\business</OutputPath>	
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
-      <HintPath>..\..\data\VSoft.Company.UI.TEA.Team.Data.DVO\bin\Debug\net6.0\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
     </Reference>
   </ItemGroup>
 

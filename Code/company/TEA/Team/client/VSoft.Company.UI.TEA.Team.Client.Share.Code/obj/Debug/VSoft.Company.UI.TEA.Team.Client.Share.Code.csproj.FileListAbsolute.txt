@@ -1,0 +1,12 @@
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code.deps.json
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code.dll
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code.pdb
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\VSoft.Company.UI.TEA.Team.Client.Share.Code.csproj.AssemblyReference.cache
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\VSoft.Company.UI.TEA.Team.Client.Share.Code.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\VSoft.Company.UI.TEA.Team.Client.Share.Code.AssemblyInfoInputs.cache
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\VSoft.Company.UI.TEA.Team.Client.Share.Code.AssemblyInfo.cs
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\VSoft.Company.UI.TEA.Team.Client.Share.Code.csproj.CoreCompileInputs.cache
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\VSoft.Company.UI.TEA.Team.Client.Share.Code.dll
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\refint\VSoft.Company.UI.TEA.Team.Client.Share.Code.dll
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\VSoft.Company.UI.TEA.Team.Client.Share.Code.pdb
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Share.Code\obj\Debug\ref\VSoft.Company.UI.TEA.Team.Client.Share.Code.dll

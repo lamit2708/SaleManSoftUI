@@ -4,6 +4,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\client</OutputPath>	
   </PropertyGroup>
 
 
@@ -21,13 +25,13 @@
 
   <ItemGroup>
     <Reference Include="VegunSoft.Framework.Paging.Provider">
-      <HintPath>..\..\..\..\..\..\..\..\..\Library\DNet\product\vegun-library-dnet\Framework\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
     </Reference>
     <Reference Include="VegunSoft.Framework.Ui.Component">
-      <HintPath>..\..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-blazor\Component\VegunSoft.Framework.Ui.Component.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-blazor\Component\VegunSoft.Framework.Ui.Component.dll</HintPath>
     </Reference>
     <Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
-      <HintPath>..\..\data\VSoft.Company.UI.TEA.Team.Data.DVO\bin\Debug\net6.0\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -1843,11 +1843,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\VSoft.Company.UI.TEA.Team.Client.TestUi.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\VSoft.Company.UI.TEA.Team.Client.TestUi.csproj",
       "projectName": "VSoft.Company.UI.TEA.Team.Client.TestUi",
-      "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\VSoft.Company.UI.TEA.Team.Client.TestUi.csproj",
+      "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\VSoft.Company.UI.TEA.Team.Client.TestUi.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\obj\\",
+      "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.TestUi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1871,8 +1871,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\VSoft.Company.UI.TEA.Team.Client.Main.csproj": {
-              "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SalemanSoft\\UI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\VSoft.Company.UI.TEA.Team.Client.Main.csproj"
+            "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\VSoft.Company.UI.TEA.Team.Client.Main.csproj": {
+              "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\client\\VSoft.Company.UI.TEA.Team.Client.Main\\VSoft.Company.UI.TEA.Team.Client.Main.csproj"
             }
           }
         }
