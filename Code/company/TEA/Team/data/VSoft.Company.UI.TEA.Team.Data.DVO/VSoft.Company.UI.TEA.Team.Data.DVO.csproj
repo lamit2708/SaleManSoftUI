@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\..\..\Library\DNet\product\vegun-library-dnet\Framework\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

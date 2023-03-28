@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSoft.Company.UI.TEA.Team.Business.Service\VSoft.Company.UI.TEA.Team.Business.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VSoft.Company.TEA.Team.Client">
+      <HintPath>..\..\..\..\..\..\..\..\library\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
+      <HintPath>..\..\data\VSoft.Company.UI.TEA.Team.Data.DVO\bin\Debug\net6.0\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

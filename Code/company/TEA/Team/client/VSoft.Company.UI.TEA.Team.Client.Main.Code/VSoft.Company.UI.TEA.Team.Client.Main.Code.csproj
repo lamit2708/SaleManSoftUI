@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
+      <HintPath>..\..\data\VSoft.Company.UI.TEA.Team.Data.DVO\bin\Debug\net6.0\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

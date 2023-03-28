@@ -1,0 +1,60 @@
+﻿@using VegunSoft.Framework.Ui.Component.Popups;
+@using VegunSoft.Framework.Ui.Component.Searchs;
+@using VegunSoft.Framework.Ui.Component.Pagination;
+@using VegunSoft.Framework.Ui.Component.Indicatiors;
+
+<h3>Table Team</h3>
+@if (Teams == null)
+{
+    <LoadingIndicator></LoadingIndicator>
+}
+else
+{
+    <div class="row">
+        <KeywordSearch OnSearch="SearchTask"></KeywordSearch>
+    </div>
+
+    <div class="row mt-4">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Tên</th>
+                    <th>Mô tả</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Teams != null && Teams.Count > 0)
+                {
+                    <tr class="text-center">Chưa có dữ liệu</tr>
+                }
+                else
+                {
+                    foreach (var item in Teams)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.Description</td>
+                            <td>
+                                <a href="/taskDetails/@item.Id" class="btn btn-primary" disabled>Detail</a>
+                                <a href="/taskEdit/@item.Id" class="btn btn-warning" disabled>Edit</a>
+                                <button class="btn btn-danger" @onclick="()=> OnDeleteTask(item.Id)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfoot>
+                <Pagination MetaData="MetaData" Spread="2" SelectedPage="SelectedPage"></Pagination>
+            </tfoot>
+        </table>
+    </div>
+
+    <Confirmation ConfirmationMessage="Are you sure to delete?"
+                  ConfirmationTitle="Delete Task"
+                  @ref="DeleteConfirmation"
+                  ConfirmationChanged="OnConfirmDeleteTask">
+    </Confirmation>
+}
