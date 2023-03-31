@@ -1,5 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using VegunSoft.Framework.Business.Dto.Response;
+using VegunSoft.Framework.Paging.Provider.Request;
+using VegunSoft.Framework.Paging.Provider.Response;
 using VSoft.Company.TEA.Team.Business.Dto.Request;
 using VSoft.Company.TEA.Team.Client.Services;
 using VSoft.Company.UI.TEA.Team.Business.Service.Services;
@@ -32,5 +35,27 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             return null;
         }
 
+        public async Task<MDtoResult<PagedList<TeamDvo>>> GetTableTeam(string keyWord, PagingParameters pageParameter)
+        {
+            //Client làm hàm trả về MDtoResponse<PagedList<TeamDto>>
+            var apiRs = await ClientService.GetTableByKeyword(keyWord, pageParameter);
+            
+            if (apiRs == null)
+            {
+                if (apiRs.IsSuccess)
+                {
+                    var teamDvos = apiRs.Data.Items.ToArray().GetDvo().ToList();
+                    var rs = new PagedList<TeamDvo>()
+                    {
+                        MetaData = apiRs.Data.MetaData,
+                        Items = teamDvos
+                    };
+                    return new MDtoResultSuccess<PagedList<TeamDvo>>(rs);
+                }
+                else
+                    return new MDtoResultError<PagedList<TeamDvo>>(apiRs.Message);
+            }
+            return null;
+        }
     }
 }

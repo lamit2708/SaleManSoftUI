@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\VSoft.Company.UI.TEA.Team.Client.Share.props" />
-</Project>

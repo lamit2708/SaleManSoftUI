@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -18,6 +18,9 @@
     </Reference>
     <Reference Include="VegunSoft.Framework.Business.Dto">
       <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Paging.Provider">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
     </Reference>
     <Reference Include="VSoft.Company.TEA.Team.Business.Dto">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
