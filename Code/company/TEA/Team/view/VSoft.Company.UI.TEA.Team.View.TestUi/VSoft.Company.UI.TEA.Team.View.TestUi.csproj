@@ -48,11 +48,11 @@
 		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
 		</Reference>
-		<Reference Include="VSoft.Company.TEA.Team.View">
-			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.View.dll</HintPath>
+		<Reference Include="VSoft.Company.TEA.Team.Client">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
 		</Reference>
-		<Reference Include="VSoft.Company.TEA.Team.View.Provider">
-			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.View.Provider.dll</HintPath>
+		<Reference Include="VSoft.Company.TEA.Team.Client.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>

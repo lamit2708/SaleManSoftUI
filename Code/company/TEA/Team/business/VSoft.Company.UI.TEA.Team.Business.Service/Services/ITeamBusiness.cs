@@ -11,5 +11,7 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Services
         Task<MDtoResult<string>> CreateAsync(TeamDvo teamDvo);
 
         Task<MDtoResult<PagedList<TeamDvo>>> GetTableTeam(string keyWord, PagingParameters pageParameter);
+
+        Task<MDtoResult<string>> DeleteTeam(int id);
     }
 }

@@ -2,6 +2,7 @@
 @using VegunSoft.Framework.Ui.Component.Searchs;
 @using VegunSoft.Framework.Ui.Component.Pagination;
 @using VegunSoft.Framework.Ui.Component.Indicatiors;
+@using VegunSoft.Framework.Value.Property.Methods;
 
 <h3>Table Team</h3>
 @if (Teams == null)
@@ -11,7 +12,7 @@
 else
 {
     <div class="row">
-        <KeywordSearch OnSearch="SearchTask"></KeywordSearch>
+        <KeywordSearch OnSearch="OnSearch"></KeywordSearch>
     </div>
 
     <div class="row mt-4">
@@ -25,7 +26,7 @@ else
                 </tr>
             </thead>
             <tbody>
-                @if (Teams != null && Teams.Count > 0)
+                @if (Teams == null || Teams.Count == 0)
                 {
                     <tr class="text-center">Chưa có dữ liệu</tr>
                 }
@@ -36,7 +37,7 @@ else
                         <tr>
                             <td>@item.Id</td>
                             <td>@item.Name</td>
-                            <td>@item.Description</td>
+                            <td>@item.Description.GetSubStringWithSymbol()</td>
                             <td>
                                 <a href="/taskDetails/@item.Id" class="btn btn-primary" disabled>Detail</a>
                                 <a href="/taskEdit/@item.Id" class="btn btn-warning" disabled>Edit</a>
@@ -47,13 +48,13 @@ else
                 }
             </tbody>
             <tfoot>
-                <Pagination MetaData="MetaData" Spread="2" SelectedPage="SelectedPage"></Pagination>
+                <Pagination MetaData="MetaData" Spread="2" SelectedPage="OnPageSelect"></Pagination>
             </tfoot>
         </table>
     </div>
 
-    <Confirmation ConfirmationMessage="Are you sure to delete?"
-                  ConfirmationTitle="Delete Task"
+    <Confirmation ConfirmationMessage="Xác nhận xóa?"
+                  ConfirmationTitle="Xóa Team"
                   @ref="DeleteConfirmation"
                   ConfirmationChanged="OnConfirmDeleteTask">
     </Confirmation>

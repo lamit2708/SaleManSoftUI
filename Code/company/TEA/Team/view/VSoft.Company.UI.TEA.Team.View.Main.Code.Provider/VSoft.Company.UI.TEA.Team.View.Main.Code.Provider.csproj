@@ -15,6 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Base.Entity">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+    </Reference>
     <Reference Include="VegunSoft.Framework.Business.Dto">
       <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
     </Reference>

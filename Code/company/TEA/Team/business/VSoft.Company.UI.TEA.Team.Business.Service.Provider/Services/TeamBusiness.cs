@@ -57,5 +57,25 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             }
             return null;
         }
+
+        public async Task<MDtoResult<string>> DeleteTeam(int id)
+        {
+            var apiRs = await ClientService.DeleteAsync(new TeamDeleteDtoRequest()
+            {
+                Id = id,
+            });
+            if (apiRs == null)
+            {
+                if (apiRs.IsSuccess)
+                {
+                    var teamDelete = apiRs.Data;
+                    return new MDtoResultSuccess<string>(teamDelete.Name);
+                }
+                else
+                    return new MDtoResultError<string>(apiRs.Message);
+            }
+            return null;
+
+        }
     }
 }
