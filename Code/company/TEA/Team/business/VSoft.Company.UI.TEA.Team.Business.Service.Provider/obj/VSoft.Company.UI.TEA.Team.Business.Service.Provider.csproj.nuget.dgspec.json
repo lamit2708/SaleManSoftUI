@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj": {}
+    "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj": {}
   },
   "projects": {
-    "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj": {
+    "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj",
+        "projectUniqueName": "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj",
         "projectName": "VSoft.Company.UI.TEA.Team.Business.Service.Provider",
-        "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\obj\\",
+        "projectPath": "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj",
+        "packagesPath": "C:\\Users\\dnet7\\.nuget\\packages\\",
+        "outputPath": "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Provider\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\dnet7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +27,8 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -35,8 +36,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj": {
-                "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj"
+              "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj": {
+                "projectPath": "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj"
               }
             }
           }
@@ -66,25 +67,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj": {
+    "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj",
+        "projectUniqueName": "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj",
         "projectName": "VSoft.Company.UI.TEA.Team.Business.Service",
-        "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj",
-        "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\obj\\",
+        "projectPath": "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\VSoft.Company.UI.TEA.Team.Business.Service.csproj",
+        "packagesPath": "C:\\Users\\dnet7\\.nuget\\packages\\",
+        "outputPath": "X:\\Programming\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\dnet7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,8 +94,8 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -128,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

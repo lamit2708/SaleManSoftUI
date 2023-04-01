@@ -50,3 +50,16 @@ D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\busines
 D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\refint\VSoft.Company.UI.TEA.Team.Business.Service.dll
 D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.pdb
 D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\ref\VSoft.Company.UI.TEA.Team.Business.Service.dll
+X:\Programming\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.deps.json
+X:\Programming\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll
+X:\Programming\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.pdb
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.csproj.AssemblyReference.cache
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.GeneratedMSBuildEditorConfig.editorconfig
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.AssemblyInfoInputs.cache
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.AssemblyInfo.cs
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.csproj.CoreCompileInputs.cache
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.csproj.CopyComplete
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.dll
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\refint\VSoft.Company.UI.TEA.Team.Business.Service.dll
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.pdb
+X:\Programming\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\obj\Debug\ref\VSoft.Company.UI.TEA.Team.Business.Service.dll
