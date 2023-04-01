@@ -1,9 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\view</OutputPath>	
+	<OutputType>Library</OutputType>
 	</PropertyGroup>
 
 	<PropertyGroup Condition=" '$(RunConfiguration)' == 'http' ">
@@ -12,15 +17,11 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.3" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Code.Provider.csproj" />
-		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main\VSoft.Company.UI.TEA.Team.View.Main.csproj" />
 		<PackageReference Include="Blazored.Toast" Version="4.1.0" />
-		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Module\VSoft.Company.UI.TEA.Team.View.Module.csproj">
-		  <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-		</ProjectReference>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -51,33 +52,12 @@
 		<Reference Include="VegunSoft.Framework.Api.Route">
 			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Api\VegunSoft.Framework.Api.Route.dll</HintPath>
 		</Reference>
-		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
-			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
-		</Reference>
-		<Reference Include="VSoft.Company.TEA.Team.Client">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
-		</Reference>
-		<Reference Include="VSoft.Company.TEA.Team.Client.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.Provider.dll</HintPath>
-		</Reference>
-		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
-			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
-		</Reference>
-		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service.Provider">
-			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider.dll</HintPath>
-		</Reference>
-
-		<Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
-			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
-		</Reference>
-
-		<Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO.Extension">
-			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.dll</HintPath>
-		</Reference>
-
-		<Reference Include="VSoft.Common.UI.APP.Base.View.Main">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.dll</HintPath>
-		</Reference>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Methods\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Methods\" />
+	</ItemGroup>
 </Project>
