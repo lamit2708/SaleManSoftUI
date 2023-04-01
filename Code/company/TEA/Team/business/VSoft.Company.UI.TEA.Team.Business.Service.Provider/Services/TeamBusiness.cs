@@ -25,7 +25,7 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             {
                 Data = teamDvo.GetDto(),
             });
-            if (apiRs == null)
+            if (apiRs != null)
             {
                 if (apiRs.IsSuccess)
                     return new MDvoResultSuccess<string>(apiRs.Data.Name);

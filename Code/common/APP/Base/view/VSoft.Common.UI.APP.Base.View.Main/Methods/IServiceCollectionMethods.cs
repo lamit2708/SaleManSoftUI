@@ -10,9 +10,9 @@ namespace VSoft.Common.UI.APP.Base.View.Main.Methods;
 
 public static class IServiceCollectionMethods
 {
-    public static void RegisterApp(this IServiceCollection services, string baseAddress, string jsonFileConfig = "appsettings.json")
+    public static void RegisterApp(this IServiceCollection services, WebAssemblyHostConfiguration configuration, string baseAddress, string jsonFileConfig = "appsettings.json")
     {
-        services.AddSingleton(new ConfigurationBuilder().AddJsonFile(jsonFileConfig, optional: true, reloadOnChange: true).Build());
+        services.AddSingleton<IConfigurationRoot>(configuration);
 
 
         services.AddBlazoredToast();

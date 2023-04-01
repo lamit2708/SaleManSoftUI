@@ -12,7 +12,7 @@ public class AppServices
         var builder = WebAssemblyHostBuilder.CreateDefault(null);
         builder.RootComponents.Add<HeadOutlet>("head::after");
 
-        builder.Services.RegisterApp(builder.HostEnvironment.BaseAddress, "appsettings.json");
+        builder.Services.RegisterApp(builder.Configuration, builder.HostEnvironment.BaseAddress, "appsettings.json");
         action?.Invoke(builder);
 
         await builder.Build().RunAsync();
