@@ -24,3 +24,16 @@ D:/WorkSpace/SalemanSoft/SalemanSoft/SaleManSoftUI/Code/company/TEA/Team/data/VS
 /Volumes/WORKSPACE/Programming/SalemanSoft/SaleManSoftUI/Code/company/TEA/Team/data/VSoft.Company.UI.TEA.Team.Data.DVO/obj/Debug/refint/VSoft.Company.UI.TEA.Team.Data.DVO.dll
 /Volumes/WORKSPACE/Programming/SalemanSoft/SaleManSoftUI/Code/company/TEA/Team/data/VSoft.Company.UI.TEA.Team.Data.DVO/obj/Debug/VSoft.Company.UI.TEA.Team.Data.DVO.pdb
 /Volumes/WORKSPACE/Programming/SalemanSoft/SaleManSoftUI/Code/company/TEA/Team/data/VSoft.Company.UI.TEA.Team.Data.DVO/obj/Debug/ref/VSoft.Company.UI.TEA.Team.Data.DVO.dll
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.deps.json
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.pdb
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.csproj.AssemblyReference.cache
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.AssemblyInfoInputs.cache
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.AssemblyInfo.cs
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.csproj.CoreCompileInputs.cache
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.csproj.CopyComplete
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.dll
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\refint\VSoft.Company.UI.TEA.Team.Data.DVO.dll
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\VSoft.Company.UI.TEA.Team.Data.DVO.pdb
+D:\WorkSpace\SalemanSoft\SalemanSoft\SaleManSoftUI\Code\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\obj\Debug\ref\VSoft.Company.UI.TEA.Team.Data.DVO.dll

@@ -51,6 +51,9 @@
 		<Reference Include="VegunSoft.Framework.Api.Route">
 			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Api\VegunSoft.Framework.Api.Route.dll</HintPath>
 		</Reference>
+		<Reference Include="VSoft.Common.UI.APP.Base.View.Main">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.dll</HintPath>
+		</Reference>
 		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
 		</Reference>
@@ -73,10 +76,6 @@
 
 		<Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO.Extension">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.dll</HintPath>
-		</Reference>
-
-		<Reference Include="VSoft.Common.UI.APP.Base.View.Main">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 

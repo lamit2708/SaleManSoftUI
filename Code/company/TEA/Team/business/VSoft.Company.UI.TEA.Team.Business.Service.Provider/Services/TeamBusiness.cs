@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using VegunSoft.Framework.Business.Dto.Response;
+using VegunSoft.Framework.Business.Dvo.Response;
 using VegunSoft.Framework.Paging.Provider.Request;
 using VegunSoft.Framework.Paging.Provider.Response;
 using VSoft.Company.TEA.Team.Business.Dto.Request;
@@ -19,7 +19,7 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             ClientService = clientService;
         }
 
-        public async Task<MDtoResult<string>> CreateAsync(TeamDvo teamDvo)
+        public async Task<MDvoResult<string>> CreateAsync(TeamDvo teamDvo)
         {
             var apiRs = await ClientService.CreateAsync(new TeamInsertDtoRequest()
             {
@@ -28,37 +28,42 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             if (apiRs == null)
             {
                 if (apiRs.IsSuccess)
-                    return new MDtoResultSuccess<string>(apiRs.Data.Name);
+                    return new MDvoResultSuccess<string>(apiRs.Data.Name);
                 else
-                    return new MDtoResultError<string>(apiRs.Message);
+                    return new MDvoResultError<string>(apiRs.Message);
             }
             return null;
         }
 
-        public async Task<MDtoResult<PagedList<TeamDvo>>> GetTableTeam(string keyWord, PagingParameters pageParameter)
+        public async Task<MDvoResult<PagedList<TeamDvo>>> GetTableTeam(string keyWord, PagingParameters pageParameter)
         {
             //Client làm hàm trả về MDtoResponse<PagedList<TeamDto>>
-            var apiRs = await ClientService.GetTableByKeyword(keyWord, pageParameter);
+            var request = new TeamTableKeySearchDtoRequest()
+            {
+                Data = keyWord,
+                PagingParams = pageParameter,
+            };
+            var apiRs = await ClientService.GetTableByKeyword(request);
             
             if (apiRs == null)
             {
                 if (apiRs.IsSuccess)
                 {
-                    var teamDvos = apiRs.Data.Items.ToArray().GetDvo().ToList();
+                    var teamDvos = apiRs.Data.GetDvo().ToList();
                     var rs = new PagedList<TeamDvo>()
                     {
-                        MetaData = apiRs.Data.MetaData,
+                        MetaData = apiRs.MetaData,
                         Items = teamDvos
                     };
-                    return new MDtoResultSuccess<PagedList<TeamDvo>>(rs);
+                    return new MDvoResultSuccess<PagedList<TeamDvo>>(rs);
                 }
                 else
-                    return new MDtoResultError<PagedList<TeamDvo>>(apiRs.Message);
+                    return new MDvoResultError<PagedList<TeamDvo>>(apiRs.Message);
             }
             return null;
         }
 
-        public async Task<MDtoResult<string>> DeleteTeam(int id)
+        public async Task<MDvoResult<string>> DeleteTeam(int id)
         {
             var apiRs = await ClientService.DeleteAsync(new TeamDeleteDtoRequest()
             {
@@ -69,10 +74,10 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
                 if (apiRs.IsSuccess)
                 {
                     var teamDelete = apiRs.Data;
-                    return new MDtoResultSuccess<string>(teamDelete.Name);
+                    return new MDvoResultSuccess<string>(teamDelete.Name);
                 }
                 else
-                    return new MDtoResultError<string>(apiRs.Message);
+                    return new MDvoResultError<string>(apiRs.Message);
             }
             return null;
 

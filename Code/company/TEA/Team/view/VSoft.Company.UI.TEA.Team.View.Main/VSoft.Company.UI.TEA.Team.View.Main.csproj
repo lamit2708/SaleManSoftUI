@@ -26,7 +26,10 @@
 
   <ItemGroup>
     <Reference Include="VegunSoft.Framework.Base.Entity">
-      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Display.ExtensionMethods">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Display\VegunSoft.Framework.Display.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="VegunSoft.Framework.Paging.Provider">
       <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
