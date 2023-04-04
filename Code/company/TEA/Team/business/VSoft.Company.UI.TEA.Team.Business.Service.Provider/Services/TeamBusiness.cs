@@ -45,7 +45,7 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             };
             var apiRs = await ClientService.GetTableByKeyword(request);
             
-            if (apiRs == null)
+            if (apiRs != null)
             {
                 if (apiRs.IsSuccess)
                 {

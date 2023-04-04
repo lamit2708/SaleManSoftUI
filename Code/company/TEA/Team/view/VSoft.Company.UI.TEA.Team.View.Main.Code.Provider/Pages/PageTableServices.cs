@@ -51,7 +51,7 @@ namespace VSoft.Company.UI.TEA.Team.View.Main.Code.Provider.Pages
 
         protected async Task GetTeams()
         {
-            var pagingRs = await BusinessService.GetTableTeam(KeySearch, PageParam);
+            var pagingRs = await BusinessService.GetTableTeam(string.IsNullOrEmpty(KeySearch) ? string.Empty : KeySearch, PageParam);
             if (pagingRs.IsSuccessed) 
             {
                 var data = pagingRs.ResultObj;
