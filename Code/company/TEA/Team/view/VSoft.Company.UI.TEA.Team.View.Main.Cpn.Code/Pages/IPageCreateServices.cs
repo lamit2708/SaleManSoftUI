@@ -7,7 +7,6 @@ namespace VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Pages
 {
     public interface IPageCreateServices : IPageBase
     {
-        List<MMessage> Messages { get; }
         Task CreateTeams(string name, string description);
     }
 }

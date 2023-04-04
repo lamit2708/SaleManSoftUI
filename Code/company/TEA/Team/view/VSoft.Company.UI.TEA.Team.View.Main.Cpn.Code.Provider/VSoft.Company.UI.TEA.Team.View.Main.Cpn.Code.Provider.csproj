@@ -27,6 +27,12 @@
     <Reference Include="VegunSoft.Framework.Paging.Provider">
       <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
     </Reference>
+    <Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
+    </Reference>
     <Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
     </Reference>

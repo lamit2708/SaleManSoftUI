@@ -40,6 +40,12 @@
     <Reference Include="VegunSoft.Framework.Value.Property">
       <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Value\Property\VegunSoft.Framework.Value.Property.dll</HintPath>
     </Reference>
+    <Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
+    </Reference>
     <Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
     </Reference>
