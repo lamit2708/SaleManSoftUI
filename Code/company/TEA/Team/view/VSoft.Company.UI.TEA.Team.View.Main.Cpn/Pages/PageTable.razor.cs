@@ -5,11 +5,10 @@ using VegunSoft.Framework.Paging.Provider.Request;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using Blazored.Toast.Services;
 using Microsoft.AspNetCore.Components;
-using VSoft.Company.UI.TEA.Team.View.Main.Code.Pages;
-using VegunSoft.Framework.Ui.Component.Searchs;
 using VegunSoft.Framework.Base.Entity.Enum;
+using VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Pages;
 
-namespace VSoft.Company.UI.TEA.Team.View.Main.Pages
+namespace VSoft.Company.UI.TEA.Team.View.Main.Cpn.Pages
 {
     public partial class PageTable
     {
@@ -21,7 +20,8 @@ namespace VSoft.Company.UI.TEA.Team.View.Main.Pages
         protected string? KeySearch { get; set; }
         protected int DeleteId { get; set; }
         protected PagingParameters PageParams { get; set; } = new PagingParameters();
-
+        [Parameter]
+        public string? UpdatePath { get; set; }
         protected override async Task OnInitializedAsync()
         {
             await base.OnInitializedAsync();
@@ -76,6 +76,11 @@ namespace VSoft.Company.UI.TEA.Team.View.Main.Pages
                     }
                 }
             }
+        }
+
+        protected string GetUpdatePath(string id)
+        {
+            return $"/{UpdatePath}/{id}";
         }
     }
 }

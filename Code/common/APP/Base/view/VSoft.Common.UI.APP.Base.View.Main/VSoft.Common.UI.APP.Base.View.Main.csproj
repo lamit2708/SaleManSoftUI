@@ -60,4 +60,7 @@
 	<ItemGroup>
 	  <Folder Include="Methods\" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.csproj" />
+	</ItemGroup>
 </Project>

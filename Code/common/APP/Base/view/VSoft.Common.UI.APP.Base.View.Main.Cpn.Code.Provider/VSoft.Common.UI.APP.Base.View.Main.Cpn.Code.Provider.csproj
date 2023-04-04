@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	  <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	  <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base</BaseOutputPath>
+	  <OutputPath>$(BaseOutputPath)\view\main\cpn</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Base.Entity">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Paging.Provider">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

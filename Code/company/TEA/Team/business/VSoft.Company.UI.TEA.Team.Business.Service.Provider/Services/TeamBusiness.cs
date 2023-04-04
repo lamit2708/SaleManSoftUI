@@ -1,5 +1,7 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
+using VegunSoft.Framework.Business.Dto.Request;
 using VegunSoft.Framework.Business.Dvo.Response;
 using VegunSoft.Framework.Paging.Provider.Request;
 using VegunSoft.Framework.Paging.Provider.Response;
@@ -69,7 +71,7 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
             {
                 Id = id,
             });
-            if (apiRs == null)
+            if (apiRs != null)
             {
                 if (apiRs.IsSuccess)
                 {
@@ -80,7 +82,43 @@ namespace VSoft.Company.UI.TEA.Team.Business.Service.Provider.Services
                     return new MDvoResultError<string>(apiRs.Message);
             }
             return null;
+        }
 
+        public async Task<MDvoResult<TeamDvo>> GetTeam(string id)
+        {
+            var idInt = Int32.TryParse(id, out var teamId) ? teamId : 0;
+            if (idInt != 0)
+            {
+                var apiRs = await ClientService.FindAsync(new MDtoRequestFindByInt() { Id = idInt });
+                if (apiRs != null)
+                {
+                    if (apiRs.IsSuccess)
+                    {
+                        var teamDvo = apiRs.Data.GetDvo();
+                        return new MDvoResultSuccess<TeamDvo>(teamDvo);
+                    }
+                    else
+                        return new MDvoResultError<TeamDvo>(apiRs.Message);
+                }
+            }
+            return null;
+        }
+
+        public async Task<MDvoResult<string>> UpdateTeam(TeamDvo teamDvo)
+        {
+            var teamDto = teamDvo.GetDto();
+            var apiRs = await ClientService.UpdateAsync(new TeamUpdateDtoRequest() { Data = teamDto });
+            if (apiRs != null)
+            {
+                if (apiRs.IsSuccess)
+                {
+                    var teamUpdate = apiRs.Data;
+                    return new MDvoResultSuccess<string>(teamUpdate.Name);
+                }
+                else
+                    return new MDvoResultError<string>(apiRs.Message);
+            }
+            return null;
         }
     }
 }

@@ -19,8 +19,8 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Code\VSoft.Company.UI.TEA.Team.View.Main.Code.csproj" />
-    <ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Code.Provider.csproj" />
+    <ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.csproj" />
+    <ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Cpn\VSoft.Company.UI.TEA.Team.View.Main.Cpn.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="VegunSoft.Framework.Api.DtoClient">

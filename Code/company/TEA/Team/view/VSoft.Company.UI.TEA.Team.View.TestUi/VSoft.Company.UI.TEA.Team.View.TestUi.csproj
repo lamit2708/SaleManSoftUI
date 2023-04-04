@@ -16,9 +16,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Code.Provider.csproj" />
-		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main\VSoft.Company.UI.TEA.Team.View.Main.csproj" />
+		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.csproj" />
 		<PackageReference Include="Blazored.Toast" Version="4.1.0" />
+		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Page\VSoft.Company.UI.TEA.Team.View.Main.Page.csproj" />
 		<ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Module\VSoft.Company.UI.TEA.Team.View.Module.csproj">
 		  <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
 		</ProjectReference>

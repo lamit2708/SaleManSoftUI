@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Code\VSoft.Company.UI.TEA.Team.View.Main.Code.csproj" />
+    <ProjectReference Include="..\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.csproj" />
   </ItemGroup>
 
   <ItemGroup>
