@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\client</OutputPath>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSoft.Company.UI.PRO.Product.View.Main.Code\VSoft.Company.UI.PRO.Product.View.Main.Code.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Base.Entity">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Business.Dvo">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Paging.Provider">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.PRO.Product.Business.Service">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.PRO.Product.Data.DVO">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
