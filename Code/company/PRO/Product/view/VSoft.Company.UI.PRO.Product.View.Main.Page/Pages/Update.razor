@@ -1,0 +1,10 @@
+﻿@page "/updateProduct/{Id}"
+
+ 
+<PageUpdate ProductId="@Id" />
+
+@code
+{
+    [Parameter]
+    public string? Id { set; get; }
+}
