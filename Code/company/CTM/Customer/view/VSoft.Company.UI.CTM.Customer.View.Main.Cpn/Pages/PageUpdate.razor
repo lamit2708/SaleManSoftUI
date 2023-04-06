@@ -1,0 +1,16 @@
+﻿<h3>Update Customer</h3>
+
+<div class="form-group">
+    <div class="form-group pt-3">
+        <label for="Name">Tên Customer</label>
+        <input class="form-control" placeholder="Nhập tên Customer...." @bind-value="@Customer.Name"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Mô tả Customer</label>
+        <textarea class="form-control pt-1" rows="5" placeholder="Nhập mô tả Customer...."
+            @bind="@Customer.Description"></textarea>
+    </div>
+    <div class="form-group float-end pt-3">
+        <button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Cập nhật</button>
+    </div>
+</div>
