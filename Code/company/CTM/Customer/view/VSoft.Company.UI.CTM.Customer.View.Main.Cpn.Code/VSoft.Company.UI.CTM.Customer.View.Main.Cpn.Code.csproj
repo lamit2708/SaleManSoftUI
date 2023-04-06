@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\client</OutputPath>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Base.Entity">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Paging.Provider">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

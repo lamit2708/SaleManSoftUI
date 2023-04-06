@@ -1,0 +1,57 @@
+﻿@page "/createteam"
+@using Customer.Data.DVO.Data;
+
+<h3>Create Customer</h3>
+
+<EditForm Model="Model" OnValidSubmit="SubmitTask">
+    <div class="form-group">
+        <label for="Name">Tên Customer</label>
+        <InputText class="form-control" placeholder="Nhập tên Customer...." @bind-Value="Model.Name"></InputText>
+        <small id="nameHelp" class="form-text text-muted">Please enter task title here.</small>
+    </div>
+    <div class="form-group">
+        <label for="Name">Mô tả Customer</label>
+        <InputTextArea class="form-control" placeholder="Nhập mô tả Customer...." @bind-Value="Model.Description">
+        </InputTextArea>
+        <small id="nameHelp" class="form-text text-muted">Please enter task title here.</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Tạo mới</button>
+    @*<div class="form-group">
+    <label for="Name">Name</label>
+    <InputText class="form-control" @bind-Value="Model.Name"></InputText>
+    <small id="nameHelp" class="form-text text-muted">Please enter task title here.</small>
+    </div>
+    <div class="form-group">
+    <label for="Name">Priority</label>
+    <InputSelect class="form-control" @bind-Value="Task.Priority">
+    <option>Select a priority</option>
+    @foreach (string item in Enum.GetNames(typeof(Priority)))
+    {
+    <option value="@item">@item</option>
+    }
+    </InputSelect>
+    <ValidationMessage For="()=>Task.Priority"></ValidationMessage>
+    <small id="nameHelp" class="form-text text-muted">Choose a priority which you want.</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>*@
+</EditForm>
+
+@code {
+    private CustomerDvo Model = new CustomerDvo();
+
+    private async Task SubmitTask(EditContext context)
+    {
+        //var result = await TaskApiClient.CreateTask(Task);
+        //if (result)
+        //{
+        // ToastService.ShowSuccess($"{Task.Name} has been created successfully.", "Success");
+        // NavigationManager.NavigateTo("/taskList");
+        //}
+        //else
+        //{
+        // ToastService.ShowError($"An error occurred in progress. Please contact to administrator.", "Error");
+
+        //}
+    }
+}
+
