@@ -16,7 +16,7 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
             BusinessService = service;
         }
 
-        public async Task CreateCustomers(string name, string description)
+        public async Task CreateCustomers(string name, string phone)
         {
             Messages?.Clear();
             if (string.IsNullOrEmpty(name))
@@ -24,7 +24,7 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
                 Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên Customer không được để trống" });
                 return;
             }
-            var teamDvo = new CustomerDvo { Name = name, Description = description };
+            var teamDvo = new CustomerDvo { Name = name, Phone  = phone };
             var rs = await BusinessService.CreateAsync(teamDvo);
             if (rs.IsSuccessed)
                 Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo Customer \"{rs.ResultObj}\" thành công!" });

@@ -86,21 +86,18 @@ namespace VSoft.Company.UI.CTM.Customer.Business.Service.Provider.Services
 
         public async Task<MDvoResult<CustomerDvo>> GetCustomer(string id)
         {
-            var idInt = Int32.TryParse(id, out var teamId) ? teamId : 0;
-            if (idInt != 0)
+            var apiRs = await ClientService.FindAsync(new MDtoRequestFindByString() { Id = id });
+            if (apiRs != null)
             {
-                var apiRs = await ClientService.FindAsync(new MDtoRequestFindByInt() { Id = idInt });
-                if (apiRs != null)
+                if (apiRs.IsSuccess)
                 {
-                    if (apiRs.IsSuccess)
-                    {
-                        var teamDvo = apiRs.Data.GetDvo();
-                        return new MDvoResultSuccess<CustomerDvo>(teamDvo);
-                    }
-                    else
-                        return new MDvoResultError<CustomerDvo>(apiRs.Message);
+                    var teamDvo = apiRs.Data.GetDvo();
+                    return new MDvoResultSuccess<CustomerDvo>(teamDvo);
                 }
+                else
+                    return new MDvoResultError<CustomerDvo>(apiRs.Message);
             }
+
             return null;
         }
 

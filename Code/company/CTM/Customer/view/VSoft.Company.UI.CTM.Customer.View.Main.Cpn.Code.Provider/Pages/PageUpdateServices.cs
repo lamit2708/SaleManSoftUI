@@ -27,7 +27,7 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
                 Messages.Add(new MMessage() { Type = EMessageType.Error, Message = pagingRs.Message });
         }
 
-        public async Task OnUpdateCustomer(string teamId, string name, string description)
+        public async Task OnUpdateCustomer(string teamId, string name, string phone)
         {
             ClearAllMessage();
             var id = Int32.TryParse(teamId, out var idInt) ? idInt : 0;
@@ -37,7 +37,7 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
                 {
                     Id = id,
                     Name = name,
-                    Description = description
+                    Phone = phone
                 });
                 if (pagingRs.IsSuccessed)
                 {

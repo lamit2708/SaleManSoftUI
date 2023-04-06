@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wofv+cQQsl3ggljXvgV7p6RK/SbRlasUZ/OL6KkOpsNcuntj67c62kujxwA/xTJHT2p1FClsW55/xArG+ZPy3Q==",
+  "dgSpecHash": "g1raRHilv8UBd8tuDiK4/wNngcu/OGv1LMq1vqv+ZFdUE3KAcItrcYfk+AL3ercxO4kk0RqrfmgjzZly1KGR7g==",
   "success": true,
-  "projectFilePath": "D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj",
+  "projectFilePath": "D:\\workspace\\src\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\WorkSpace\\SalemanSoft\\SalemanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\obj\\project.nuget.cache : Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
-    }
-  ]
+  "logs": []
 }
