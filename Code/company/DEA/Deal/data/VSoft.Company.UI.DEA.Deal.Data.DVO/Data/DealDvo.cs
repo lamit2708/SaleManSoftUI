@@ -8,7 +8,7 @@ namespace VSoft.Company.UI.DEA.Deal.Data.DVO.Data
 
         public DateTime CreatedDate { get; set; }
 
-        public long DealId { get; set; }
+        public long CustomerId { get; set; }
 
         public int DealStepId { get; set; }
 
@@ -19,6 +19,12 @@ namespace VSoft.Company.UI.DEA.Deal.Data.DVO.Data
         public string? Name { get; set; }
 
         public string? Description { get; set; }
+
+        public double PridictPrice { get; set; }
+
+        public DateTime? DateFor { get; set; }
+
+        public double? PricePossible { get; set; }
 
         public override string ToString()
         {

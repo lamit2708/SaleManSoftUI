@@ -11,13 +11,16 @@ namespace VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.DataMethods
             return new DealDvo()
             {
                 Id = src.Id,
-                Name = src.Name,
-                Description = src.Description,
                 CreatedDate = src.CreatedDate,
-                DealId = src.DealId,
+                CustomerId = src.CustomerId,
                 DealStepId = src.DealStepId,
                 UserId = src.UserId,
                 OrderId = src.OrderId,
+                Name = src.Name,
+                Description = src.Description,
+                PridictPrice = src.PridictPrice,
+                DateFor = src.DateFor,
+                PricePossible = src.PricePossible,
             };
         }
 
