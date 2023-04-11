@@ -16,7 +16,7 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Pages
         public string? CustomerId { set; get; }
 
 
-        protected CustomerDvo Customer { get; set; } = new CustomerDvo();
+        protected CustomerDvo Customer { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
@@ -27,7 +27,7 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Pages
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            await PageServices.OnUpdateCustomer(CustomerId, Customer.Name, Customer.Phone);
+            await PageServices.OnUpdateCustomer(Customer);
             SyncUI();
         }
 

@@ -1,18 +1,68 @@
-﻿<h3>Create Customer</h3>
+﻿@using VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Models;
+<h3>Create Customer</h3>
 
 <div class="form-group">
-    <div class="form-group pt-3">
-        <label for="Name">Họ Tên</label>
-        <input class="form-control" placeholder="Nhập tên Customer...." @bind-value="@Name"></input>
-    </div>
-    <div class="form-group pt-3">
-        <label for="Name">Phone</label>
-        <textarea class="form-control pt-1" rows="5" placeholder="Nhập mô tả Customer...."
-            @bind="@Description"></textarea>
-    </div>
-    <div class="form-group float-end pt-3">
-        <button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Tạo mới</button>
-    </div>
+	<div class="form-group pt-3">
+		<label for="name">Họ Tên</label>
+		<input id="name" class="form-control" placeholder="Nhập tên khách hàng...." @bind-value="@Customer.Name"></input>
+	</div>
+	<div class="form-group pt-3">
+		<label for="phone">Phone</label>
+		<InputText id="phone" class="form-control pt-1" rows="5" placeholder="Phone"
+   @bind-Value="@Customer.Phone"></InputText>
+	</div>
+	
+	<div class="form-group pt-3">
+		<label for="email">Email</label>
+		<InputText id="email" class="form-control pt-1" rows="5" placeholder=""
+			@bind-Value="@Customer.Email"></InputText>
+	</div>
+	<div class="form-group pt-3">
+		<label for="address">Địa chỉ</label>
+		<InputText id="address" class="form-control pt-1" rows="5" placeholder=""
+   @bind-Value="@Customer.Address"></InputText>
+	</div>
+	<div class="form-group pt-3">
+		<label for="gender">Giới tính</label>
+		<InputRadioGroup id="gender" @bind-Value="@Customer.Gender"> 
+			<div>
+				<InputRadio id="male" Value="true" checked="checked" />
+				<label for="male">Nam</label>
+			</div>
+
+			<div>
+				<InputRadio id="female" Value="false" />
+				<label for="female">Nữ</label>
+			</div>
+		</InputRadioGroup>
+
+	</div>
+	
+	
+	<div class="form-group pt-3">
+		<label for="priority">Ưu tiên</label>
+		<InputSelect id="priority" class="form-control" @bind-Value="Customer.PriorityId">
+			<option>Select a priority</option>
+			@foreach (var item in priorities)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+		</InputSelect>
+
+	</div>
+	
+
+	<div class="form-group float-end pt-3">
+		<button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Tạo mới</button>
+	</div>
 </div>
 
 
+@code {
+	static List<Priority> priorities = new List<Priority>
+	{
+		new Priority { Id=1, Name="Cao" },
+		new Priority { Id=2, Name="Trung bình" },
+		new Priority { Id=3, Name="Thấp" }
+	};
+}

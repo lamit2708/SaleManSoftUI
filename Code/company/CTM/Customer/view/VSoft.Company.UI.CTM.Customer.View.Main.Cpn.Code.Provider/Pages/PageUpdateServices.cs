@@ -15,9 +15,9 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
         {
             BusinessService = service;
         }
-        public async Task OnInitializedAsync(string teamId)
+        public async Task OnInitializedAsync(string customerId)
         {
-            var pagingRs = await BusinessService.GetCustomer(teamId);
+            var pagingRs = await BusinessService.GetCustomer(customerId);
             if (pagingRs.IsSuccessed)
             {
                 var data = pagingRs.ResultObj;
@@ -27,18 +27,12 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
                 Messages.Add(new MMessage() { Type = EMessageType.Error, Message = pagingRs.Message });
         }
 
-        public async Task OnUpdateCustomer(string teamId, string name, string phone)
+        public async Task OnUpdateCustomer(CustomerDvo customer)
         {
             ClearAllMessage();
-            var id = Int32.TryParse(teamId, out var idInt) ? idInt : 0;
-            if (id != 0)
+            if (customer.Id !=0)
             {
-                var pagingRs = await BusinessService.UpdateCustomer(new CustomerDvo()
-                {
-                    Id = id,
-                    Name = name,
-                    Phone = phone
-                });
+                var pagingRs = await BusinessService.UpdateCustomer(customer);
                 if (pagingRs.IsSuccessed)
                 {
                     var data = pagingRs.ResultObj;
