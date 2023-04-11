@@ -22,6 +22,7 @@
 		<ProjectReference Include="..\VSoft.Company.UI.DEA.Deal.View.Module\VSoft.Company.UI.DEA.Deal.View.Module.csproj">
 		  <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
 		</ProjectReference>
+		<ProjectReference Include="..\VSoft.Company.UI.DEA.Deal.View.Share\VSoft.Company.UI.DEA.Deal.View.Share.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

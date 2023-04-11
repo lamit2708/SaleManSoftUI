@@ -1,0 +1,69 @@
+﻿<div class="row">
+    @if (DealStepDict != null)
+    {
+        <div class="col-1"></div>
+        @foreach (var step in DealStepDict)
+        {
+            <div class="col-2 form-group">
+                <h4 class="text-center">@step.Value</h4>
+            </div>
+        }
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        @foreach (var step in DealStepDict)
+        {
+
+            if (string.Equals("1", step.Key))
+            {
+                <div class="col-2 form-group border-end">
+                    @if (ListDealTag != null)
+                    {
+                        foreach (var dealTag in ListDealTag)
+                        {
+                            if (string.Equals(dealTag.StatusDealId.ToString(), step.Key))
+                            {
+                                <div class="p-2 pt-2">
+                                    <DealTagView DealTag="dealTag" />
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            }
+            else if (string.Equals("5", step.Key))
+            {
+                <div class="col-2 form-group border-start">
+                    @if (ListDealTag != null)
+                    {
+                        foreach (var dealTag in ListDealTag)
+                        {
+                            if (string.Equals(dealTag.StatusDealId.ToString(), step.Key))
+                            {
+                                <div class="p-2 pt-2">
+                                    <DealTagView DealTag="dealTag" />
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="col-2 form-group border-start border-end">
+                    @if (ListDealTag != null)
+                    {
+                        foreach (var dealTag in ListDealTag)
+                        {
+                            if (string.Equals(dealTag.StatusDealId.ToString(), step.Key))
+                            {
+                                <div class="p-2 pt-2">
+                                    <DealTagView DealTag="dealTag" />
+                                </div>
+                            }
+                        }
+                    }
+                </div>
+            }
+        }
+    }
+</div>

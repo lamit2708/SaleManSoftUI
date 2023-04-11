@@ -12,6 +12,9 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         [Inject] IToastService ToastService { get; set; }
         protected string? Name;
         protected string? Description;
+        protected DateTime? DateFor = DateTime.Now;
+        protected double? PredictPrice = 0;
+        protected double? PricePossible = 0;
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
