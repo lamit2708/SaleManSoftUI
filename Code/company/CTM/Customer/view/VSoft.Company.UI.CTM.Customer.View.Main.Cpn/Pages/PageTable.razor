@@ -4,57 +4,64 @@
 @using VegunSoft.Framework.Ui.Component.Pagination;
 @using VegunSoft.Framework.Ui.Component.Indicatiors;
 
-<h3>Table Customer</h3>
+<h3>Danh sách khách hàng</h3>
 @if (Customers == null)
 {
-    <LoadingIndicator></LoadingIndicator>
+		<LoadingIndicator></LoadingIndicator>
 }
 else
 {
-    <div class="row">
-        <KeywordSearch OnSearch="OnSearch"></KeywordSearch>
-    </div>
+		<div class="row">
+			<KeywordSearch OnSearch="OnSearch"></KeywordSearch>
+		</div>
 
-    <div class="row mt-4">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Tên</th>
-                    <th>Mô tả</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Customers == null || Customers.Count == 0)
-                {
-                    <tr class="text-center">Chưa có dữ liệu</tr>
-                }
-                else
-                {
-                    foreach (var item in Customers)
-                    {
-                        <tr>
-                            <td>@item.Id</td>
-                            <td>@item.Name</td>
-                            <td>@item.Phone.GetSubStringWithSymbol()</td>
-                            <td>
-                                <a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
-                                <button class="btn btn-danger" @onclick="()=> OnDeleteTask((int)item.Id)">
-                                    Delete
-                                </button>
-                            </td>
-                        </tr>
-                    }
-                }
-            </tbody>
-            <tfoot>
-                <Pagination MetaData="MetaData" Spread="2" SelectedPage="OnPageSelect"></Pagination>
-            </tfoot>
-        </table>
-    </div>
+		<div class="row mt-4">
+			<table class="table">
+				<thead>
+					<tr>
+					@* <th>Id</th>*@
+						<th>Họ tên</th>
+						<th>Điện thoại</th>
+						<th>Email</th>
+						<th>Địa chỉ</th>
+						<th>Giới tính</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+				@if (Customers == null || Customers.Count == 0)
+				{
+							<tr class="text-center">Chưa có dữ liệu</tr>
+				}
+				else
+				{
+					foreach (var item in Customers)
+					{
+									<tr>
+									@* <td>@item.Id</td>*@
+										<td>@item.Name</td>
+										<td>@item.Phone.GetSubStringWithSymbol()</td>
+										@*<td>@item.Phone</td>*@
+										<td>@item.Email</td>
+										<td>@item.Address</td>
+										<td>@item.Gender</td>
+										<td>
+											<a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
+											<button class="btn btn-danger" @onclick="()=> OnDeleteTask((int)item.Id)">
+												Delete
+											</button>
+										</td>
+									</tr>
+					}
+				}
+				</tbody>
+				<tfoot>
+					<Pagination MetaData="MetaData" Spread="2" SelectedPage="OnPageSelect"></Pagination>
+				</tfoot>
+			</table>
+		</div>
 
-    <Confirmation ConfirmationMessage="Xác nhận xóa?" ConfirmationTitle="Xóa Customer" @ref="DeleteConfirmation"
+		<Confirmation ConfirmationMessage="Xác nhận xóa?" ConfirmationTitle="Xóa Customer" @ref="DeleteConfirmation"
         ConfirmationChanged="OnConfirmDeleteTask">
-    </Confirmation>
+		</Confirmation>
 }
