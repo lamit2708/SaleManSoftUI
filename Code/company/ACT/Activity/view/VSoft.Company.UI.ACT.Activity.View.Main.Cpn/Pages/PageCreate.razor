@@ -1,0 +1,49 @@
+﻿<h3>Create Activity</h3>
+
+<div class="form-group">
+    <div class="form-group pt-3">
+        <label for="Name">Tên</label>
+        <input class="form-control" placeholder="Nhập tên...." @bind-value="@Activity.Name"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Nội dung</label>
+        <textarea class="form-control pt-1" rows="5" placeholder="Nhập nội dung...." @bind="@Activity.Content"></textarea>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Loại</label>
+        <select class="form-control" @bind="@Activity.ActivityType">
+            <option value="note">Ghi chú</option>
+            <option value="phone">Điện thoại</option>
+            <option value="mail">Email</option>
+            <option value="meeting">Họp</option>
+        </select>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Loại phụ</label>
+        <select class="form-control" @bind="@Activity.SubType">
+            <option value="call">Gọi đi</option>
+            <option value="listen">Gọi đến</option>
+        </select>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Chọn ngày</label>
+        <input class="form-control" type="date" placeholder="Nhập ngày...." @bind-value="@Activity.Date"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Từ ngày</label>
+        <input class="form-control" type="date" placeholder="Từ ngày...." @bind-value="@Activity.From"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Đến ngày</label>
+        <input class="form-control" type="date" placeholder="Đến ngày...." @bind-value="@Activity.To"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Đến người</label>
+        <input class="form-control" placeholder="Liên quan đến...." @bind-value="@Activity.ToWho"></input>
+    </div>
+    <div class="form-group float-end pt-3">
+        <button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Tạo mới</button>
+    </div>
+</div>
+
+

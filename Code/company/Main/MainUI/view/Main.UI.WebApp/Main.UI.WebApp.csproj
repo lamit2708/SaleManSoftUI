@@ -62,6 +62,21 @@
 		<Reference Include="VSoft.Company.TEA.Team.Client.Provider">
 		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.Provider.dll</HintPath>
 		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Cpn">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Page">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Module">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Module.dll</HintPath>
+		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
 		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
 		</Reference>
@@ -112,6 +127,27 @@
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.View.Module">
 		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.ACT.Activity.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\ACT\Activity\client\VSoft.Company.ACT.Activity.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.ACT.Activity.Business.Service.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.ACT.Activity.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\ACT\Activity\client\VSoft.Company.ACT.Activity.Client.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.ACT.Activity.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\ACT\Activity\bus\VSoft.Company.ACT.Activity.Business.Dto.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 

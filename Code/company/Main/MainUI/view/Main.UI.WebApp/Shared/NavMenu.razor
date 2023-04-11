@@ -34,15 +34,31 @@
                 </NavLink>
             }
         </div>
+        
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" @onclick="() => IsActivityExpand = !IsActivityExpand">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Activity
+                @if (IsActivityExpand)
+                {
+                    <span class="oi oi-minus text-end" aria-hidden="true"></span>
+                }
+                else
+                {
+                    <span class="oi oi-plus text-end" aria-hidden="true"></span>
+                }
             </NavLink>
+
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
+            @if (IsActivityExpand)
+            {
+                <NavLink class="nav-link ms-3" href="createActivity">
+                    <span>Tạo Activity</span>
+                </NavLink>
+                <NavLink class="nav-link ms-3" href="tableActivity">
+                    <span>Danh sách Activity</span>
+                </NavLink>
+            }
         </div>
     </nav>
 </div>

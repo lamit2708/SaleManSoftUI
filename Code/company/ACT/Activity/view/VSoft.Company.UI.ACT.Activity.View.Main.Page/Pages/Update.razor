@@ -1,0 +1,10 @@
+﻿@page "/updateActivity/{Id}"
+
+ 
+<PageUpdate ActivityId="@Id" />
+
+@code
+{
+    [Parameter]
+    public string? Id { set; get; }
+}
