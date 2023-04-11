@@ -1,0 +1,118 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
+		<PackageReference Include="Blazored.Toast" Version="4.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.4" PrivateAssets="all" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="VegunSoft.Framework.Api.Client">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiClient\VegunSoft.Framework.Api.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Api.DtoClient">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Api.DtoClient.Cfg">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Cfg.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Api.DtoClient.Provider">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Api.DtoClient.Token">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Api.DtoClient.Token.Provider">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Api.Route">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Api\VegunSoft.Framework.Api.Route.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Business.Dvo">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Paging">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Common.UI.APP.Base.View.Main">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.TEA.Team.Client">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.TEA.Team.Client.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.Client.Main.Code">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Main.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.Client.Main.Code.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Main.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO.Extension">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Code">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Cpn">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Page">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Base.Entity">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Display.ExtensionMethods">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Display\VegunSoft.Framework.Display.ExtensionMethods.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Paging.Provider">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Ui.Component">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-blazor\Component\VegunSoft.Framework.Ui.Component.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Value.Property">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Value\Property\VegunSoft.Framework.Value.Property.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.TEA.Team.View.Module">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Module.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
