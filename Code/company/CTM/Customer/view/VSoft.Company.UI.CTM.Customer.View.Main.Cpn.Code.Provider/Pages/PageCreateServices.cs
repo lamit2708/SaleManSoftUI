@@ -16,20 +16,21 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
             BusinessService = service;
         }
 
-        public async Task CreateCustomers(string name, string phone)
+        public async Task CreateCustomers(CustomerDvo customer)
         {
+
             Messages?.Clear();
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrEmpty(customer.Name))
             {
                 Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên Customer không được để trống" });
                 return;
             }
-            var teamDvo = new CustomerDvo { Name = name, Phone  = phone };
-            var rs = await BusinessService.CreateAsync(teamDvo);
+           // var teamDvo = new CustomerDvo { Name = customer.Name, Phone  = customer. };
+            var rs = await BusinessService.CreateAsync(customer);
             if (rs.IsSuccessed)
                 Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo Customer \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo Customer \"{name}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo Customer \"{customer.Name}\"! {rs.Message}" });
         }
     }
 }

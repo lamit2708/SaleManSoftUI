@@ -10,6 +10,6 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Pages
     {
         CustomerDvo Customer { get; }
         Task OnInitializedAsync(string teamId);
-        Task OnUpdateCustomer(string teamId, string name, string description);
+        Task OnUpdateCustomer(CustomerDvo customer);
     }
 }
