@@ -11,7 +11,11 @@ namespace VSoft.Company.UI.USR.User.Data.DVO.Extension.DataMethods
             {
                 Id = src.Id,
                 Name = src.Name,
-                Description = src.Description,
+                Phone = src.Phone,
+                Username = src.Username,
+                Password = src.Password,
+                Email = src.Email,
+                TeamId = src.TeamId,
             };
         }
     }

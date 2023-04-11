@@ -20,8 +20,9 @@ else
             <thead>
                 <tr>
                     <th>Id</th>
+                    <th>Tên tài khoản</th>
                     <th>Tên</th>
-                    <th>Mô tả</th>
+                    <th>Số điện thoại</th>
                     <th></th>
                 </tr>
             </thead>
@@ -36,8 +37,9 @@ else
                     {
                         <tr>
                             <td>@item.Id</td>
+                            <td>@item.Username</td>
                             <td>@item.Name</td>
-                            <td>@item.Description.GetSubStringWithSymbol()</td>
+                            <td>@item.Phone</td>
                             <td>
                                 <a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
                                 <button class="btn btn-danger" @onclick="()=> OnDeleteTask(item.Id)">

@@ -10,6 +10,6 @@ namespace VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Pages
     {
         UserDvo User { get; }
         Task OnInitializedAsync(string teamId);
-        Task OnUpdateUser(string teamId, string name, string description);
+        Task OnUpdateUser(UserDvo userDvo);
     }
 }

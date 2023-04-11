@@ -16,20 +16,19 @@ namespace VSoft.Company.UI.USR.User.View.Main.Code.Provider.Pages
             BusinessService = service;
         }
 
-        public async Task CreateUsers(string name, string description)
+        public async Task CreateUsers(UserDvo userDvo)
         {
             Messages?.Clear();
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrEmpty(userDvo.Username) || string.IsNullOrEmpty(userDvo.Password))
             {
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên User không được để trống" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên User / Password không được để trống" });
                 return;
             }
-            var teamDvo = new UserDvo { Name = name, Description = description };
-            var rs = await BusinessService.CreateAsync(teamDvo);
+            var rs = await BusinessService.CreateAsync(userDvo);
             if (rs.IsSuccessed)
                 Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo User \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo User \"{name}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo User \"{userDvo.Username}\"! {rs.Message}" });
         }
     }
 }

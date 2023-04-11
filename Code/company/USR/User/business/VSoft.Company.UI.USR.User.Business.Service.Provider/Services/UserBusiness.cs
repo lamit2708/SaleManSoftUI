@@ -86,10 +86,9 @@ namespace VSoft.Company.UI.USR.User.Business.Service.Provider.Services
 
         public async Task<MDvoResult<UserDvo>> GetUser(string id)
         {
-            var idInt = Int32.TryParse(id, out var teamId) ? teamId : 0;
-            if (idInt != 0)
+            if (!string.IsNullOrEmpty(id))
             {
-                var apiRs = await ClientService.FindAsync(new MDtoRequestFindByInt() { Id = idInt });
+                var apiRs = await ClientService.FindAsync(new MDtoRequestFindByString() { Id = id });
                 if (apiRs != null)
                 {
                     if (apiRs.IsSuccess)

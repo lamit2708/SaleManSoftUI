@@ -27,18 +27,12 @@ namespace VSoft.Company.UI.USR.User.View.Main.Code.Provider.Pages
                 Messages.Add(new MMessage() { Type = EMessageType.Error, Message = pagingRs.Message });
         }
 
-        public async Task OnUpdateUser(string teamId, string name, string description)
+        public async Task OnUpdateUser(UserDvo userDvo)
         {
             ClearAllMessage();
-            var id = Int32.TryParse(teamId, out var idInt) ? idInt : 0;
-            if (id != 0)
+            if (!string.IsNullOrEmpty(userDvo.Username))
             {
-                var pagingRs = await BusinessService.UpdateUser(new UserDvo()
-                {
-                    Id = id,
-                    Name = name,
-                    Description = description
-                });
+                var pagingRs = await BusinessService.UpdateUser(userDvo);
                 if (pagingRs.IsSuccessed)
                 {
                     var data = pagingRs.ResultObj;

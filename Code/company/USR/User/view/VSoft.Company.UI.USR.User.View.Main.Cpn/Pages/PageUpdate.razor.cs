@@ -27,7 +27,7 @@ namespace VSoft.Company.UI.USR.User.View.Main.Cpn.Pages
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            await PageServices.OnUpdateUser(UserId, User.Name, User.Description);
+            await PageServices.OnUpdateUser(User);
             SyncUI();
         }
 

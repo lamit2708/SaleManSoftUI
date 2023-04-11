@@ -3,6 +3,9 @@ using Blazored.Toast.Services;
 using Microsoft.AspNetCore.Components.Web;
 using VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Pages;
 using VegunSoft.Framework.Base.Entity.Enum;
+using VSoft.Company.UI.USR.User.Data.DVO.Data;
+using System.Text;
+using VegunSoft.Framework.Value.Password.Methods;
 
 namespace VSoft.Company.UI.USR.User.View.Main.Cpn.Pages
 {
@@ -12,12 +15,17 @@ namespace VSoft.Company.UI.USR.User.View.Main.Cpn.Pages
         [Inject] IToastService ToastService { get; set; }
         protected string? Name;
         protected string? Description;
+        protected UserDvo User { get; set; } = new UserDvo();
+
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            await PageServices.CreateUsers(Name, Description);
+            User.TeamId = null;
+            User.Password = User.Password?.ToMD5();
+            await PageServices.CreateUsers(User);
             SyncUI();
         }
+        
 
         protected void SyncUI()
         {
