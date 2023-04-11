@@ -21,7 +21,6 @@
                     <span class="oi oi-plus text-end" aria-hidden="true"></span>
                 }
             </NavLink>
-
         </div>
         <div class="nav-item px-3">
             @if (IsTeamExpand)
@@ -34,7 +33,7 @@
                 </NavLink>
             }
         </div>
-        
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" @onclick="() => IsActivityExpand = !IsActivityExpand">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Activity
@@ -47,7 +46,6 @@
                     <span class="oi oi-plus text-end" aria-hidden="true"></span>
                 }
             </NavLink>
-
         </div>
         <div class="nav-item px-3">
             @if (IsActivityExpand)
@@ -57,6 +55,106 @@
                 </NavLink>
                 <NavLink class="nav-link ms-3" href="tableActivity">
                     <span>Danh sách Activity</span>
+                </NavLink>
+            }
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="() => IsDealExpand = !IsDealExpand">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Deal
+                @if (IsDealExpand)
+                {
+                    <span class="oi oi-minus text-end" aria-hidden="true"></span>
+                }
+                else
+                {
+                    <span class="oi oi-plus text-end" aria-hidden="true"></span>
+                }
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            @if (IsDealExpand)
+            {
+                <NavLink class="nav-link ms-3" href="createDeal">
+                    <span>Tạo Deal</span>
+                </NavLink>
+                <NavLink class="nav-link ms-3" href="tableDeal">
+                    <span>Danh sách Deal</span>
+                </NavLink>
+            }
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="() => IsUserExpand = !IsUserExpand">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> User
+                @if (IsUserExpand)
+                {
+                    <span class="oi oi-minus text-end" aria-hidden="true"></span>
+                }
+                else
+                {
+                    <span class="oi oi-plus text-end" aria-hidden="true"></span>
+                }
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            @if (IsUserExpand)
+            {
+                <NavLink class="nav-link ms-3" href="createUser">
+                    <span>Tạo User</span>
+                </NavLink>
+                <NavLink class="nav-link ms-3" href="tableUser">
+                    <span>Danh sách User</span>
+                </NavLink>
+            }
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="() => IsCustomerExpand = !IsCustomerExpand">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Customer
+                @if (IsCustomerExpand)
+                {
+                    <span class="oi oi-minus text-end" aria-hidden="true"></span>
+                }
+                else
+                {
+                    <span class="oi oi-plus text-end" aria-hidden="true"></span>
+                }
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            @if (IsCustomerExpand)
+            {
+                <NavLink class="nav-link ms-3" href="createCustomer">
+                    <span>Tạo Customer</span>
+                </NavLink>
+                <NavLink class="nav-link ms-3" href="tableCustomer">
+                    <span>Danh sách Customer</span>
+                </NavLink>
+            }
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="() => IsProductExpand = !IsProductExpand">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Product
+                @if (IsProductExpand)
+                {
+                    <span class="oi oi-minus text-end" aria-hidden="true"></span>
+                }
+                else
+                {
+                    <span class="oi oi-plus text-end" aria-hidden="true"></span>
+                }
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            @if (IsProductExpand)
+            {
+                <NavLink class="nav-link ms-3" href="createProduct">
+                    <span>Tạo Product</span>
+                </NavLink>
+                <NavLink class="nav-link ms-3" href="tableProduct">
+                    <span>Danh sách Product</span>
                 </NavLink>
             }
         </div>

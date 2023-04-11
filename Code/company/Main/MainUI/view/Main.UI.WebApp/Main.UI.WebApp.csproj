@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
@@ -15,94 +15,139 @@
 
 	<ItemGroup>
 		<Reference Include="VegunSoft.Framework.Api.Client">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiClient\VegunSoft.Framework.Api.Client.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiClient\VegunSoft.Framework.Api.Client.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Api.DtoClient">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Api.DtoClient.Cfg">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Cfg.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Cfg.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Api.DtoClient.Provider">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Api.DtoClient.Token">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Api.DtoClient.Token.Provider">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Api.Route">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Api\VegunSoft.Framework.Api.Route.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Api\VegunSoft.Framework.Api.Route.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Business.Dto">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Business.Dvo">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
 		</Reference>
 		<Reference Include="VegunSoft.Framework.Paging">
-		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Value.Password">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Value\Password\VegunSoft.Framework.Value.Password.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Common.UI.APP.Base.View.Main">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.DEA.Deal.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\bus\VSoft.Company.DEA.Deal.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.DEA.Deal.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\client\VSoft.Company.DEA.Deal.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.DEA.Deal.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\client\VSoft.Company.DEA.Deal.Client.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.TEA.Team.Client">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.TEA.Team.Client.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Cpn">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Main.Page">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Page.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Main.Page.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.ACT.Activity.View.Module">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Module.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.Business.Service.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Main.Cpn">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Main.Cpn">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Main.Page">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Module.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Client.Main.Code">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Main.Code.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Main.Code.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Client.Main.Code.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Main.Code.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.Client.Main.Code.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Data.DVO.Extension">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Code">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Code.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Code.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Cpn">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.View.Main.Page">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Main.Page.dll</HintPath>
@@ -126,7 +171,7 @@
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.View.Module">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Module.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\client\VSoft.Company.UI.TEA.Team.View.Module.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.ACT.Activity.Client">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\ACT\Activity\client\VSoft.Company.ACT.Activity.Client.dll</HintPath>
@@ -149,6 +194,152 @@
 		<Reference Include="VSoft.Company.ACT.Activity.Business.Dto">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\ACT\Activity\bus\VSoft.Company.ACT.Activity.Business.Dto.dll</HintPath>
 		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\client\VSoft.Company.UI.USR.User.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.View.Main.Page">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\client\VSoft.Company.UI.USR.User.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.View.Main.Cpn">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\client\VSoft.Company.UI.USR.User.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.View.Main.Cpn.Code">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\client\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.USR.User.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\USR\User\client\VSoft.Company.USR.User.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.USR.User.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\USR\User\bus\VSoft.Company.USR.User.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\client\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.Business.Service.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.USR.User.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\USR\User\client\VSoft.Company.USR.User.Client.Provider.dll</HintPath>
+		</Reference>
+		
+
+<Reference Include="VSoft.Company.UI.CTM.Customer.View.Module">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Page">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.CTM.Customer.Client">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.CTM.Customer.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\bus\VSoft.Company.CTM.Customer.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO.Extension">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.CTM.Customer.Client.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.Provider.dll</HintPath>
+		</Reference>		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Page">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.CTM.Customer.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.CTM.Customer.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\bus\VSoft.Company.CTM.Customer.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.CTM.Customer.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\client\VSoft.Company.UI.PRO.Product.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.View.Main.Page">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\client\VSoft.Company.UI.PRO.Product.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.View.Main.Cpn">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\client\VSoft.Company.UI.PRO.Product.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\client\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.PRO.Product.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRO\Product\client\VSoft.Company.PRO.Product.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.PRO.Product.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRO\Product\bus\VSoft.Company.PRO.Product.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\client\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.Business.Service.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRO.Product.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.PRO.Product.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRO\Product\client\VSoft.Company.PRO.Product.Client.Provider.dll</HintPath>
+		</Reference>
+			
 	</ItemGroup>
 
 </Project>
