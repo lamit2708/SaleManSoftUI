@@ -27,18 +27,12 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Code.Provider.Pages
                 Messages.Add(new MMessage() { Type = EMessageType.Error, Message = pagingRs.Message });
         }
 
-        public async Task OnUpdateDeal(string teamId, string name, string description)
+        public async Task OnUpdateDeal(DealDvo dealDvo)
         {
             ClearAllMessage();
-            var id = Int32.TryParse(teamId, out var idInt) ? idInt : 0;
-            if (id != 0)
+            if (dealDvo.Id != 0)
             {
-                var pagingRs = await BusinessService.UpdateDeal(new DealDvo()
-                {
-                    Id = id,
-                    Name = name,
-                    Description = description
-                });
+                var pagingRs = await BusinessService.UpdateDeal(dealDvo);
                 if (pagingRs.IsSuccessed)
                 {
                     var data = pagingRs.ResultObj;

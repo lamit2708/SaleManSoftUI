@@ -1,0 +1,13 @@
+﻿<select class="form-control" @bind="@SelectedItem">
+    @if (Data != null)
+    {
+        foreach(var d in Data)
+        {
+            <option value="@d.Id">@d.Name</option>
+        }
+    }
+</select>
+
+
+
+
