@@ -2,14 +2,14 @@
 using System.Threading.Tasks;
 using VegunSoft.Framework.Base.Entity.Model;
 using VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Pages;
-using VSoft.Company.UI.DEA.Deal.Data.DVO.Data;
+using VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Data;
 
-namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Pages
+namespace VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Pages
 {
     public interface IPageUpdateServices : IPageBase
     {
-        DealDvo Deal { get; }
+        ProductCategoryDvo ProductCategory { get; }
         Task OnInitializedAsync(string teamId);
-        Task OnUpdateDeal(DealDvo dealDvo);
+        Task OnUpdateProductCategory(string teamId, string name);
     }
 }

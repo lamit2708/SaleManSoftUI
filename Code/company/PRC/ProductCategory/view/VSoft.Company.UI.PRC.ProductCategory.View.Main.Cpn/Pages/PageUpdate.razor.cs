@@ -1,12 +1,11 @@
 ﻿using Blazored.Toast.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using System.Xml.Linq;
 using VegunSoft.Framework.Base.Entity.Enum;
-using VSoft.Company.UI.DEA.Deal.Data.DVO.Data;
-using VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Pages;
+using VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Data;
+using VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Pages;
 
-namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
+namespace VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Pages
 {
     public partial class PageUpdate
     {
@@ -14,41 +13,28 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         [Inject] IToastService ToastService { get; set; }
 
         [Parameter]
-        public string? DealId { set; get; }
+        public string? ProductCategoryId { set; get; }
 
-        protected DealDvo Deal { get; set; } = new DealDvo();
+
+        protected ProductCategoryDvo ProductCategory { get; set; } = new ProductCategoryDvo();
 
         protected override async Task OnInitializedAsync()
         {
             await base.OnInitializedAsync();
-            await PageServices.OnInitializedAsync(DealId);
+            await PageServices.OnInitializedAsync(ProductCategoryId);
             SyncUI();
         }
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            var dvo = new DealDvo()
-            {
-                Id = Deal.Id,
-                Name = Deal.Name,
-                Description = Deal.Description,
-                DateFor = Deal.DateFor,
-                CreatedDate = Deal.CreatedDate,
-                DealStepId = Deal.DealStepId,
-                PricePossible = Deal.PricePossible,
-                CustomerId = Deal.CustomerId,
-                UserId = Deal.UserId,
-                OrderId = Deal.OrderId,
-                PridictPrice = Deal.PridictPrice
-            };
-            await PageServices.OnUpdateDeal(dvo);
+            await PageServices.OnUpdateProductCategory(ProductCategoryId, ProductCategory.Name);
             SyncUI();
         }
 
         protected void SyncUI()
         {
             var sv = PageServices;
-            Deal = sv.Deal;
+            ProductCategory = sv.ProductCategory;
             if (sv.Messages != null && sv.Messages.Count > 0)
             {
                 foreach (var message in sv.Messages)
