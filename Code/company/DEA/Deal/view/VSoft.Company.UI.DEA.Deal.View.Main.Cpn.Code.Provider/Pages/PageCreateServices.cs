@@ -16,20 +16,19 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Code.Provider.Pages
             BusinessService = service;
         }
 
-        public async Task CreateDeals(string name, string description)
+        public async Task CreateDeals(DealDvo dealDvo)
         {
             Messages?.Clear();
-            if (string.IsNullOrEmpty(name))
+            if (string.IsNullOrEmpty(dealDvo.Name))
             {
                 Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên Deal không được để trống" });
                 return;
             }
-            var teamDvo = new DealDvo { Name = name, Description = description };
-            var rs = await BusinessService.CreateAsync(teamDvo);
+            var rs = await BusinessService.CreateAsync(dealDvo);
             if (rs.IsSuccessed)
                 Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo Deal \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo Deal \"{name}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo Deal \"{dealDvo.Name}\"! {rs.Message}" });
         }
     }
 }

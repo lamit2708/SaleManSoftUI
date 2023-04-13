@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\client</OutputPath>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Methods\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Methods\" />  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider.csproj" />
+    <ProjectReference Include="..\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Api.DtoClient">
+	    <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
+	</Reference>
+	<Reference Include="VegunSoft.Framework.Api.DtoClient.Cfg">
+		<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Cfg.dll</HintPath>
+	</Reference>
+	<Reference Include="VegunSoft.Framework.Api.DtoClient.Provider">
+		<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Provider.dll</HintPath>
+	</Reference>
+	<Reference Include="VegunSoft.Framework.Api.DtoClient.Token">
+		<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.dll</HintPath>
+	</Reference>
+	<Reference Include="VegunSoft.Framework.Api.DtoClient.Token.Provider">
+		<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.Token.Provider.dll</HintPath>
+	</Reference>
+	<Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code">
+	  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.dll</HintPath>
+	</Reference>
+	<Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider">
+	  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
+	</Reference>
+    <Reference Include="VSoft.Company.PRC.ProductCategory.Client">
+        <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.PRC.ProductCategory.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.PRC.ProductCategory.Business.Service">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider.dll</HintPath>
+    </Reference>
+   
+    <Reference Include="VSoft.Company.PRC.ProductCategory.Client.Provider">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.PRC.ProductCategory.Client.Provider.dll</HintPath>
+    </Reference>
+    
+  </ItemGroup>
+</Project>
