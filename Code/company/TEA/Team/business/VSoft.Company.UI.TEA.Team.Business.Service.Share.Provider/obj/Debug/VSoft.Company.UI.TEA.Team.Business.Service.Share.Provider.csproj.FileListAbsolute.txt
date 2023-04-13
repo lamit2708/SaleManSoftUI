@@ -70,3 +70,15 @@ D:\WorkSpace\SalemanSoft\SalmanSoft\SaleManSoftUI\Code\company\TEA\Team\business
 D:\WorkSpace\SalemanSoft\SalmanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\refint\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.dll
 D:\WorkSpace\SalemanSoft\SalmanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.pdb
 D:\WorkSpace\SalemanSoft\SalmanSoft\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\ref\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.dll
+D:\workspace\src\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.deps.json
+D:\workspace\src\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.dll
+D:\workspace\src\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.pdb
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.csproj.AssemblyReference.cache
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.AssemblyInfoInputs.cache
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.AssemblyInfo.cs
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.csproj.CoreCompileInputs.cache
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.dll
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\refint\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.dll
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.pdb
+D:\workspace\src\SaleManSoftUI\Code\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\obj\Debug\ref\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.dll
