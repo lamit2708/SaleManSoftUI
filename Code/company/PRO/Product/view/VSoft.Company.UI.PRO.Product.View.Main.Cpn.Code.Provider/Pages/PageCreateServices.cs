@@ -16,7 +16,7 @@ namespace VSoft.Company.UI.PRO.Product.View.Main.Code.Provider.Pages
             BusinessService = service;
         }
 
-        public async Task CreateProducts(string name, string description)
+        public async Task CreateProducts(string name, string description, double price, int quantity, string keyWord)
         {
             Messages?.Clear();
             if (string.IsNullOrEmpty(name))
@@ -24,7 +24,7 @@ namespace VSoft.Company.UI.PRO.Product.View.Main.Code.Provider.Pages
                 Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên Product không được để trống" });
                 return;
             }
-            var teamDvo = new ProductDvo { Name = name, Description = description };
+            var teamDvo = new ProductDvo { Name = name, Description = description, Price = price, Quantity = quantity, Keyword = keyWord, CategoryId =2  };
             var rs = await BusinessService.CreateAsync(teamDvo);
             if (rs.IsSuccessed)
                 Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo Product \"{rs.ResultObj}\" thành công!" });
