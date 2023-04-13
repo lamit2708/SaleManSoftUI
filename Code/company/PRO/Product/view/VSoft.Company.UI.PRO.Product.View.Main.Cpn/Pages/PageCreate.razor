@@ -9,6 +9,18 @@
         <label for="Name">Mô tả Product</label>
         <textarea class="form-control pt-1" rows="5" placeholder="Nhập mô tả Product...." @bind="@Description"></textarea>
     </div>
+    <div class="form-group pt-3">
+        <label for="Name">Giá</label>
+        <textarea class="form-control pt-1" rows="5" placeholder="Nhập Giá...." @bind="@Price"></textarea>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Số Lượng</label>
+        <textarea class="form-control pt-1" rows="5" placeholder="Nhập Số Lượng...." @bind="@Quantity"></textarea>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Từ Khóa</label>
+        <textarea class="form-control pt-1" rows="5" placeholder="Nhập Từ Khóa Tìm Kiếm...." @bind="@Keyword"></textarea>
+    </div>
     <div class="form-group float-end pt-3">
         <button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Tạo mới</button>
     </div>

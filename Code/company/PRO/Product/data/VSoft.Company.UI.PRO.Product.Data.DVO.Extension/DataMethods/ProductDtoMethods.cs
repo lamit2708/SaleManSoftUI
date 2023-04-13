@@ -13,6 +13,10 @@ namespace VSoft.Company.UI.PRO.Product.Data.DVO.Extension.DataMethods
                 Id = src.Id,
                 Name = src.Name,
                 Description = src.Description,
+                Price = src.Price,
+                Quantity = src.Quantity,
+                CategoryId = src.CategoryId,
+                Keyword = src.Keyword
             };
         }
 

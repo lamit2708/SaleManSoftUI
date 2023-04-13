@@ -21,7 +21,9 @@ else
                 <tr>
                     <th>Id</th>
                     <th>Tên</th>
-                    <th>Mô tả</th>
+                    <th>Mô Tả</th>
+                    <th>Giá</th>
+                    <th>Số Lượng</th>
                     <th></th>
                 </tr>
             </thead>
@@ -38,6 +40,8 @@ else
                             <td>@item.Id</td>
                             <td>@item.Name</td>
                             <td>@item.Description.GetSubStringWithSymbol()</td>
+                            <td>@item.Price.ToString("N0")</td>
+                            <td>@item.Quantity</td>
                             <td>
                                 <a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
                                 <button class="btn btn-danger" @onclick="()=> OnDeleteTask(item.Id)">

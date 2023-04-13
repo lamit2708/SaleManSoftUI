@@ -7,6 +7,6 @@ namespace VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Pages
 {
     public interface IPageCreateServices : IPageBase
     {
-        Task CreateProducts(string name, string description);
+        Task CreateProducts(string name, string description, double price, int quantity, string keyWord);
     }
 }

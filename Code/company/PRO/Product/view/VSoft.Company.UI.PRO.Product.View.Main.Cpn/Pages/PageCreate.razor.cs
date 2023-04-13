@@ -12,10 +12,13 @@ namespace VSoft.Company.UI.PRO.Product.View.Main.Cpn.Pages
         [Inject] IToastService ToastService { get; set; }
         protected string? Name;
         protected string? Description;
+        protected double Price;
+        protected int Quantity;
+        protected string? Keyword;
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            await PageServices.CreateProducts(Name, Description);
+            await PageServices.CreateProducts(Name, Description, Price, Quantity, Keyword);
             SyncUI();
         }
 
