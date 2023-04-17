@@ -14,11 +14,10 @@ namespace VSoft.Company.UI.PRO.Product.View.Main.Cpn.Pages
         protected string? Description;
         protected double Price;
         protected int Quantity;
-        protected string? Keyword;
-
+        protected int CategoryId;
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            await PageServices.CreateProducts(Name, Description, Price, Quantity, Keyword);
+            await PageServices.CreateProducts(Name, Description, Price, Quantity, CategoryId);
             SyncUI();
         }
 
