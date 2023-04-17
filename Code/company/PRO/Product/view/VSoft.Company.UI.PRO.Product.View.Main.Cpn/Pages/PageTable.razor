@@ -43,7 +43,7 @@ else
                             <td>@item.Price.ToString("N0")</td>
                             <td>@item.Quantity</td>
                             <td>
-                                <a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
+                                <a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Chỉnh Sửa</a>
                                 <button class="btn btn-danger" @onclick="()=> OnDeleteTask(item.Id)">
                                     Delete
                                 </button>
