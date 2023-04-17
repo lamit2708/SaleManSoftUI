@@ -36,9 +36,9 @@ namespace VSoft.Company.UI.ACT.Activity.View.Main.Code.Provider.Pages
             ClearAllMessage();
             var rs = await BusinessService.DeleteActivity(deleteId);
             if (rs.IsSuccessed) 
-                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa Activity \"{rs.ResultObj}\" thành công!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa sự kiện \"{rs.ResultObj}\" thành công!" });
             else
-                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa Activity \"{rs.ResultObj}\" thất bại!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa sự kiện \"{rs.ResultObj}\" thất bại!" });
             await GetActivitys();
         }
 

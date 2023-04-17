@@ -21,14 +21,14 @@ namespace VSoft.Company.UI.ACT.Activity.View.Main.Code.Provider.Pages
             Messages?.Clear();
             if (string.IsNullOrEmpty(activityDvo.Name))
             {
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên Activity không được để trống" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên sự kiện không được để trống" });
                 return;
             }
             var rs = await BusinessService.CreateAsync(activityDvo);
             if (rs.IsSuccessed)
-                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo Activity \"{rs.ResultObj}\" thành công!" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo sự kiện \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo Activity \"{activityDvo.Name}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo sự kiện mới: \"{activityDvo.Name}\"! {rs.Message}" });
         }
     }
 }
