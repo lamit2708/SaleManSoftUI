@@ -17,8 +17,15 @@ namespace VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.DataMethods
                 Address = src.Address,
                 Gender = src.Gender,
                 PriorityId = src.PriorityId,
-                CustomerInfoId = src.CustomerInfoId,
+                //CustomerInfoId = src.CustomerInfoId,
                 IsBought    = src.IsBought,
+                Keyword = src.Keyword,
+                Job = src.Job,
+                IsMarrage = src.IsMarrage,
+                Hobby = src.Hobby,
+                CustomerSourceId = src.CustomerSourceId,
+                BirthDate = src.BirthDate,
+               
 
             };
         }
