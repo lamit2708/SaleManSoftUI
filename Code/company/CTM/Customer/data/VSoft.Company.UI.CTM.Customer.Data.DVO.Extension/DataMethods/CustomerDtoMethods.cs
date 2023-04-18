@@ -21,7 +21,7 @@ namespace VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.DataMethods
                 IsBought    = src.IsBought,
                 Keyword = src.Keyword,
                 Job = src.Job,
-                IsMarrage = src.IsMarrage,
+                IsMarrage = src.IsMarrage??false,
                 Hobby = src.Hobby,
                 CustomerSourceId = src.CustomerSourceId,
                 BirthDate = src.BirthDate,

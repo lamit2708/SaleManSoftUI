@@ -35,7 +35,7 @@ namespace VSoft.Company.UI.CTM.Customer.Data.DVO.Data
 
 		public DateTime? BirthDate { get; set; }
 
-		public bool? IsMarrage { get; set; }
+		public bool IsMarrage { get; set; }
 		public override string ToString()
 		{
 			return $"{Id} / {Name}";
