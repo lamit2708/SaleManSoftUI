@@ -1,4 +1,9 @@
-﻿@page "/createDeal"
+﻿@page "/createDeal/{CustomerId}"
 
-<PageCreate />
+<PageCreate CustomerId="@CustomerId" />
 
+@code
+{
+    [Parameter]
+    public string? CustomerId { set; get; }
+}

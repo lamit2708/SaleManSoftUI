@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using VegunSoft.Framework.Business.Dto.Request;
@@ -116,6 +117,11 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Provider.Services
                 else
                     return new MDvoResultError<string>(apiRs.Message);
             }
+            return null;
+        }
+
+        Task<MDvoResult<List<DealTagDvo>>> GetDealTag(int userId, int teamId, DateTime date, string keyword)
+        {
             return null;
         }
     }
