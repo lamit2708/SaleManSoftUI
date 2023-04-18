@@ -16,9 +16,12 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         protected DateTime? DateFor = DateTime.Now;
         protected double? PredictPrice = 0;
         protected double? PricePossible = 0;
+        [Parameter]
+        public string? CustomerId { get; set; }
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
+            var customerId = string.IsNullOrEmpty(CustomerId) ? 1 : (long.TryParse(CustomerId, out var val) ? val : 1);
             var dvo = new DealDvo()
             {
                 Name = Name,
@@ -27,7 +30,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
                 CreatedDate = DateTime.Now,
                 DealStepId = 1,
                 PricePossible = PricePossible,
-                CustomerId = 1,
+                CustomerId = customerId,
                 UserId = 1,
                 OrderId = null,
                 PridictPrice = PredictPrice ?? 0

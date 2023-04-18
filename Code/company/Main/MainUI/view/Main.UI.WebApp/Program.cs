@@ -6,6 +6,7 @@ using VSoft.Company.UI.TEA.Team.View.Module;
 using VSoft.Company.UI.USR.User.View.Module;
 using VSoft.Company.UI.CTM.Customer.View.Module;
 using VSoft.Company.UI.PRO.Product.View.Module;
+using VSoft.Company.UI.PRC.ProductCategory.View.Module;
 
 AppServices.RunApp((builder) =>
 {
@@ -16,4 +17,5 @@ AppServices.RunApp((builder) =>
     builder.Services.RegisterUserFrontsModule();
     builder.Services.RegisterCustomerFrontsModule();
     builder.Services.RegisterProductFrontsModule();
+    builder.Services.RegisterProductCategoryFrontsModule();
 });

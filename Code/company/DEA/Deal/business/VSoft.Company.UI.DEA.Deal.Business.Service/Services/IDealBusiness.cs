@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using VegunSoft.Framework.Business.Dvo.Response;
 using VegunSoft.Framework.Paging.Provider.Request;
 using VegunSoft.Framework.Paging.Provider.Response;
@@ -17,5 +19,7 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Services
         Task<MDvoResult<DealDvo>> GetDeal(string id);
 
         Task<MDvoResult<string>> UpdateDeal(DealDvo team);  
+
+        Task<MDvoResult<List<DealTagDvo>>> GetDealTag(int userId, int teamId, DateTime date, string keyword);
     }
 }

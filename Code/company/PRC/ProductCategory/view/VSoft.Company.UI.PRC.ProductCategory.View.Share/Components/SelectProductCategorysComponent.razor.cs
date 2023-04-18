@@ -10,9 +10,6 @@ namespace VSoft.Company.UI.PRC.ProductCategory.View.Share.Components
     {
         [Inject] IProductCategoryBusiness BusinessService { get; set; }
 
-        [Parameter]
-        public int SelectedItem { get; set; }
-
         List<ProductCategoryDvo> Data { get; set; }
 
         protected async override Task OnInitializedAsync()
@@ -27,5 +24,22 @@ namespace VSoft.Company.UI.PRC.ProductCategory.View.Share.Components
                 }
             }
         }
+
+        private int _value;
+
+        [Parameter]
+        public int SelectedId
+        {
+            get => _value;
+            set
+            {
+                if (_value == value) return;
+                _value = value;
+                SelectedIdChanged.InvokeAsync(value);
+            }
+        }
+
+        [Parameter]
+        public EventCallback<int> SelectedIdChanged { get; set; }
     }
 }

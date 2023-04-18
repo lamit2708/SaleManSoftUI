@@ -46,6 +46,9 @@
     <Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
     </Reference>
+    <Reference Include="VSoft.Company.UI.PRC.ProductCategory.View.Share">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.UI.PRC.ProductCategory.View.Share.dll</HintPath>
+    </Reference>
     <Reference Include="VSoft.Company.UI.PRO.Product.Data.DVO">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO.dll</HintPath>
     </Reference>

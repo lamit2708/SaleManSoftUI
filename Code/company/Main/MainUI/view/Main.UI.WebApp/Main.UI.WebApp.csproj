@@ -90,7 +90,7 @@
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\ACT\Activity\client\VSoft.Company.UI.ACT.Activity.View.Module.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.DEA.Deal.Business.Service">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.dll</HintPath>
@@ -230,44 +230,47 @@
 		<Reference Include="VSoft.Company.USR.User.Client.Provider">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\USR\User\client\VSoft.Company.USR.User.Client.Provider.dll</HintPath>
 		</Reference>
-		
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.View.Share">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.UI.PRC.ProductCategory.View.Share.dll</HintPath>
+		</Reference>
 
-<Reference Include="VSoft.Company.UI.CTM.Customer.View.Module">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Module.dll</HintPath>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Module.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Page">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Page.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Page.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.CTM.Customer.Client">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.CTM.Customer.Business.Dto">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\bus\VSoft.Company.CTM.Customer.Business.Dto.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\bus\VSoft.Company.CTM.Customer.Business.Dto.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Provider.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Provider.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO.Extension">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.dll</HintPath>
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.CTM.Customer.Client.Provider">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.Provider.dll</HintPath>
-		</Reference>		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\CTM\Customer\client\VSoft.Company.CTM.Customer.Client.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Module">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Module.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Main.Page">
@@ -339,7 +342,43 @@
 		<Reference Include="VSoft.Company.PRO.Product.Client.Provider">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRO\Product\client\VSoft.Company.PRO.Product.Client.Provider.dll</HintPath>
 		</Reference>
-			
+
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.UI.PRC.ProductCategory.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.View.Main.Page">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.UI.PRC.ProductCategory.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.PRC.ProductCategory.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.PRC.ProductCategory.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.PRC.ProductCategory.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRC\ProductCategory\bus\VSoft.Company.PRC.ProductCategory.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.PRC.ProductCategory.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.PRC.ProductCategory.Client.Provider.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 </Project>

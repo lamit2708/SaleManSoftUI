@@ -36,9 +36,9 @@ namespace VSoft.Company.UI.PRO.Product.View.Main.Code.Provider.Pages
             ClearAllMessage();
             var rs = await BusinessService.DeleteProduct(deleteId);
             if (rs.IsSuccessed) 
-                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa Product \"{rs.ResultObj}\" thành công!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa sản phẩm \"{rs.ResultObj}\" thành công!" });
             else
-                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa Product \"{rs.ResultObj}\" thất bại!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa sản phẩm \"{rs.ResultObj}\" thất bại!" });
             await GetProducts();
         }
 
