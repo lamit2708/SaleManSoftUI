@@ -10,6 +10,8 @@ using VSoft.Company.USR.User.Client.Services;
 using VSoft.Company.UI.USR.User.Business.Service.Services;
 using VSoft.Company.UI.USR.User.Data.DVO.Data;
 using VSoft.Company.UI.USR.User.Data.DVO.Extension.DataMethods;
+using System.Collections.Generic;
+using VSoft.Company.USR.User.Business.Dto.Response;
 
 namespace VSoft.Company.UI.USR.User.Business.Service.Provider.Services
 {
@@ -119,5 +121,21 @@ namespace VSoft.Company.UI.USR.User.Business.Service.Provider.Services
             }
             return null;
         }
-    }
+		public async Task<MDvoResult<List<KeyValuePair<int,string>>>> GetAll()
+		{
+			var apiRs = await ClientService.GetAll();
+			if (apiRs != null)
+			{
+				if (apiRs.IsSuccess)
+				{
+					var rs = apiRs.Data;
+					var dat = rs.ToList();
+					return new MDvoResultSuccess<List<KeyValuePair<int, string>>>(dat);
+				}
+				else
+					return new MDvoResultError<List<KeyValuePair<int, string>>>(apiRs.Message);
+			}
+			return null;
+		}
+	}
 }

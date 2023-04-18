@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using VegunSoft.Framework.Business.Dvo.Response;
 using VegunSoft.Framework.Paging.Provider.Request;
 using VegunSoft.Framework.Paging.Provider.Response;
@@ -16,6 +17,7 @@ namespace VSoft.Company.UI.USR.User.Business.Service.Services
 
         Task<MDvoResult<UserDvo>> GetUser(string id);
 
-        Task<MDvoResult<string>> UpdateUser(UserDvo team);  
-    }
+        Task<MDvoResult<string>> UpdateUser(UserDvo team);
+		Task<MDvoResult<List<KeyValuePair<int, string>>>> GetAll();
+	}
 }
