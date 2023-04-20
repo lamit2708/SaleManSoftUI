@@ -77,8 +77,12 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Pages
                 }
             }
         }
-
-        protected string GetUpdatePath(string id)
+		//createDeal
+		protected string GetCreateDealPath(string id)
+		{
+			return $"/createDeal/{id}";
+		}
+		protected string GetUpdatePath(string id)
         {
             return $"/{UpdatePath}/{id}";
         }
@@ -86,5 +90,9 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Pages
 		{
 			return $"/{name}/{customerId}";
 		}
+        protected string GetDisplayGender(bool? isMale)
+        {
+            return isMale==true ? " Nam " : " Nữ ";
+        }
 	}
 }
