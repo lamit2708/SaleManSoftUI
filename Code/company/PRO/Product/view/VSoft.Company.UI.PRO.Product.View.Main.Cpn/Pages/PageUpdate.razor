@@ -2,12 +2,12 @@
 
 <div class="form-group">
     <div class="form-group pt-3">
-        <label for="Name">Tên Product</label>
-        <input class="form-control" placeholder="Nhập Tên Sản Phẩm...." @bind-value="@Product.Name"></input>
+        <label for="Name">Tên sản phẩm</label>
+        <input class="form-control" placeholder="Nhập tên sản phẩm...." @bind-value="@Product.Name"></input>
     </div>
     <div class="form-group pt-3">
-        <label for="Name">Mô tả Product</label>
-        <textarea class="form-control pt-1" rows="5" placeholder="Nhập Mô Tả Sản Phẩm...." @bind="@Product.Description"></textarea>
+        <label for="Name">Mô tả sản phẩm</label>
+        <textarea class="form-control pt-1" rows="5" placeholder="Nhập mô tả sản phẩm...." @bind="@Product.Description"></textarea>
     </div>
     <div class="form-group float-end pt-3">
         <button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Cập nhật</button>
