@@ -18,8 +18,8 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Services
 
         Task<MDvoResult<DealDvo>> GetDeal(string id);
 
-        Task<MDvoResult<string>> UpdateDeal(DealDvo team);  
+        Task<MDvoResult<string>> UpdateDeal(DealDvo team);
 
-        Task<MDvoResult<List<DealTagDvo>>> GetDealTag(int userId, int teamId, DateTime date, string keyword);
+        Task<MDvoResult<List<DealTagDvo>>> GetDealTagDvo(int? userId, int? teamId, DateTime? date, string? keyword);
     }
 }

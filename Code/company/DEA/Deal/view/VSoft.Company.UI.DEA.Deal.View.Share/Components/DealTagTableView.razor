@@ -1,4 +1,5 @@
-﻿<div class="row">
+﻿
+<div class="row">
     @if (DealStepDict != null)
     {
         <div class="col-1"></div>
@@ -20,7 +21,7 @@
                     {
                         foreach (var dealTag in ListDealTag)
                         {
-                            if (string.Equals(dealTag.StatusDealId.ToString(), step.Key))
+                            if (string.Equals(dealTag.DealStepId.ToString(), step.Key))
                             {
                                 <div class="p-2 pt-2">
                                     <DealTagView DealTag="dealTag" />
@@ -37,7 +38,7 @@
                     {
                         foreach (var dealTag in ListDealTag)
                         {
-                            if (string.Equals(dealTag.StatusDealId.ToString(), step.Key))
+                            if (string.Equals(dealTag.DealStepId.ToString(), step.Key))
                             {
                                 <div class="p-2 pt-2">
                                     <DealTagView DealTag="dealTag" />
@@ -54,7 +55,7 @@
                     {
                         foreach (var dealTag in ListDealTag)
                         {
-                            if (string.Equals(dealTag.StatusDealId.ToString(), step.Key))
+                            if (string.Equals(dealTag.DealStepId.ToString(), step.Key))
                             {
                                 <div class="p-2 pt-2">
                                     <DealTagView DealTag="dealTag" />
