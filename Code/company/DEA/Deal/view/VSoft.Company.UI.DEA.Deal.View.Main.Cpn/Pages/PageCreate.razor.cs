@@ -18,10 +18,13 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         protected double? PricePossible = 0;
         [Parameter]
         public string? CustomerId { get; set; }
+        public int CusId { get; set; }
+        public int UserId { get; set; }
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            var customerId = string.IsNullOrEmpty(CustomerId) ? 1 : (long.TryParse(CustomerId, out var val) ? val : 1);
+            //var customerId = string.IsNullOrEmpty(CustomerId) ? 1 : (long.TryParse(CustomerId, out var val) ? val : 1);
+            var customerId = CusId;
             var dvo = new DealDvo()
             {
                 Name = Name,
@@ -31,7 +34,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
                 DealStepId = 1,
                 PricePossible = PricePossible,
                 CustomerId = customerId,
-                UserId = 1,
+                UserId = UserId,
                 OrderId = null,
                 PridictPrice = PredictPrice ?? 0
             };

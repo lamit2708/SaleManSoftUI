@@ -17,6 +17,17 @@
     <Reference Include="VegunSoft.Framework.Ui.Component">
       <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-blazor\Component\VegunSoft.Framework.Ui.Component.dll</HintPath>
     </Reference>
+	  <Reference Include="VSoft.Company.UI.CTM.Customer.Data.DVO">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.dll</HintPath>
+	  </Reference>
+
+	  <Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
+	  </Reference>
+	  
+	  <Reference Include="VegunSoft.Framework.Business.Dvo">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+	  </Reference>
   </ItemGroup>
   
 

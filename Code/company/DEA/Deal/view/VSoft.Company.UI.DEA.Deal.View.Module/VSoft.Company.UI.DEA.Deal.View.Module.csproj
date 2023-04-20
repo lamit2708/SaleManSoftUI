@@ -57,6 +57,14 @@
     <Reference Include="VSoft.Company.DEA.Deal.Client.Provider">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\client\VSoft.Company.DEA.Deal.Client.Provider.dll</HintPath>
     </Reference>
+   
+    <Reference Include="VSoft.Company.VDT.VDealTag.Client">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\client\VSoft.Company.VDT.VDealTag.Client.dll</HintPath>
+    </Reference>
+   
+    <Reference Include="VSoft.Company.VDT.VDealTag.Client.Provider">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\client\VSoft.Company.VDT.VDealTag.Client.Provider.dll</HintPath>
+    </Reference>
     
   </ItemGroup>
 </Project>

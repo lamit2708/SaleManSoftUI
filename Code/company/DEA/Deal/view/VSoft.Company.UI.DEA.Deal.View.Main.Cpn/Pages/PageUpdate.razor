@@ -1,6 +1,7 @@
-﻿<h3>Update Deal</h3>
-
-<div class="form-group">
+﻿@using VSoft.Company.UI.CTM.Customer.View.Share.Components
+@using VSoft.Company.UI.USR.User.View.Share.Components
+<h3>Update Deal</h3>
+<div class="form-group row">
     <div class="form-group pt-3">
         <label for="Name">Tên Deal</label>
         <input class="form-control" placeholder="Nhập tên Deal...." @bind-value="@Deal.Name"></input>
@@ -9,7 +10,30 @@
         <label for="Name">Mô tả Deal</label>
         <textarea class="form-control pt-1" rows="5" placeholder="Nhập mô tả Deal...." @bind="@Deal.Description"></textarea>
     </div>
+    <div class="form-group pt-3 col-6">
+        <label for="Name">Giá trị ước tính</label>
+        <input class="form-control" type="number" @bind-value="@Deal.PridictPrice" />
+    </div>
+    <div class="form-group pt-3 col-6">
+        <label for="Name">Giá trị mà khách có thể chi trả</label>
+        <input class="form-control" type="number" @bind-value="@Deal.PricePossible" />
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Cho đến ngày</label>
+        <input class="form-control" type="date" @bind-value="@Deal.DateFor" />
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Khách hàng</label>
+        <SelectCustomersComponent @bind-SelectedId="@CusId" />
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">User</label>
+        <SelectUserComponent @bind-SelectedId="@Deal.UserId" />
+    </div>
     <div class="form-group float-end pt-3">
         <button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Cập nhật</button>
     </div>
 </div>
+
+
+
