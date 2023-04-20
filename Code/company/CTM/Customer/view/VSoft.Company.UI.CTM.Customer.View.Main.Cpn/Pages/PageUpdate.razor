@@ -1,4 +1,5 @@
 ﻿@using VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Models;
+@using VSoft.Company.UI.USR.User.View.Share.Components
 <h3>Sửa thông tin khách hàng</h3>
 
 <div class="form-group">
@@ -70,6 +71,10 @@
 		<InputCheckbox id="marrage" class="form-control"
 				   @bind-Value="@Customer.IsMarrage"></InputCheckbox>
 	</div>
+	@*<div class="form-group pt-3">
+        <label for="Name">User</label>
+        <SelectUserComponent @bind-SelectedId="@Customer.UserId" />
+    </div>*@
 	<div class="form-group float-end pt-3">
 		<button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Cập nhật</button>
 	</div>
