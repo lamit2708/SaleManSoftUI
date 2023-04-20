@@ -20,13 +20,13 @@ else
 			<table class="table table-bordered table-striped">
 				<thead>
 					<tr>
-						
+						@*<th>Id</th>*@
 						<th class="w-25">Họ tên</th>
 						<th>Điện thoại</th>
 						<th class="w-25">Email</th>
 						<th class="w-25">Địa chỉ</th>
 						<th >Giới tính</th>
-						<th>Id</th>
+						
 						<th class="w-50">Chức năng</th>
 					</tr>
 				</thead>
@@ -40,14 +40,14 @@ else
 						foreach (var item in Customers)
 						{
 							<tr>
-								
+								@*<td>@item.Id</td>*@
 								<td>@item.Name</td>
 								<td>@item.Phone.GetSubStringWithSymbol()</td>
 								@*<td>@item.Phone</td>*@
 								<td>@item.Email</td>
 								<td>@item.Address</td>
 								<td>@GetDisplayGender(item.Gender)</td>
-								<td>@item.Id</td>
+								
 								<td>
 									<a href="@GetCreateDealPath(item.Id.ToString())" class="btn btn-warning" disabled>+Deal</a>
 									<a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
