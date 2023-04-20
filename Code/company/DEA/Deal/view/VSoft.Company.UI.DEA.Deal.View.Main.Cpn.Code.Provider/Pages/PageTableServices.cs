@@ -36,9 +36,9 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Code.Provider.Pages
             ClearAllMessage();
             var rs = await BusinessService.DeleteDeal(deleteId);
             if (rs.IsSuccessed) 
-                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa Deal \"{rs.ResultObj}\" thành công!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa hợp đồng \"{rs.ResultObj}\" thành công!" });
             else
-                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa Deal \"{rs.ResultObj}\" thất bại!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa hợp đồng \"{rs.ResultObj}\" thất bại!" });
             await GetDeals();
         }
 
