@@ -1,0 +1,1004 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{01000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APP", "APP", "{02000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{03000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{04000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Common.UI.APP.Base.View.Main", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main\VSoft.Common.UI.APP.Base.View.Main.csproj", "{9A990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Common.UI.APP.Base.View.Main.Cpn.Code", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.csproj", "{9B990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.csproj", "{9C990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "company", "company", "{05000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ACT", "ACT", "{06000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Activity", "Activity", "{07000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{08000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Business.Service", "company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service\VSoft.Company.UI.ACT.Activity.Business.Service.csproj", "{9D990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Business.Service.Provider", "company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service.Provider\VSoft.Company.UI.ACT.Activity.Business.Service.Provider.csproj", "{9E990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{09000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Data.DVO", "company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO\VSoft.Company.UI.ACT.Activity.Data.DVO.csproj", "{9F990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Data.DVO.Extension", "company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO.Extension\VSoft.Company.UI.ACT.Activity.Data.DVO.Extension.csproj", "{A0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{0A000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.csproj", "{A1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.csproj", "{A2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider.csproj", "{A3990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Page", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Page\VSoft.Company.UI.ACT.Activity.View.Main.Page.csproj", "{A4990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Module", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Module\VSoft.Company.UI.ACT.Activity.View.Module.csproj", "{A5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Share", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Share\VSoft.Company.UI.ACT.Activity.View.Share.csproj", "{A6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Share.Code", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Share.Code\VSoft.Company.UI.ACT.Activity.View.Share.Code.csproj", "{A7990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Test", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Test\VSoft.Company.UI.ACT.Activity.View.Test.csproj", "{A8990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.TestUi", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.TestUi\VSoft.Company.UI.ACT.Activity.View.TestUi.csproj", "{A9990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CTM", "CTM", "{0B000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{0C000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{0D000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service\VSoft.Company.UI.CTM.Customer.Business.Service.csproj", "{AA990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Provider", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Provider\VSoft.Company.UI.CTM.Customer.Business.Service.Provider.csproj", "{AB990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Share", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Share\VSoft.Company.UI.CTM.Customer.Business.Service.Share.csproj", "{AC990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider\VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider.csproj", "{AD990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{0E000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Data.DVO", "company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO\VSoft.Company.UI.CTM.Customer.Data.DVO.csproj", "{AE990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Data.DVO.Extension", "company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.csproj", "{AF990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{0F000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.csproj", "{B0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.csproj", "{B1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider.csproj", "{B2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Page", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Page\VSoft.Company.UI.CTM.Customer.View.Main.Page.csproj", "{B3990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Module", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Module\VSoft.Company.UI.CTM.Customer.View.Module.csproj", "{B4990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Share", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Share\VSoft.Company.UI.CTM.Customer.View.Share.csproj", "{B5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Share.Code", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Share.Code\VSoft.Company.UI.CTM.Customer.View.Share.Code.csproj", "{B6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Test", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Test\VSoft.Company.UI.CTM.Customer.View.Test.csproj", "{B7990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.TestUi", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.TestUi\VSoft.Company.UI.CTM.Customer.View.TestUi.csproj", "{B8990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEA", "DEA", "{10000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deal", "Deal", "{11000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{12000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service\VSoft.Company.UI.DEA.Deal.Business.Service.csproj", "{B9990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Provider", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Provider\VSoft.Company.UI.DEA.Deal.Business.Service.Provider.csproj", "{BA990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Share", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Share\VSoft.Company.UI.DEA.Deal.Business.Service.Share.csproj", "{BB990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider\VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider.csproj", "{BC990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{13000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Data.DVO", "company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO\VSoft.Company.UI.DEA.Deal.Data.DVO.csproj", "{BD990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Data.DVO.Extension", "company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.csproj", "{BE990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{14000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.csproj", "{BF990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.csproj", "{C0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider.csproj", "{C1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Page", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Page\VSoft.Company.UI.DEA.Deal.View.Main.Page.csproj", "{C2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Module", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Module\VSoft.Company.UI.DEA.Deal.View.Module.csproj", "{C3990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Share", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Share\VSoft.Company.UI.DEA.Deal.View.Share.csproj", "{C4990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Share.Code", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Share.Code\VSoft.Company.UI.DEA.Deal.View.Share.Code.csproj", "{C5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Test", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Test\VSoft.Company.UI.DEA.Deal.View.Test.csproj", "{C6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.TestUi", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.TestUi\VSoft.Company.UI.DEA.Deal.View.TestUi.csproj", "{C7990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRC", "PRC", "{15000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCategory", "ProductCategory", "{16000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{17000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service\VSoft.Company.UI.PRC.ProductCategory.Business.Service.csproj", "{C8990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider.csproj", "{C9990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.csproj", "{CA990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider.csproj", "{CB990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{18000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Data.DVO", "company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.csproj", "{CC990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension", "company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension.csproj", "{CD990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{19000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.csproj", "{CE990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.csproj", "{CF990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider.csproj", "{D0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Page", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Page\VSoft.Company.UI.PRC.ProductCategory.View.Main.Page.csproj", "{D1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Module", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Module\VSoft.Company.UI.PRC.ProductCategory.View.Module.csproj", "{D2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Share", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Share\VSoft.Company.UI.PRC.ProductCategory.View.Share.csproj", "{D3990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Share.Code", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Share.Code\VSoft.Company.UI.PRC.ProductCategory.View.Share.Code.csproj", "{D4990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Test", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Test\VSoft.Company.UI.PRC.ProductCategory.View.Test.csproj", "{D5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.TestUi", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.TestUi\VSoft.Company.UI.PRC.ProductCategory.View.TestUi.csproj", "{D6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRO", "PRO", "{1A000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{1B000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{1C000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service\VSoft.Company.UI.PRO.Product.Business.Service.csproj", "{D7990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service.Provider", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Provider\VSoft.Company.UI.PRO.Product.Business.Service.Provider.csproj", "{D8990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service.Share", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Share\VSoft.Company.UI.PRO.Product.Business.Service.Share.csproj", "{D9990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider\VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider.csproj", "{DA990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{1D000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Data.DVO", "company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO\VSoft.Company.UI.PRO.Product.Data.DVO.csproj", "{DB990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Data.DVO.Extension", "company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO.Extension\VSoft.Company.UI.PRO.Product.Data.DVO.Extension.csproj", "{DC990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{1E000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn\VSoft.Company.UI.PRO.Product.View.Main.Cpn.csproj", "{DD990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.csproj", "{DE990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider.csproj", "{DF990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Page", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Page\VSoft.Company.UI.PRO.Product.View.Main.Page.csproj", "{E0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Module", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Module\VSoft.Company.UI.PRO.Product.View.Module.csproj", "{E1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Share", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Share\VSoft.Company.UI.PRO.Product.View.Share.csproj", "{E2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Share.Code", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Share.Code\VSoft.Company.UI.PRO.Product.View.Share.Code.csproj", "{E3990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Test", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Test\VSoft.Company.UI.PRO.Product.View.Test.csproj", "{E4990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.TestUi", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.TestUi\VSoft.Company.UI.PRO.Product.View.TestUi.csproj", "{E5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEA", "TEA", "{1F000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Team", "Team", "{20000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{21000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\VSoft.Company.UI.TEA.Team.Business.Service.csproj", "{E6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Provider", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj", "{E7990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj", "{E8990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.csproj", "{E9990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{22000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Data.DVO", "company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\VSoft.Company.UI.TEA.Team.Data.DVO.csproj", "{EA990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Data.DVO.Extension", "company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.csproj", "{EB990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{23000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn\VSoft.Company.UI.TEA.Team.View.Main.Cpn.csproj", "{EC990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.csproj", "{ED990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.csproj", "{EE990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Page", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Page\VSoft.Company.UI.TEA.Team.View.Main.Page.csproj", "{EF990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Module", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Module\VSoft.Company.UI.TEA.Team.View.Module.csproj", "{F0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Share", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Share\VSoft.Company.UI.TEA.Team.View.Share.csproj", "{F1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Share.Code", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Share.Code\VSoft.Company.UI.TEA.Team.View.Share.Code.csproj", "{F2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Test", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Test\VSoft.Company.UI.TEA.Team.View.Test.csproj", "{F3990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.TestUi", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.TestUi\VSoft.Company.UI.TEA.Team.View.TestUi.csproj", "{F4990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UCU", "UCU", "{24000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Team", "Team", "{25000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{26000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service", "company\UCU\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\VSoft.Company.UI.TEA.Team.Business.Service.csproj", "{F5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Provider", "company\UCU\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj", "{F6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share", "company\UCU\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj", "{F7990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider", "company\UCU\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.csproj", "{F8990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{27000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Data.DVO", "company\UCU\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\VSoft.Company.UI.TEA.Team.Data.DVO.csproj", "{F9990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Data.DVO.Extension", "company\UCU\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.csproj", "{FA990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{28000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn\VSoft.Company.UI.TEA.Team.View.Main.Cpn.csproj", "{FB990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.csproj", "{FC990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.csproj", "{FD990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Page", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Page\VSoft.Company.UI.TEA.Team.View.Main.Page.csproj", "{FE990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Module", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Module\VSoft.Company.UI.TEA.Team.View.Module.csproj", "{FF990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Share", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Share\VSoft.Company.UI.TEA.Team.View.Share.csproj", "{009A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Share.Code", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Share.Code\VSoft.Company.UI.TEA.Team.View.Share.Code.csproj", "{019A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Test", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.Test\VSoft.Company.UI.TEA.Team.View.Test.csproj", "{029A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.TestUi", "company\UCU\Team\view\VSoft.Company.UI.TEA.Team.View.TestUi\VSoft.Company.UI.TEA.Team.View.TestUi.csproj", "{039A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USR", "USR", "{29000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{2A000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{2B000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service\VSoft.Company.UI.USR.User.Business.Service.csproj", "{049A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service.Provider", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Provider\VSoft.Company.UI.USR.User.Business.Service.Provider.csproj", "{059A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service.Share", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Share\VSoft.Company.UI.USR.User.Business.Service.Share.csproj", "{069A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service.Share.Provider", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Share.Provider\VSoft.Company.UI.USR.User.Business.Service.Share.Provider.csproj", "{079A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{2C000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Data.DVO", "company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO\VSoft.Company.UI.USR.User.Data.DVO.csproj", "{089A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Data.DVO.Extension", "company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO.Extension\VSoft.Company.UI.USR.User.Data.DVO.Extension.csproj", "{099A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{2D000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Cpn", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn\VSoft.Company.UI.USR.User.View.Main.Cpn.csproj", "{0A9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Cpn.Code", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn.Code\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.csproj", "{0B9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider.csproj", "{0C9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Page", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Page\VSoft.Company.UI.USR.User.View.Main.Page.csproj", "{0D9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Module", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Module\VSoft.Company.UI.USR.User.View.Module.csproj", "{0E9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Share", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Share\VSoft.Company.UI.USR.User.View.Share.csproj", "{0F9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Share.Code", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Share.Code\VSoft.Company.UI.USR.User.View.Share.Code.csproj", "{109A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Test", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Test\VSoft.Company.UI.USR.User.View.Test.csproj", "{119A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.TestUi", "company\USR\User\view\VSoft.Company.UI.USR.User.View.TestUi\VSoft.Company.UI.USR.User.View.TestUi.csproj", "{129A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main.UI.WebApp", "company\Main\MainUI\view\Main.UI.WebApp\Main.UI.WebApp.csproj", "{139A0000-0000-0000-0000-000000000000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A7990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A9990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AA990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AB990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AC990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AD990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AE990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AF990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B4990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B7990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B9990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BA990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BB990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BC990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BD990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BE990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BF990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C4990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CF990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D4990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D7990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D9990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DA990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DB990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DC990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DD990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DE990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DF990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E4990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E7990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E9990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EA990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EB990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EC990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{ED990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EE990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EF990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F4990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F7990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F9990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FA990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FB990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FC990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FD990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FE990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FF990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{009A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{009A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{019A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{019A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{029A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{029A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{039A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{039A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{039A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{039A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{049A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{049A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{059A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{059A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{069A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{069A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{079A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{079A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{089A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{089A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{099A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{099A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0A9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0B9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02000000-0000-0000-0000-000000000000} = {01000000-0000-0000-0000-000000000000}
+		{03000000-0000-0000-0000-000000000000} = {02000000-0000-0000-0000-000000000000}
+		{04000000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{9A990000-0000-0000-0000-000000000000} = {04000000-0000-0000-0000-000000000000}
+		{9B990000-0000-0000-0000-000000000000} = {04000000-0000-0000-0000-000000000000}
+		{9C990000-0000-0000-0000-000000000000} = {04000000-0000-0000-0000-000000000000}
+		{06000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{07000000-0000-0000-0000-000000000000} = {06000000-0000-0000-0000-000000000000}
+		{08000000-0000-0000-0000-000000000000} = {07000000-0000-0000-0000-000000000000}
+		{9D990000-0000-0000-0000-000000000000} = {08000000-0000-0000-0000-000000000000}
+		{9E990000-0000-0000-0000-000000000000} = {08000000-0000-0000-0000-000000000000}
+		{09000000-0000-0000-0000-000000000000} = {07000000-0000-0000-0000-000000000000}
+		{9F990000-0000-0000-0000-000000000000} = {09000000-0000-0000-0000-000000000000}
+		{A0990000-0000-0000-0000-000000000000} = {09000000-0000-0000-0000-000000000000}
+		{0A000000-0000-0000-0000-000000000000} = {07000000-0000-0000-0000-000000000000}
+		{A1990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A2990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A3990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A4990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A5990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A6990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A7990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A8990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{A9990000-0000-0000-0000-000000000000} = {0A000000-0000-0000-0000-000000000000}
+		{0B000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{0C000000-0000-0000-0000-000000000000} = {0B000000-0000-0000-0000-000000000000}
+		{0D000000-0000-0000-0000-000000000000} = {0C000000-0000-0000-0000-000000000000}
+		{AA990000-0000-0000-0000-000000000000} = {0D000000-0000-0000-0000-000000000000}
+		{AB990000-0000-0000-0000-000000000000} = {0D000000-0000-0000-0000-000000000000}
+		{AC990000-0000-0000-0000-000000000000} = {0D000000-0000-0000-0000-000000000000}
+		{AD990000-0000-0000-0000-000000000000} = {0D000000-0000-0000-0000-000000000000}
+		{0E000000-0000-0000-0000-000000000000} = {0C000000-0000-0000-0000-000000000000}
+		{AE990000-0000-0000-0000-000000000000} = {0E000000-0000-0000-0000-000000000000}
+		{AF990000-0000-0000-0000-000000000000} = {0E000000-0000-0000-0000-000000000000}
+		{0F000000-0000-0000-0000-000000000000} = {0C000000-0000-0000-0000-000000000000}
+		{B0990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B1990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B2990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B3990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B4990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B5990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B6990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B7990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{B8990000-0000-0000-0000-000000000000} = {0F000000-0000-0000-0000-000000000000}
+		{10000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{11000000-0000-0000-0000-000000000000} = {10000000-0000-0000-0000-000000000000}
+		{12000000-0000-0000-0000-000000000000} = {11000000-0000-0000-0000-000000000000}
+		{B9990000-0000-0000-0000-000000000000} = {12000000-0000-0000-0000-000000000000}
+		{BA990000-0000-0000-0000-000000000000} = {12000000-0000-0000-0000-000000000000}
+		{BB990000-0000-0000-0000-000000000000} = {12000000-0000-0000-0000-000000000000}
+		{BC990000-0000-0000-0000-000000000000} = {12000000-0000-0000-0000-000000000000}
+		{13000000-0000-0000-0000-000000000000} = {11000000-0000-0000-0000-000000000000}
+		{BD990000-0000-0000-0000-000000000000} = {13000000-0000-0000-0000-000000000000}
+		{BE990000-0000-0000-0000-000000000000} = {13000000-0000-0000-0000-000000000000}
+		{14000000-0000-0000-0000-000000000000} = {11000000-0000-0000-0000-000000000000}
+		{BF990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C0990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C1990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C2990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C3990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C4990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C5990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C6990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{C7990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
+		{15000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{16000000-0000-0000-0000-000000000000} = {15000000-0000-0000-0000-000000000000}
+		{17000000-0000-0000-0000-000000000000} = {16000000-0000-0000-0000-000000000000}
+		{C8990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{C9990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{CA990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{CB990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{18000000-0000-0000-0000-000000000000} = {16000000-0000-0000-0000-000000000000}
+		{CC990000-0000-0000-0000-000000000000} = {18000000-0000-0000-0000-000000000000}
+		{CD990000-0000-0000-0000-000000000000} = {18000000-0000-0000-0000-000000000000}
+		{19000000-0000-0000-0000-000000000000} = {16000000-0000-0000-0000-000000000000}
+		{CE990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{CF990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D0990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D1990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D2990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D3990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D4990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D5990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D6990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{1A000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{1B000000-0000-0000-0000-000000000000} = {1A000000-0000-0000-0000-000000000000}
+		{1C000000-0000-0000-0000-000000000000} = {1B000000-0000-0000-0000-000000000000}
+		{D7990000-0000-0000-0000-000000000000} = {1C000000-0000-0000-0000-000000000000}
+		{D8990000-0000-0000-0000-000000000000} = {1C000000-0000-0000-0000-000000000000}
+		{D9990000-0000-0000-0000-000000000000} = {1C000000-0000-0000-0000-000000000000}
+		{DA990000-0000-0000-0000-000000000000} = {1C000000-0000-0000-0000-000000000000}
+		{1D000000-0000-0000-0000-000000000000} = {1B000000-0000-0000-0000-000000000000}
+		{DB990000-0000-0000-0000-000000000000} = {1D000000-0000-0000-0000-000000000000}
+		{DC990000-0000-0000-0000-000000000000} = {1D000000-0000-0000-0000-000000000000}
+		{1E000000-0000-0000-0000-000000000000} = {1B000000-0000-0000-0000-000000000000}
+		{DD990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{DE990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{DF990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{E0990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{E1990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{E2990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{E3990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{E4990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{E5990000-0000-0000-0000-000000000000} = {1E000000-0000-0000-0000-000000000000}
+		{1F000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{20000000-0000-0000-0000-000000000000} = {1F000000-0000-0000-0000-000000000000}
+		{21000000-0000-0000-0000-000000000000} = {20000000-0000-0000-0000-000000000000}
+		{E6990000-0000-0000-0000-000000000000} = {21000000-0000-0000-0000-000000000000}
+		{E7990000-0000-0000-0000-000000000000} = {21000000-0000-0000-0000-000000000000}
+		{E8990000-0000-0000-0000-000000000000} = {21000000-0000-0000-0000-000000000000}
+		{E9990000-0000-0000-0000-000000000000} = {21000000-0000-0000-0000-000000000000}
+		{22000000-0000-0000-0000-000000000000} = {20000000-0000-0000-0000-000000000000}
+		{EA990000-0000-0000-0000-000000000000} = {22000000-0000-0000-0000-000000000000}
+		{EB990000-0000-0000-0000-000000000000} = {22000000-0000-0000-0000-000000000000}
+		{23000000-0000-0000-0000-000000000000} = {20000000-0000-0000-0000-000000000000}
+		{EC990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{ED990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{EE990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{EF990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{F0990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{F1990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{F2990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{F3990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{F4990000-0000-0000-0000-000000000000} = {23000000-0000-0000-0000-000000000000}
+		{24000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{25000000-0000-0000-0000-000000000000} = {24000000-0000-0000-0000-000000000000}
+		{26000000-0000-0000-0000-000000000000} = {25000000-0000-0000-0000-000000000000}
+		{F5990000-0000-0000-0000-000000000000} = {26000000-0000-0000-0000-000000000000}
+		{F6990000-0000-0000-0000-000000000000} = {26000000-0000-0000-0000-000000000000}
+		{F7990000-0000-0000-0000-000000000000} = {26000000-0000-0000-0000-000000000000}
+		{F8990000-0000-0000-0000-000000000000} = {26000000-0000-0000-0000-000000000000}
+		{27000000-0000-0000-0000-000000000000} = {25000000-0000-0000-0000-000000000000}
+		{F9990000-0000-0000-0000-000000000000} = {27000000-0000-0000-0000-000000000000}
+		{FA990000-0000-0000-0000-000000000000} = {27000000-0000-0000-0000-000000000000}
+		{28000000-0000-0000-0000-000000000000} = {25000000-0000-0000-0000-000000000000}
+		{FB990000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{FC990000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{FD990000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{FE990000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{FF990000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{009A0000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{019A0000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{029A0000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{039A0000-0000-0000-0000-000000000000} = {28000000-0000-0000-0000-000000000000}
+		{29000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{2A000000-0000-0000-0000-000000000000} = {29000000-0000-0000-0000-000000000000}
+		{2B000000-0000-0000-0000-000000000000} = {2A000000-0000-0000-0000-000000000000}
+		{049A0000-0000-0000-0000-000000000000} = {2B000000-0000-0000-0000-000000000000}
+		{059A0000-0000-0000-0000-000000000000} = {2B000000-0000-0000-0000-000000000000}
+		{069A0000-0000-0000-0000-000000000000} = {2B000000-0000-0000-0000-000000000000}
+		{079A0000-0000-0000-0000-000000000000} = {2B000000-0000-0000-0000-000000000000}
+		{2C000000-0000-0000-0000-000000000000} = {2A000000-0000-0000-0000-000000000000}
+		{089A0000-0000-0000-0000-000000000000} = {2C000000-0000-0000-0000-000000000000}
+		{099A0000-0000-0000-0000-000000000000} = {2C000000-0000-0000-0000-000000000000}
+		{2D000000-0000-0000-0000-000000000000} = {2A000000-0000-0000-0000-000000000000}
+		{0A9A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{0B9A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{0C9A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{0D9A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{0E9A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{0F9A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{109A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{119A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{129A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
+		{139A0000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
