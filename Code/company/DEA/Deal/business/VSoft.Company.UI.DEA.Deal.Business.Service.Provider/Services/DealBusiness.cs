@@ -11,15 +11,20 @@ using VSoft.Company.DEA.Deal.Client.Services;
 using VSoft.Company.UI.DEA.Deal.Business.Service.Services;
 using VSoft.Company.UI.DEA.Deal.Data.DVO.Data;
 using VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.DataMethods;
+using VSoft.Company.VDT.VDealTag.Business.Dto.Data;
+using VSoft.Company.VDT.VDealTag.Business.Dto.Request;
+using VSoft.Company.VDT.VDealTag.Client.Services;
 
 namespace VSoft.Company.UI.DEA.Deal.Business.Service.Provider.Services
 {
     public class DealBusiness : IDealBusiness
     {
         private IDealClient ClientService;
-        public DealBusiness(IDealClient clientService)
+        private IVDealTagClient ClientVDTService;
+        public DealBusiness(IDealClient clientService, IVDealTagClient clientVDTService)
         {
             ClientService = clientService;
+            ClientVDTService = clientVDTService;
         }
 
         public async Task<MDvoResult<string>> CreateAsync(DealDvo teamDvo)
@@ -120,8 +125,29 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Provider.Services
             return null;
         }
 
-        Task<MDvoResult<List<DealTagDvo>>> GetDealTag(int userId, int teamId, DateTime date, string keyword)
+        public async Task<MDvoResult<List<DealTagDvo>>> GetDealTagDvo(int? userId, int? teamId, DateTime? date, string keyword)
         {
+            var apiRs = await ClientVDTService.GetByFilter(new VDealTagFilterDtoRequest()
+            {
+                Filter = new VDealTagFilterDto()
+                {
+                    UserId = userId == 0 ? null : userId,
+                    TeamId = teamId == 0 ? null : teamId,
+                    Date = date,
+                    Keyword = keyword,
+                    Buffer = "a"
+                },
+            });
+            if (apiRs != null)
+            {
+                if (apiRs.IsSuccess)
+                {
+                    var teamDvo = apiRs.Data.GetDvo();
+                    return new MDvoResultSuccess<List<DealTagDvo>>(teamDvo.ToList());
+                }
+                else
+                    return new MDvoResultError<List<DealTagDvo>>(apiRs.Message);
+            }
             return null;
         }
     }

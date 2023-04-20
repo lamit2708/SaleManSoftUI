@@ -19,6 +19,9 @@
     <Reference Include="VSoft.Company.DEA.Deal.Business.Dto">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\bus\VSoft.Company.DEA.Deal.Business.Dto.dll</HintPath>
     </Reference>
+	  <Reference Include="VSoft.Company.VDT.VDealTag.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\bus\VSoft.Company.VDT.VDealTag.Business.Dto.dll</HintPath>
+	  </Reference>
   </ItemGroup>
 
 </Project>

@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.csproj" />
+    <ProjectReference Include="..\VSoft.Company.UI.DEA.Deal.View.Share\VSoft.Company.UI.DEA.Deal.View.Share.csproj" />
   </ItemGroup>
 
   <ItemGroup>

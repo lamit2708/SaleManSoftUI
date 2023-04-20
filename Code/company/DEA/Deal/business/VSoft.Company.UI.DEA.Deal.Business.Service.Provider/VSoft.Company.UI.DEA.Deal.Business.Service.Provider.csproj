@@ -1,42 +1,49 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal</BaseOutputPath>
-	<OutputPath>$(BaseOutputPath)\business</OutputPath>	
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)\business</OutputPath>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\VSoft.Company.UI.DEA.Deal.Business.Service\VSoft.Company.UI.DEA.Deal.Business.Service.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\VSoft.Company.UI.DEA.Deal.Business.Service\VSoft.Company.UI.DEA.Deal.Business.Service.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="VegunSoft.Framework.Api.DtoClient">
-      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
-    </Reference>
-    <Reference Include="VegunSoft.Framework.Business.Dto">
-      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
-    </Reference>
-    <Reference Include="VegunSoft.Framework.Business.Dvo">
-      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
-    </Reference>
-    <Reference Include="VegunSoft.Framework.Paging.Provider">
-      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
-    </Reference>
-    <Reference Include="VSoft.Company.DEA.Deal.Business.Dto">
-      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\bus\VSoft.Company.DEA.Deal.Business.Dto.dll</HintPath>
-    </Reference>
-    <Reference Include="VSoft.Company.DEA.Deal.Client">
-      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\client\VSoft.Company.DEA.Deal.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO">
-      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.dll</HintPath>
-    </Reference>
-    <Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO.Extension">
-      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="VegunSoft.Framework.Api.DtoClient">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Business.Dvo">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Paging.Provider">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.DEA.Deal.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\bus\VSoft.Company.DEA.Deal.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.DEA.Deal.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\client\VSoft.Company.DEA.Deal.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.VDT.VDealTag.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\bus\VSoft.Company.VDT.VDealTag.Business.Dto.dll</HintPath>
+		</Reference>
+
+		<Reference Include="VSoft.Company.VDT.VDealTag.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\client\VSoft.Company.VDT.VDealTag.Client.dll</HintPath>
+		</Reference>
+	</ItemGroup>
 
 </Project>

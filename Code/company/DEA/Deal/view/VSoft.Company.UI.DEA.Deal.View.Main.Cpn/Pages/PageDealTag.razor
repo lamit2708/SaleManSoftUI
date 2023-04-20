@@ -1,0 +1,45 @@
+﻿@using VSoft.Company.UI.DEA.Deal.View.Share.Components
+<h3>PageDealTag</h3>
+
+<div class="row">
+    <div class="col-10 row">
+        <div class="col-3">
+            <select class="form-control">
+                <option value="0">Tất cả nhân viên</option>
+                @if (UserList != null)
+                {
+                    foreach (var kv in UserList)
+                    {
+                        <option value="@kv.Key">@kv.Value</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3">
+            <select class="form-control">
+                <option value="0">Tất cả team</option>
+                @if (TeamList != null)
+                {
+                    foreach (var kv in TeamList)
+                    {
+                        <option value="@kv.Key">@kv.Value</option>
+                    }
+                }
+            </select>
+        </div>
+        <div class="col-3">
+            <input class="form-control" @bind="@Date" type="datetime"/>
+        </div>
+        <div class="col-3">
+            <input class="form-control" type="text" @bind="@Keyword" placeholder="Từ khoá tìm kiếm..." />
+        </div>
+    </div>
+    <div class="col-2">
+        <button class="btn btn-primary" @onclick="OnSearch">Tìm kiếm</button>
+    </div>
+</div>
+
+@if (DealStepDict != null && ListDealTag != null)
+{
+    <DealTagTableView DealStepDict="@DealStepDict" ListDealTag="@ListDealTag"></DealTagTableView>
+}
