@@ -13,13 +13,13 @@ namespace VSoft.Company.UI.DEA.Deal.View.Share.Components
         protected async override Task OnInitializedAsync()
         {
             await base.OnInitializedAsync();
-            if (DealTag.StatusDealId == 2)
+            if (DealTag.DealStepId == 2)
                 Color = "background-color: #A0D4CD";
-            else if (DealTag.StatusDealId == 3)
+            else if (DealTag.DealStepId == 3)
                 Color = "background-color: #075B6F; color: white";
-            else if (DealTag.StatusDealId == 4)
+            else if (DealTag.DealStepId == 4)
                 Color = "background-color: #F79B83";
-            else if (DealTag.StatusDealId == 5)
+            else if (DealTag.DealStepId == 5)
                 Color = "background-color: #339900; color: white";
             else
                 Color = "background-color: #dedede";

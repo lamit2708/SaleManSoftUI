@@ -92,6 +92,9 @@
 		<Reference Include="VSoft.Company.UI.CTM.Customer.Business.Service">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.dll</HintPath>
 		</Reference>
+		<Reference Include="VSoft.Company.UI.CTM.Customer.View.Share">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Share.dll</HintPath>
+		</Reference>
 		<Reference Include="VSoft.Company.UI.DEA.Deal.Business.Service">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.dll</HintPath>
 		</Reference>
@@ -121,6 +124,9 @@
 		</Reference>
 		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Module">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Module.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Share">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Share.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>
@@ -208,6 +214,9 @@
 		</Reference>
 		<Reference Include="VSoft.Company.UI.USR.User.Data.DVO">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.USR.User.View.Share">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\client\VSoft.Company.UI.USR.User.View.Share.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.USR.User.Client">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\USR\User\client\VSoft.Company.USR.User.Client.dll</HintPath>
@@ -378,6 +387,15 @@
 		</Reference>
 		<Reference Include="VSoft.Company.PRC.ProductCategory.Client.Provider">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\PRC\ProductCategory\client\VSoft.Company.PRC.ProductCategory.Client.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.VDT.VDealTag.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\client\VSoft.Company.VDT.VDealTag.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.VDT.VDealTag.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\bus\VSoft.Company.VDT.VDealTag.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.VDT.VDealTag.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\client\VSoft.Company.VDT.VDealTag.Client.Provider.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 

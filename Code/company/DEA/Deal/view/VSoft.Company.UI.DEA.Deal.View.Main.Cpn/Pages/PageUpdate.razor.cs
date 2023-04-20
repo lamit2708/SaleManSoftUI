@@ -13,6 +13,8 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         [Inject] protected IPageUpdateServices PageServices { get; set; }
         [Inject] IToastService ToastService { get; set; }
 
+        public int CusId { get; set; }
+
         [Parameter]
         public string? DealId { set; get; }
 
@@ -22,6 +24,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         {
             await base.OnInitializedAsync();
             await PageServices.OnInitializedAsync(DealId);
+
             SyncUI();
         }
 
@@ -36,7 +39,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
                 CreatedDate = Deal.CreatedDate,
                 DealStepId = Deal.DealStepId,
                 PricePossible = Deal.PricePossible,
-                CustomerId = Deal.CustomerId,
+                CustomerId = CusId,
                 UserId = Deal.UserId,
                 OrderId = Deal.OrderId,
                 PridictPrice = Deal.PridictPrice
@@ -49,6 +52,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         {
             var sv = PageServices;
             Deal = sv.Deal;
+            CusId = (int)Deal.CustomerId;
             if (sv.Messages != null && sv.Messages.Count > 0)
             {
                 foreach (var message in sv.Messages)

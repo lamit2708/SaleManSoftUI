@@ -1,3 +1,9 @@
-﻿@page "/detailDeal"
+﻿@page "/detailDeal/{Id}"
 
-<PageDetail />
+<PageDetail DealId="@Id"/>
+
+@code
+{
+    [Parameter]
+    public string? Id { set; get; }
+}

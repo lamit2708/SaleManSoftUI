@@ -18,6 +18,7 @@
   <ItemGroup>
     <PackageReference Include="Blazored.Toast" Version="4.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.4" />
+    <PackageReference Include="Radzen.Blazor" Version="4.9.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,9 +48,18 @@
     <Reference Include="VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\main\cpn\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.dll</HintPath>
     </Reference>
+    <Reference Include="VSoft.Company.UI.CTM.Customer.View.Share">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Share.dll</HintPath>
+    </Reference>
     <Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO">
       <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.dll</HintPath>
     </Reference>
+	  <Reference Include="VSoft.Company.UI.CTM.Customer.View.Share">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\CTM\Customer\client\VSoft.Company.UI.CTM.Customer.View.Share.dll</HintPath>
+	  </Reference>
+	  <Reference Include="VSoft.Company.UI.USR.User.View.Share">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\USR\User\client\VSoft.Company.UI.USR.User.View.Share.dll</HintPath>
+	  </Reference>
   </ItemGroup>
 
 </Project>

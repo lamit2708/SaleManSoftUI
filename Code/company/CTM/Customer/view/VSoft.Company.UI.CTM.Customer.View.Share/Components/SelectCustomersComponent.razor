@@ -1,7 +1,11 @@
-﻿<h3>SelectCustomersComponent</h3>
+﻿@using Microsoft.AspNetCore.Components.Forms
+@if (Data != null)
+{
+    <InputSelect class="form-control" @bind-Value="@SelectedId">
 
-
-
-@code {
-
+        @foreach (var d in Data)
+        {
+            <option value="@d.Id">@d.Name</option>
+        }
+    </InputSelect>
 }
