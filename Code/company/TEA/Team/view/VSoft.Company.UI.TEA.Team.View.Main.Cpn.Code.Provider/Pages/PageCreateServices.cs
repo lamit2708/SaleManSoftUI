@@ -21,15 +21,15 @@ namespace VSoft.Company.UI.TEA.Team.View.Main.Code.Provider.Pages
             Messages?.Clear();
             if (string.IsNullOrEmpty(name))
             {
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên Team không được để trống" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên nhóm không được để trống" });
                 return;
             }
             var teamDvo = new TeamDvo { Name = name, Description = description };
             var rs = await BusinessService.CreateAsync(teamDvo);
             if (rs.IsSuccessed)
-                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo Team \"{rs.ResultObj}\" thành công!" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo nhóm \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo Team \"{name}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo nhóm \"{name}\"! {rs.Message}" });
         }
     }
 }

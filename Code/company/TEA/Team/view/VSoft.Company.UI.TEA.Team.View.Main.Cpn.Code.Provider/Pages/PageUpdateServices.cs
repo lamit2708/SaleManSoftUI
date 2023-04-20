@@ -42,7 +42,7 @@ namespace VSoft.Company.UI.TEA.Team.View.Main.Code.Provider.Pages
                 if (pagingRs.IsSuccessed)
                 {
                     var data = pagingRs.ResultObj;
-                    Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Cập nhật Team {data} thành công!" });
+                    Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Cập nhật nhóm {data} thành công!" });
                 }
                 else
                     Messages.Add(new MMessage() { Type = EMessageType.Error, Message = pagingRs.Message });

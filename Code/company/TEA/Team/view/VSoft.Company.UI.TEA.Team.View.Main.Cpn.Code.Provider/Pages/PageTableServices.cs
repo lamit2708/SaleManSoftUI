@@ -36,9 +36,9 @@ namespace VSoft.Company.UI.TEA.Team.View.Main.Code.Provider.Pages
             ClearAllMessage();
             var rs = await BusinessService.DeleteTeam(deleteId);
             if (rs.IsSuccessed) 
-                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa Team \"{rs.ResultObj}\" thành công!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa nhóm \"{rs.ResultObj}\" thành công!" });
             else
-                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa Team \"{rs.ResultObj}\" thất bại!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa nhóm \"{rs.ResultObj}\" thất bại!" });
             await GetTeams();
         }
 
