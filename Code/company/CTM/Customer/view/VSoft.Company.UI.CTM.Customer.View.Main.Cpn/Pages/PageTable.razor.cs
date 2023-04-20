@@ -82,5 +82,9 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Pages
         {
             return $"/{UpdatePath}/{id}";
         }
-    }
+		protected string GetModulePath(string name,string customerId)
+		{
+			return $"/{name}/{customerId}";
+		}
+	}
 }
