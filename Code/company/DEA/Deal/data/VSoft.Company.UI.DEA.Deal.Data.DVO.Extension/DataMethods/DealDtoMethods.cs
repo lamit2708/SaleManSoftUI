@@ -21,6 +21,8 @@ namespace VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.DataMethods
                 PridictPrice = src.PridictPrice,
                 DateFor = src.DateFor,
                 PricePossible = src.PricePossible,
+                UserFullName = src.UserFullName,
+                CustomerFullName = src.CustomerFullName,
             };
         }
 
