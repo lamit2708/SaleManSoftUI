@@ -46,6 +46,7 @@ else
 										<td>@item.Address</td>
 										<td>@item.Gender</td>
 										<td>
+								<a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>+Deal</a>
 											<a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
 								<a href="@GetModulePath("UserCustomer",item.Id.ToString())" class="btn btn-warning" disabled>Assign</a>
 											<button class="btn btn-danger" @onclick="()=> OnDeleteTask((int)item.Id)">
