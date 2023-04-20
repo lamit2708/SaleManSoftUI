@@ -22,15 +22,15 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
             Messages?.Clear();
             if (string.IsNullOrEmpty(customer.Name))
             {
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên Customer không được để trống" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên khách hàng không được để trống" });
                 return;
             }
            // var teamDvo = new CustomerDvo { Name = customer.Name, Phone  = customer. };
             var rs = await BusinessService.CreateAsync(customer);
             if (rs.IsSuccessed)
-                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo Customer \"{rs.ResultObj}\" thành công!" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo khách hàng \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo Customer \"{customer.Name}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo khách hàng \"{customer.Name}\"! {rs.Message}" });
         }
     }
 }

@@ -36,9 +36,9 @@ namespace VSoft.Company.UI.CTM.Customer.View.Main.Code.Provider.Pages
             ClearAllMessage();
             var rs = await BusinessService.DeleteCustomer(deleteId);
             if (rs.IsSuccessed)
-                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa Customer \"{rs.ResultObj}\" thành công!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa khách hàng \"{rs.ResultObj}\" thành công!" });
             else
-                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa Customer \"{rs.ResultObj}\" thất bại!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa khách hàng \"{rs.ResultObj}\" thất bại!" });
             await GetCustomers();
         }
 
