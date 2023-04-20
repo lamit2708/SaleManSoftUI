@@ -21,15 +21,15 @@ namespace VSoft.Company.UI.PRC.ProductCategory.View.Main.Code.Provider.Pages
             Messages?.Clear();
             if (string.IsNullOrEmpty(name))
             {
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên ProductCategory không được để trống" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên danh mục sản phẩm không được để trống" });
                 return;
             }
             var teamDvo = new ProductCategoryDvo { Name = name };
             var rs = await BusinessService.CreateAsync(teamDvo);
             if (rs.IsSuccessed)
-                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo ProductCategory \"{rs.ResultObj}\" thành công!" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo danh mục  \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo ProductCategory \"{name}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo danh mục \"{name}\"! {rs.Message}" });
         }
     }
 }

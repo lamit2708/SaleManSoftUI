@@ -41,7 +41,7 @@ namespace VSoft.Company.UI.PRC.ProductCategory.View.Main.Code.Provider.Pages
                 if (pagingRs.IsSuccessed)
                 {
                     var data = pagingRs.ResultObj;
-                    Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Cập nhật ProductCategory {data} thành công!" });
+                    Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Cập nhật danh mục {data} thành công!" });
                 }
                 else
                     Messages.Add(new MMessage() { Type = EMessageType.Error, Message = pagingRs.Message });
