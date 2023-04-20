@@ -23,6 +23,13 @@
 		<Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.dll</HintPath>
 		</Reference>
+
+		<Reference Include="VSoft.Company.UI.DEA.Deal.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Business.Dvo">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 

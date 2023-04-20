@@ -14,34 +14,34 @@
         @foreach (var step in DealStepDict)
         {
 
-            if (string.Equals("1", step.Key))
+            if (step.Key == 1)
             {
                 <div class="col-2 form-group border-end">
                     @if (ListDealTag != null)
                     {
                         foreach (var dealTag in ListDealTag)
                         {
-                            if (string.Equals(dealTag.DealStepId.ToString(), step.Key))
+                            if (dealTag.DealStepId == step.Key)
                             {
                                 <div class="p-2 pt-2">
-                                    <DealTagView DealTag="dealTag" />
+                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@true" IsNextDisable="@false" />
                                 </div>
                             }
                         }
                     }
                 </div>
             }
-            else if (string.Equals("5", step.Key))
+            else if (step.Key == 5)
             {
                 <div class="col-2 form-group border-start">
                     @if (ListDealTag != null)
                     {
                         foreach (var dealTag in ListDealTag)
                         {
-                            if (string.Equals(dealTag.DealStepId.ToString(), step.Key))
+                            if (dealTag.DealStepId == step.Key)
                             {
                                 <div class="p-2 pt-2">
-                                    <DealTagView DealTag="dealTag" />
+                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@false" IsNextDisable="@true" />
                                 </div>
                             }
                         }
@@ -55,10 +55,10 @@
                     {
                         foreach (var dealTag in ListDealTag)
                         {
-                            if (string.Equals(dealTag.DealStepId.ToString(), step.Key))
+                            if (dealTag.DealStepId == step.Key)
                             {
                                 <div class="p-2 pt-2">
-                                    <DealTagView DealTag="dealTag" />
+                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@false" IsNextDisable="@false" />
                                 </div>
                             }
                         }

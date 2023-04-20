@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Components.Forms
+@if (Data != null)
+{
+    <InputSelect class="form-control" @bind-Value="@SelectedId">
+
+        @foreach(var d in Data)
+        {
+        <option value="@d.Key">@d.Value</option>
+        }
+    </InputSelect>
+}

@@ -1,0 +1,29 @@
+﻿@*<h3>Update DealStep</h3>
+
+<div class="form-group">
+    <div class="form-group pt-3">
+        <label for="Name">Tên tài khoản</label>
+        <input class="form-control" placeholder="DealStepname" @bind-value="@DealStep.DealStepname"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Mật khẩu</label>
+        <input class="form-control" type="password" placeholder="Password" @bind-value="@DealStep.Password" disabled></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Họ tên</label>
+        <input class="form-control" placeholder="Họ và tên...." @bind-value="@DealStep.Name"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Phone</label>
+        <input class="form-control" placeholder="Số điện thoại...." @bind-value="@DealStep.Phone"></input>
+    </div>
+    <div class="form-group pt-3">
+        <label for="Name">Email</label>
+        <input class="form-control" placeholder="Email...." @bind-value="@DealStep.Email"></input>
+    </div>
+
+    <div class="form-group float-end pt-3">
+        <button type="button" @onclick="@OnSubmit" class="btn btn-primary pt-1">Cập nhật</button>
+    </div>
+</div>
+*@

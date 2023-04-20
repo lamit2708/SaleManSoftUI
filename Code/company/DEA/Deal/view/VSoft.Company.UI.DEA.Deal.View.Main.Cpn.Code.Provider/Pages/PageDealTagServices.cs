@@ -14,7 +14,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider.Pages
         public Dictionary<int, string> UserList { get; protected set; }
         public Dictionary<int, string> TeamList { get; protected set; }
         public List<DealTagDvo>? ListDealTag { get; protected set; }
-        public Dictionary<string, string>? DealStepDict { get; set; }
+        public Dictionary<int, string> DealStepDict { get; set; }
 
         public PageDealTagServices(IDealBusiness service)
         {
@@ -25,7 +25,11 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider.Pages
         {
             UserList = new Dictionary<int, string>();
             TeamList = new Dictionary<int, string>();
-            DealStepDict = new Dictionary<string, string>();
+            var dsrs = await BusinessService.GetDealStep();
+            if (dsrs != null)
+            {
+                DealStepDict = dsrs.ResultObj;
+            }
             var rs = await BusinessService.GetDealTagDvo(null, null, null, null);
             if (rs != null && rs.IsSuccessed)
             {

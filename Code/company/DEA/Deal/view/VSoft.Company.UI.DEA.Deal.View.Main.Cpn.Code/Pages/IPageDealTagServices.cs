@@ -14,7 +14,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Pages
         Dictionary<int, string> UserList { get; }
         Dictionary<int, string> TeamList { get; }
         List<DealTagDvo>? ListDealTag { get; }
-        Dictionary<string, string>? DealStepDict { get; }
+        Dictionary<int, string> DealStepDict { get; }
 
         Task Init();
 

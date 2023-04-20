@@ -15,7 +15,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         public Dictionary<int, string> UserList { get; set; }
         public Dictionary<int, string> TeamList { get; set; }
         public List<DealTagDvo>? ListDealTag { get; set; }
-        public Dictionary<string, string>? DealStepDict { get; set; }
+        public Dictionary<int, string> DealStepDict { get; set; }
         protected async override Task OnInitializedAsync()
         {
             await base.OnInitializedAsync();

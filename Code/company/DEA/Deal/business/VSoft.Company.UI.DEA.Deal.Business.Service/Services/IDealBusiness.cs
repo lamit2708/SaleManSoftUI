@@ -20,6 +20,10 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Services
 
         Task<MDvoResult<string>> UpdateDeal(DealDvo team);
 
+        Task<MDvoResult<string>> UpdateStepDeal(long dealId, int dealStepUpdate, string dealName);
+
+        Task<MDvoResult<Dictionary<int, string>>> GetDealStep();
+
         Task<MDvoResult<List<DealTagDvo>>> GetDealTagDvo(int? userId, int? teamId, DateTime? date, string? keyword);
     }
 }

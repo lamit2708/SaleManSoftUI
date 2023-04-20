@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DST\DealStep</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)\client</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="VegunSoft.Framework.Ui.Component">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-blazor\Component\VegunSoft.Framework.Ui.Component.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DST.DealStep.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DST\DealStep\business\VSoft.Company.UI.DST.DealStep.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DST.DealStep.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DST\DealStep\data\VSoft.Company.UI.DST.DealStep.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Business.Dvo">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+
+
+</Project>

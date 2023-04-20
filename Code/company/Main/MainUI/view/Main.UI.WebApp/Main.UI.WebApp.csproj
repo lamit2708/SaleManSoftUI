@@ -65,6 +65,15 @@
 		<Reference Include="VSoft.Company.DEA.Deal.Client.Provider">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DEA\Deal\client\VSoft.Company.DEA.Deal.Client.Provider.dll</HintPath>
 		</Reference>
+		<Reference Include="VSoft.Company.DST.DealStep.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DST\DealStep\bus\VSoft.Company.DST.DealStep.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.DST.DealStep.Client">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DST\DealStep\client\VSoft.Company.DST.DealStep.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.DST.DealStep.Client.Provider">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DST\DealStep\client\VSoft.Company.DST.DealStep.Client.Provider.dll</HintPath>
+		</Reference>
 		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
 		</Reference>
@@ -127,6 +136,9 @@
 		</Reference>
 		<Reference Include="VSoft.Company.UI.DEA.Deal.View.Share">
 		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\client\VSoft.Company.UI.DEA.Deal.View.Share.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.DST.DealStep.View.Module">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DST\DealStep\client\VSoft.Company.UI.DST.DealStep.View.Module.dll</HintPath>
 		</Reference>
 		<Reference Include="VSoft.Company.UI.TEA.Team.Business.Service">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.dll</HintPath>

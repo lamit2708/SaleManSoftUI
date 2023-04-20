@@ -6,8 +6,15 @@ namespace VSoft.Company.UI.DEA.Deal.View.Share.Components
     public partial class DealTagTableView
     {
         [Parameter]
-        public Dictionary<string, string>? DealStepDict { get; set; }
+        public Dictionary<int, string> DealStepDict { get; set; }
         [Parameter]
         public List<DealTagDvo>? ListDealTag { get; set; }
+
+
+        protected void OnStepChange(string message)
+        {
+            StateHasChanged();
+        }
+        //public Action<string>? OnStepChange { get; set; }
     }
 }
