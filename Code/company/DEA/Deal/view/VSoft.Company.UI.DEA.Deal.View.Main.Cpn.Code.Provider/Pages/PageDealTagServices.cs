@@ -23,8 +23,16 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider.Pages
 
         public async Task Init()
         {
-            UserList = new Dictionary<int, string>();
-            TeamList = new Dictionary<int, string>();
+            var usrs = await BusinessService.GetUser();
+            if (usrs != null)
+            {
+                UserList = usrs.ResultObj;
+            }
+            var teamrs = await BusinessService.GetTeam();
+            if (teamrs != null)
+            {
+                TeamList = teamrs.ResultObj;
+            }
             var dsrs = await BusinessService.GetDealStep();
             if (dsrs != null)
             {

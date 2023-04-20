@@ -25,5 +25,8 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Services
         Task<MDvoResult<Dictionary<int, string>>> GetDealStep();
 
         Task<MDvoResult<List<DealTagDvo>>> GetDealTagDvo(int? userId, int? teamId, DateTime? date, string? keyword);
+
+        Task<MDvoResult<Dictionary<int, string>>> GetUser();
+        Task<MDvoResult<Dictionary<int, string>>> GetTeam();
     }
 }

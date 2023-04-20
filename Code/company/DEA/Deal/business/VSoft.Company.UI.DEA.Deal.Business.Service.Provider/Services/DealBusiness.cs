@@ -10,9 +10,11 @@ using VSoft.Company.DEA.Deal.Business.Dto.Data;
 using VSoft.Company.DEA.Deal.Business.Dto.Request;
 using VSoft.Company.DEA.Deal.Client.Services;
 using VSoft.Company.DST.DealStep.Client.Services;
+using VSoft.Company.TEA.Team.Client.Services;
 using VSoft.Company.UI.DEA.Deal.Business.Service.Services;
 using VSoft.Company.UI.DEA.Deal.Data.DVO.Data;
 using VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.DataMethods;
+using VSoft.Company.USR.User.Client.Services;
 using VSoft.Company.VDT.VDealTag.Business.Dto.Data;
 using VSoft.Company.VDT.VDealTag.Business.Dto.Request;
 using VSoft.Company.VDT.VDealTag.Client.Services;
@@ -24,11 +26,15 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Provider.Services
         private IDealClient ClientService;
         private IVDealTagClient ClientVDTService;
         private IDealStepClient ClientDSTService;
-        public DealBusiness(IDealClient clientService, IVDealTagClient clientVDTService, IDealStepClient clientDST)
+        private IUserClient ClientUserService;
+        private ITeamClient ClientTeamService;
+        public DealBusiness(IDealClient clientService, IVDealTagClient clientVDTService, IDealStepClient clientDST, IUserClient usClient, ITeamClient teamClient)
         {
             ClientService = clientService;
             ClientVDTService = clientVDTService;
             ClientDSTService = clientDST;
+            ClientUserService = usClient;
+            ClientTeamService = teamClient;
         }
 
         public async Task<MDvoResult<string>> CreateAsync(DealDvo teamDvo)
@@ -182,6 +188,42 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Provider.Services
                     var dealStep = new Dictionary<int, string>();
                     foreach(var ds in rs.Data)
                         dealStep.Add(ds.Id, ds.Name);
+                    return new MDvoResultSuccess<Dictionary<int, string>>(dealStep);
+                }
+                else
+                    return new MDvoResultError<Dictionary<int, string>>(rs.Message);
+            }
+            return null;
+        }
+
+        public async Task<MDvoResult<Dictionary<int, string>>> GetUser()
+        {
+            var rs = await ClientUserService.GetAll();
+            if (rs != null)
+            {
+                if (rs.IsSuccess)
+                {
+                    var dealStep = new Dictionary<int, string>();
+                    foreach (var ds in rs.Data)
+                        dealStep.Add(ds.Key, ds.Value);
+                    return new MDvoResultSuccess<Dictionary<int, string>>(dealStep);
+                }
+                else
+                    return new MDvoResultError<Dictionary<int, string>>(rs.Message);
+            }
+            return null;
+        }
+
+        public async Task<MDvoResult<Dictionary<int, string>>> GetTeam()
+        {
+            var rs = await ClientTeamService.GetAll();
+            if (rs != null)
+            {
+                if (rs.IsSuccess)
+                {
+                    var dealStep = new Dictionary<int, string>();
+                    foreach (var ds in rs.Data)
+                        dealStep.Add(ds.Key, ds.Value);
                     return new MDvoResultSuccess<Dictionary<int, string>>(dealStep);
                 }
                 else
