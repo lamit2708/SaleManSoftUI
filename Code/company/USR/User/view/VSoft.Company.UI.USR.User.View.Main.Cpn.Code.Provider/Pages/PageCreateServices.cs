@@ -21,14 +21,14 @@ namespace VSoft.Company.UI.USR.User.View.Main.Code.Provider.Pages
             Messages?.Clear();
             if (string.IsNullOrEmpty(userDvo.Username) || string.IsNullOrEmpty(userDvo.Password))
             {
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên User / Password không được để trống" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = "Tên tài khoản / mật khẩu không được để trống" });
                 return;
             }
             var rs = await BusinessService.CreateAsync(userDvo);
             if (rs.IsSuccessed)
-                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo User \"{rs.ResultObj}\" thành công!" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Success, Message = $"Tạo tài khoản \"{rs.ResultObj}\" thành công!" });
             else
-                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo User \"{userDvo.Username}\"! {rs.Message}" });
+                Messages?.Add(new MMessage() { Type = EMessageType.Error, Message = $"Không thể tạo tài khoản \"{userDvo.Username}\"! {rs.Message}" });
         }
     }
 }

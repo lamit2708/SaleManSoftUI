@@ -36,9 +36,9 @@ namespace VSoft.Company.UI.USR.User.View.Main.Code.Provider.Pages
             ClearAllMessage();
             var rs = await BusinessService.DeleteUser(deleteId);
             if (rs.IsSuccessed) 
-                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa User \"{rs.ResultObj}\" thành công!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Success, Message = $"Xóa tài khoản \"{rs.ResultObj}\" thành công!" });
             else
-                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa User \"{rs.ResultObj}\" thất bại!" });
+                Messages.Add(new MMessage() { Type = EMessageType.Error, Message = $"Xóa tài khoản \"{rs.ResultObj}\" thất bại!" });
             await GetUsers();
         }
 
