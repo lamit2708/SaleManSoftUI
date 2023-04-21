@@ -1,0 +1,9 @@
+﻿@page "/createUserCustomer/{CustomerId}"
+
+<PageCreate CustomerId="@CustomerId" />
+
+@code
+{
+    [Parameter]
+    public string? CustomerId { set; get; }
+}

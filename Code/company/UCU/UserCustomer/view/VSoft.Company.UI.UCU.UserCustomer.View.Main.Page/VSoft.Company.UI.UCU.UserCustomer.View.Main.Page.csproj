@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)\client</OutputPath>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Blazored.Toast" Version="4.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.4" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.4" />
+		<!--<FrameworkReference Include="Microsoft.AspNetCore.App" />-->
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Provider\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Provider.csproj" />
+		<ProjectReference Include="..\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="VegunSoft.Framework.Base.Entity">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Base\VegunSoft.Framework.Base.Entity.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Display.ExtensionMethods">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Display\VegunSoft.Framework.Display.ExtensionMethods.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Paging.Provider">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Ui.Component">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-blazor\Component\VegunSoft.Framework.Ui.Component.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Value.Property">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Value\Property\VegunSoft.Framework.Value.Property.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\data\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

@@ -8,40 +8,27 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\baovan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpace\\SalemanSoft\\SalmanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj",
+      "projectUniqueName": "D:\\workspace\\src\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj",
       "projectName": "VSoft.Company.UI.TEA.Team.Business.Service.Share",
-      "projectPath": "D:\\WorkSpace\\SalemanSoft\\SalmanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpace\\SalemanSoft\\SalmanSoft\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\obj\\",
+      "projectPath": "D:\\workspace\\src\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj",
+      "packagesPath": "C:\\Users\\baovan\\.nuget\\packages\\",
+      "outputPath": "D:\\workspace\\src\\SaleManSoftUI\\Code\\company\\TEA\\Team\\business\\VSoft.Company.UI.TEA.Team.Business.Service.Share\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\baovan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/ohDTZlwo4NGmauc3ezdvChbfHRp5bZg3bdRUlXoIAp7GXDzida/api": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {

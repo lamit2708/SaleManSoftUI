@@ -1,0 +1,10 @@
+﻿@page "/updateUserCustomer/{Id}"
+
+
+<PageUpdate UserCustomerId="@Id" />
+
+@code
+{
+    [Parameter]
+    public string? Id { set; get; }
+}

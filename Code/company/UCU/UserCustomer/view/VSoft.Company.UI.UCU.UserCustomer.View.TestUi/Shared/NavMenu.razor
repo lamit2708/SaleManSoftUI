@@ -1,0 +1,54 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">UI Test</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="tableUserCustomer">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Table UserCustomer
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="createUserCustomer/1">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Create UserCustomer
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="updateUserCustomer/1">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Update UserCustomer
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="components">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Components
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="dealtagtable">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> UserCustomerTag Table
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="detailUserCustomer/1">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> UserCustomer Detail
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

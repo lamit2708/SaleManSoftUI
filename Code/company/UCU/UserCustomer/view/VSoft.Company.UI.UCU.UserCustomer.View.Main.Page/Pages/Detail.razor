@@ -1,0 +1,9 @@
+﻿@page "/detailUserCustomer/{Id}"
+
+<PageDetail UserCustomerId="@Id" />
+
+@code
+{
+    [Parameter]
+    public string? Id { set; get; }
+}

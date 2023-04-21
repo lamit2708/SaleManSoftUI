@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\data</OutputPath>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSoft.Company.UI.UCU.UserCustomer.Data.DVO\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UCU.UserCustomer.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\UCU\UserCustomer\bus\VSoft.Company.UCU.UserCustomer.Business.Dto.dll</HintPath>
+    </Reference>
+	  <Reference Include="VSoft.Company.VDT.VUserCustomerTag.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VUserCustomerTag\bus\VSoft.Company.VDT.VUserCustomerTag.Business.Dto.dll</HintPath>
+	  </Reference>
+  </ItemGroup>
+
+</Project>

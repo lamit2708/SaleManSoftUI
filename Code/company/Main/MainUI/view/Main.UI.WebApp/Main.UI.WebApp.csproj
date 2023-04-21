@@ -409,6 +409,47 @@
 		<Reference Include="VSoft.Company.VDT.VDealTag.Client.Provider">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\VDT\VDealTag\client\VSoft.Company.VDT.VDealTag.Client.Provider.dll</HintPath>
 		</Reference>
+		<Reference Include="VSoft.Company.UCU.UserCustomer.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\UCU\UserCustomer\bus\VSoft.Company.UCU.UserCustomer.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UCU.UserCustomer.Client">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UCU.UserCustomer.Client.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UCU.UserCustomer.Client.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UCU.UserCustomer.Client.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UI.UCU.UserCustomer.View.Module.dll</HintPath>
+		</Reference>
+
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.View.Main.Page">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UI.UCU.UserCustomer.View.Main.Page.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.View.Module">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\client\VSoft.Company.UI.UCU.UserCustomer.View.Module.dll</HintPath>
+		</Reference>
+
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\data\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\data\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.Business.Service">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\business\VSoft.Company.UI.UCU.UserCustomer.Business.Service.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.Business.Service.Provider">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\business\VSoft.Company.UI.UCU.UserCustomer.Business.Service.Provider.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 </Project>

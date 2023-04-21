@@ -8,6 +8,7 @@ using VSoft.Company.UI.CTM.Customer.View.Module;
 using VSoft.Company.UI.PRO.Product.View.Module;
 using VSoft.Company.UI.PRC.ProductCategory.View.Module;
 using VSoft.Company.UI.DST.DealStep.View.Module;
+using VSoft.Company.UI.UCU.UserCustomer.View.Module;
 
 AppServices.RunApp((builder) =>
 {
@@ -19,5 +20,6 @@ AppServices.RunApp((builder) =>
     builder.Services.RegisterCustomerFrontsModule();
     builder.Services.RegisterProductFrontsModule();
     builder.Services.RegisterProductCategoryFrontsModule();
+    builder.Services.RegisterUserCustomerFrontsModule();
     builder.Services.RegisterDealStepFrontsModule();
 });
