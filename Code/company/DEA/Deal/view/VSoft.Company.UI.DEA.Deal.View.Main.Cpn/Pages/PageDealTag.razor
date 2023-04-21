@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-10 row">
         <div class="col-3">
-            <select class="form-control">
+            <select class="form-control" @bind="@UserId">
                 <option value="0">Tất cả nhân viên</option>
                 @if (UserList != null)
                 {
@@ -16,7 +16,7 @@
             </select>
         </div>
         <div class="col-3">
-            <select class="form-control">
+            <select class="form-control" @bind="@TeamId">
                 <option value="0">Tất cả team</option>
                 @if (TeamList != null)
                 {

@@ -28,12 +28,12 @@ namespace VSoft.Company.UI.DEA.Deal.Business.Service.Provider.Services
         private IDealStepClient ClientDSTService;
         private IUserClient ClientUserService;
         private ITeamClient ClientTeamService;
-        public DealBusiness(IDealClient clientService, IVDealTagClient clientVDTService, IDealStepClient clientDST, IUserClient usClient, ITeamClient teamClient)
+        public DealBusiness(IDealClient clientService, IVDealTagClient clientVDTService, IDealStepClient clientDST, IUserClient usrClient, ITeamClient teamClient)
         {
             ClientService = clientService;
             ClientVDTService = clientVDTService;
             ClientDSTService = clientDST;
-            ClientUserService = usClient;
+            ClientUserService = usrClient;
             ClientTeamService = teamClient;
         }
 

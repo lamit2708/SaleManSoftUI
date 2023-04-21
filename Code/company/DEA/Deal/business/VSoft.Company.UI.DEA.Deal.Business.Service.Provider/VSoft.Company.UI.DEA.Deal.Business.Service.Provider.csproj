@@ -34,9 +34,6 @@
 		<Reference Include="VSoft.Company.DST.DealStep.Client">
 		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DST\DealStep\client\VSoft.Company.DST.DealStep.Client.dll</HintPath>
 		</Reference>
-		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
-		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
-		</Reference>
 		<Reference Include="VSoft.Company.UI.DEA.Deal.Data.DVO">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.dll</HintPath>
 		</Reference>
@@ -63,6 +60,10 @@
 
 		<Reference Include="VSoft.Company.TEA.Team.Client">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
+		</Reference>
+
+		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 
