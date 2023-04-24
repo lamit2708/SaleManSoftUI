@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRF\ProductFeature</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\client</OutputPath>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Ui.Component">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-blazor\Component\VegunSoft.Framework.Ui.Component.dll</HintPath>
+    </Reference>
+	  <Reference Include="VSoft.Company.UI.PRF.ProductFeature.Data.DVO">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRF\ProductFeature\data\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.dll</HintPath>
+	  </Reference>
+
+	  <Reference Include="VSoft.Company.UI.PRF.ProductFeature.Business.Service">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRF\ProductFeature\business\VSoft.Company.UI.PRF.ProductFeature.Business.Service.dll</HintPath>
+	  </Reference>
+	  
+	  <Reference Include="VegunSoft.Framework.Business.Dvo">
+		  <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+	  </Reference>
+  </ItemGroup>
+  
+
+
+</Project>

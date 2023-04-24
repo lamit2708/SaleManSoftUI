@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRF\ProductFeature</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\data</OutputPath>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

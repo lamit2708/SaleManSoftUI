@@ -1,0 +1,71 @@
+﻿@using VegunSoft.Framework.Display.ExtensionMethods.String;
+@using VegunSoft.Framework.Ui.Component.Popups;
+@using VegunSoft.Framework.Ui.Component.Searchs;
+@using VegunSoft.Framework.Ui.Component.Pagination;
+@using VegunSoft.Framework.Ui.Component.Indicatiors;
+
+<h3>Danh sách khách hàng</h3>
+@if (ProductFeatures == null)
+{
+	<LoadingIndicator></LoadingIndicator>
+}
+else
+{
+	<div class="row">
+		<KeywordSearch OnSearch="OnSearch"></KeywordSearch>
+	</div>
+
+	<div class="row mt-4">
+		<div class="">
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						@*<th>Id</th>*@
+						<th class="w-25">Tên tính năng</th>
+						<th>Mô tả</th>
+						<th class="w-25">Giá</th>
+						<th class="w-25">Sản phẩm</th>
+						<th class="w-50">Chức năng</th>
+					</tr>
+				</thead>
+				<tbody>
+					@if (ProductFeatures == null || ProductFeatures.Count == 0)
+					{
+						<tr class="text-center">Chưa có dữ liệu</tr>
+					}
+					else
+					{
+						foreach (var item in ProductFeatures)
+						{
+							<tr>
+								@*<td>@item.Id</td>*@
+								<td>@item.Name</td>
+								<td>@item.Description</td>
+								@*<td>@item.Phone</td>*@
+								<td>@item.Price</td>
+								<td>@item.ProductId</td>
+
+								<td>
+									<a href="@GetCreateDealPath(item.Id.ToString())" class="btn btn-warning" disabled>+Deal</a>
+									<a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
+									<a href="@GetModulePath("UserProductFeature",item.Id.ToString())" class="btn btn-warning"
+										disabled>Assign</a>
+									<button class="btn btn-danger" @onclick="()=> OnDeleteTask((int)item.Id)">
+										Delete
+									</button>
+								</td>
+							</tr>
+						}
+					}
+				</tbody>
+				<tfoot>
+					<Pagination MetaData="MetaData" Spread="2" SelectedPage="OnPageSelect"></Pagination>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+
+	<Confirmation ConfirmationMessage="Xác nhận xóa?" ConfirmationTitle="Xóa ProductFeature" @ref="DeleteConfirmation"
+		ConfirmationChanged="OnConfirmDeleteTask">
+	</Confirmation>
+}

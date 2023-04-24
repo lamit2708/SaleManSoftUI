@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+		<BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRF\ProductFeature</BaseOutputPath>
+		<OutputPath>$(BaseOutputPath)\business</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="VegunSoft.Framework.Business.Dto">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Business.Dvo">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Display.ExtensionMethods">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Display\VegunSoft.Framework.Display.ExtensionMethods.dll</HintPath>
+		</Reference>
+		<Reference Include="VegunSoft.Framework.Paging.Provider">
+			<HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.UI.PRF.ProductFeature.Data.DVO">
+			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\PRF\ProductFeature\data\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+
+</Project>
