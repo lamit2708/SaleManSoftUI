@@ -16,7 +16,7 @@ namespace VSoft.Company.UI.UCU.UserCustomer.Business.Service.Services
 
         Task<MDvoResult<string>> DeleteUserCustomer(int id);
 
-        Task<MDvoResult<UserCustomerDvo>> GetUserCustomer(string id);
+        Task<MDvoResult<UserCustomerDvo>> GetUserCustomer(int id);
 
         Task<MDvoResult<string>> UpdateUserCustomer(UserCustomerDvo team);
 

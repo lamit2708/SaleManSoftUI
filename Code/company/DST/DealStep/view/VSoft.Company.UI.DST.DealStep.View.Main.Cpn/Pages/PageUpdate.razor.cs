@@ -21,20 +21,20 @@ namespace VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Pages
         protected override async Task OnInitializedAsync()
         {
             await base.OnInitializedAsync();
-            await PageServices.OnInitializedAsync(DealStepId);
+            //await PageServices.OnInitializedAsync(DealStepId);
             SyncUI();
         }
 
         protected async Task OnSubmit(MouseEventArgs e)
         {
-            await PageServices.OnUpdateDealStep(DealStep);
+            //await PageServices.OnUpdateDealStep(DealStep);
             SyncUI();
         }
 
         protected void SyncUI()
         {
             var sv = PageServices;
-            DealStep = sv.DealStep;
+            //DealStep = sv.DealStep;
             if (sv.Messages != null && sv.Messages.Count > 0)
             {
                 foreach (var message in sv.Messages)

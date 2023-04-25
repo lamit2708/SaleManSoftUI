@@ -11,11 +11,11 @@ namespace VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension.DataMethods
             {
                 Id = src.Id,
                 
-                CreatedDateUser = (System.DateTime)src.CreatedDateUser,
-                CreatedDateTeam= (System.DateTime)src.CreatedDateTeam,
+                CreatedDateUser = src.CreatedDateUser ?? System.DateTime.Now,
+                CreatedDateTeam= src.CreatedDateTeam ?? System.DateTime.Now,
                 CustomerId = src.CustomerId,
                 UserId = src.UserId,
-                TeamId = src.TeamId,
+                TeamId = src.TeamId == 0 ? null: src.TeamId,
 
                // UserFullName = src.UserFullName,
                 //CustomerFullName = src.CustomerFullName,

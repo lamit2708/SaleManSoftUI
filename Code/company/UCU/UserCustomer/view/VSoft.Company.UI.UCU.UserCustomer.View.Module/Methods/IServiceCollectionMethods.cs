@@ -2,6 +2,8 @@
 using VSoft.Company.UCU.UserCustomer.Client.Models;
 using VSoft.Company.UCU.UserCustomer.Client.Provider.Services;
 using VSoft.Company.UCU.UserCustomer.Client.Services;
+using VSoft.Company.UI.UCU.UserCustomer.Business.Service.Provider.Services;
+using VSoft.Company.UI.UCU.UserCustomer.Business.Service.Services;
 using VSoft.Company.UI.UCU.UserCustomer.View.Main.Code.Provider.Pages;
 using VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Pages;
 
@@ -16,7 +18,7 @@ public static class IServiceCollectionMethods
         services.AddTransient<IPageCreateServices, PageCreateServices>();
         services.AddTransient<IPageTableServices, PageTableServices>();
         services.AddTransient<IPageUpdateServices, PageUpdateServices>();
-
+        services.AddTransient<IUserCustomerBusiness, UserCustomerBusiness>();
         services.AddTransient<IUserCustomerClient, UserCustomerClient>();
     }
 }

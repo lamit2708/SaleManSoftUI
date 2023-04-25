@@ -4,11 +4,11 @@ using VegunSoft.Framework.Paging.Provider.Request;
 using VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.Pages;
 //using VSoft.Company.UI.DST.DealStep.Business.Service.Services;
 //using VSoft.Company.UI.DST.DealStep.Data.DVO.Data;
-using VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code.Pages;
+//using VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code.Pages;
 
 namespace VSoft.Company.UI.DST.DealStep.View.Main.Code.Provider.Pages
 {
-    public class PageTableServices : PageTableBase, IPageTableServices
+    public class PageTableServices : PageTableBase//, IPageTableServices
     {
         //protected IDealStepBusiness BusinessService { get; set; }
         //public List<DealStepDvo>? DealSteps { get; private set; }

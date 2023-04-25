@@ -20,10 +20,11 @@ else
             <thead>
                 <tr>
                     <th>Mã</th>
-                    <th>Tên</th>
-                    <th>Mô tả</th>
+                    @*<th>Tên</th>*@
+                   @* <th>Mô tả</th>*@
                     <th>Khách hàng</th>
                     <th>Nhân viên</th>
+                    <th>Nhóm</th>
                     <th></th>
                 </tr>
             </thead>
@@ -38,10 +39,10 @@ else
                     {
                         <tr>
                             <td>@item.Id</td>
-                            <td>@item.CustomerId</td>
+                           
                             <td>@item.UserFullName</td>
                             <td>@item.CustomerFullName</td>
-                            <td>@item.UserFullName</td>
+                            <td>@item.TeamName</td>
                             <td>
                                 <a href="@GetUpdatePath(item.Id.ToString())" class="btn btn-warning" disabled>Edit</a>
                                 <button class="btn btn-danger" @onclick="()=> OnDeleteTask(item.Id)">
