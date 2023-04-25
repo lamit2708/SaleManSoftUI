@@ -57,6 +57,12 @@
 		<Reference Include="VSoft.Common.UI.APP.Base.View.Main">
 		  <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\common\App\Base\view\VSoft.Common.UI.APP.Base.View.Main.dll</HintPath>
 		</Reference>
+		<Reference Include="VSoft.Company.TEA.Team.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\bus\VSoft.Company.TEA.Team.Business.Dto.dll</HintPath>
+		</Reference>
+		<Reference Include="VSoft.Company.TEA.Team.Client">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\TEA\Team\client\VSoft.Company.TEA.Team.Client.dll</HintPath>
+		</Reference>
 		<Reference Include="VSoft.Company.UCU.UserCustomer.Business.Dto">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\UCU\UserCustomer\bus\VSoft.Company.UCU.UserCustomer.Business.Dto.dll</HintPath>
 		</Reference>
@@ -79,6 +85,14 @@
 
 		<Reference Include="VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension">
 			<HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\UCU\UserCustomer\data\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension.dll</HintPath>
+		</Reference>
+
+		<Reference Include="VSoft.Company.USR.User.Business.Dto">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\USR\User\bus\VSoft.Company.USR.User.Business.Dto.dll</HintPath>
+		</Reference>
+
+		<Reference Include="VSoft.Company.USR.User.Client">
+		  <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\USR\User\client\VSoft.Company.USR.User.Client.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 

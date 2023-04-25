@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <BaseOutputPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DQU\DealQuotation</BaseOutputPath>
+	<OutputPath>$(BaseOutputPath)\business</OutputPath>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VSoft.Company.UI.DQU.DealQuotation.Business.Service\VSoft.Company.UI.DQU.DealQuotation.Business.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="VegunSoft.Framework.Api.DtoClient">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\ApiDtoClient\VegunSoft.Framework.Api.DtoClient.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-common\Business\VegunSoft.Framework.Business.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Business.Dvo">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet-front\Business\VegunSoft.Framework.Business.Dvo.dll</HintPath>
+    </Reference>
+    <Reference Include="VegunSoft.Framework.Paging.Provider">
+      <HintPath>..\..\..\..\..\..\..\..\Library\DNet\Product\vgsoft-library-dnet\Paging\VegunSoft.Framework.Paging.Provider.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.DQU.DealQuotation.Business.Dto">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DQU\DealQuotation\bus\VSoft.Company.DQU.DealQuotation.Business.Dto.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.DQU.DealQuotation.Client">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftAPILib\dotnet\company\DQU\DealQuotation\client\VSoft.Company.DQU.DealQuotation.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.DQU.DealQuotation.Data.DVO">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DQU\DealQuotation\data\VSoft.Company.UI.DQU.DealQuotation.Data.DVO.dll</HintPath>
+    </Reference>
+    <Reference Include="VSoft.Company.UI.DQU.DealQuotation.Data.DVO.Extension">
+      <HintPath>..\..\..\..\..\..\..\SaleManSoftUILib\dotnet\company\DQU\DealQuotation\data\VSoft.Company.UI.DQU.DealQuotation.Data.DVO.Extension.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

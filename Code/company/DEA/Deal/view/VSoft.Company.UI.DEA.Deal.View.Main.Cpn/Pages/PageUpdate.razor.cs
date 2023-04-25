@@ -1,7 +1,6 @@
 ﻿using Blazored.Toast.Services;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using System.Xml.Linq;
 using VegunSoft.Framework.Base.Entity.Enum;
 using VSoft.Company.UI.DEA.Deal.Data.DVO.Data;
 using VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Pages;

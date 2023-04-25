@@ -9,6 +9,8 @@ namespace VSoft.Company.UI.DEA.Deal.View.Share.Components
         public Dictionary<int, string> DealStepDict { get; set; }
         [Parameter]
         public List<DealTagDvo>? ListDealTag { get; set; }
+        [Parameter]
+        public string? DetailPath { get; set; }
 
 
         protected void OnStepChange(string message)

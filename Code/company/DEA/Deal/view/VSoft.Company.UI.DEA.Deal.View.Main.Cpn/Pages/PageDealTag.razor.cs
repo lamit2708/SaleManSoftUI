@@ -16,6 +16,9 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
         public Dictionary<int, string> TeamList { get; set; }
         public List<DealTagDvo>? ListDealTag { get; set; }
         public Dictionary<int, string> DealStepDict { get; set; }
+
+        [Parameter]
+        public string? DetailPath { get; set; }
         protected async override Task OnInitializedAsync()
         {
             await base.OnInitializedAsync();
@@ -40,5 +43,7 @@ namespace VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Pages
             ListDealTag = PageServices.ListDealTag;
             DealStepDict = PageServices.DealStepDict;
         }
+
+        
     }
 }
