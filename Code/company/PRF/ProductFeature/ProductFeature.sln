@@ -1,0 +1,121 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{01000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service", "business\VSoft.Company.UI.PRF.ProductFeature.Business.Service\VSoft.Company.UI.PRF.ProductFeature.Business.Service.csproj", "{9A990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service.Provider", "business\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Provider\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Provider.csproj", "{9B990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share", "business\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.csproj", "{9C990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.Provider", "business\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.Provider\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.Provider.csproj", "{9D990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{02000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.Data.DVO", "data\VSoft.Company.UI.PRF.ProductFeature.Data.DVO\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.csproj", "{9E990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.Data.DVO.Extension", "data\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.Extension\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.Extension.csproj", "{9F990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{03000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn", "view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.csproj", "{A0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code", "view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.csproj", "{A1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.Provider", "view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.Provider.csproj", "{A2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Page", "view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Page\VSoft.Company.UI.PRF.ProductFeature.View.Main.Page.csproj", "{A3990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.Module", "view\VSoft.Company.UI.PRF.ProductFeature.View.Module\VSoft.Company.UI.PRF.ProductFeature.View.Module.csproj", "{A4990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.Share", "view\VSoft.Company.UI.PRF.ProductFeature.View.Share\VSoft.Company.UI.PRF.ProductFeature.View.Share.csproj", "{A5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.Share.Code", "view\VSoft.Company.UI.PRF.ProductFeature.View.Share.Code\VSoft.Company.UI.PRF.ProductFeature.View.Share.Code.csproj", "{A6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRF.ProductFeature.View.TestUi", "view\VSoft.Company.UI.PRF.ProductFeature.View.TestUi\VSoft.Company.UI.PRF.ProductFeature.View.TestUi.csproj", "{A8990000-0000-0000-0000-000000000000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A990000-0000-0000-0000-000000000000} = {01000000-0000-0000-0000-000000000000}
+		{9B990000-0000-0000-0000-000000000000} = {01000000-0000-0000-0000-000000000000}
+		{9C990000-0000-0000-0000-000000000000} = {01000000-0000-0000-0000-000000000000}
+		{9D990000-0000-0000-0000-000000000000} = {01000000-0000-0000-0000-000000000000}
+		{9E990000-0000-0000-0000-000000000000} = {02000000-0000-0000-0000-000000000000}
+		{9F990000-0000-0000-0000-000000000000} = {02000000-0000-0000-0000-000000000000}
+		{A0990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{A1990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{A2990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{A3990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{A4990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{A5990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{A6990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+		{A8990000-0000-0000-0000-000000000000} = {03000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
