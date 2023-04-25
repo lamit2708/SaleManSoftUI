@@ -12,6 +12,7 @@ namespace VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Data
 		public DateTime? CreatedDateTeam { get; set; }
 		public string? UserFullName { get; set; }
         public string? CustomerFullName { get; set; }
+        public string? TeamName { get; set; }
 
 		
 

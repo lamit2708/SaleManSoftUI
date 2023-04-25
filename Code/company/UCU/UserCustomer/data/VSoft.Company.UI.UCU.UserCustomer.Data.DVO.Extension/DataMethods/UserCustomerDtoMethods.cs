@@ -14,10 +14,11 @@ namespace VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension.DataMethods
                 CreatedDateUser = src.CreatedDateUser,
                 CreatedDateTeam=src.CreatedDateTeam,
                 CustomerId = src.CustomerId,
-                UserId = (int)src.UserId,
-                TeamId = src.TeamId,
-                //UserFullName = src.UserFullName,
-                //CustomerFullName = src.CustomerFullName,
+                UserId = src.UserId ?? 0,
+                TeamId = src.TeamId ?? 0,
+                UserFullName = src.UserFullName,
+                CustomerFullName = src.CustomerFullName,
+                TeamName = src.TeamName,
             };
         }
 

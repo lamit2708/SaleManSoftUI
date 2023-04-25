@@ -9,7 +9,7 @@ namespace VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Pages
     public interface IPageUpdateServices : IPageBase
     {
         UserCustomerDvo UserCustomer { get; }
-        Task OnInitializedAsync(string teamId);
+        Task OnInitializedAsync(string? id);
         Task OnUpdateUserCustomer(UserCustomerDvo dealDvo);
     }
 }

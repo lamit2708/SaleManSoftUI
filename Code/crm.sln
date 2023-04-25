@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33530.505
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{01000000-0000-0000-0000-000000000000}"
 EndProject
@@ -10,11 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{03000000-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{04000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Common.UI.APP.Base.View.Main", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main\VSoft.Common.UI.APP.Base.View.Main.csproj", "{9A990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Common.UI.APP.Base.View.Main", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main\VSoft.Common.UI.APP.Base.View.Main.csproj", "{9A990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Common.UI.APP.Base.View.Main.Cpn.Code", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.csproj", "{9B990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Common.UI.APP.Base.View.Main.Cpn.Code", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.csproj", "{9B990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.csproj", "{9C990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider", "common\APP\Base\view\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider\VSoft.Common.UI.APP.Base.View.Main.Cpn.Code.Provider.csproj", "{9C990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "company", "company", "{05000000-0000-0000-0000-000000000000}"
 EndProject
@@ -24,33 +24,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Activity", "Activity", "{07
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{08000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.Business.Service", "company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service\VSoft.Company.UI.ACT.Activity.Business.Service.csproj", "{9D990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Business.Service", "company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service\VSoft.Company.UI.ACT.Activity.Business.Service.csproj", "{9D990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.Business.Service.Provider", "company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service.Provider\VSoft.Company.UI.ACT.Activity.Business.Service.Provider.csproj", "{9E990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Business.Service.Provider", "company\ACT\Activity\business\VSoft.Company.UI.ACT.Activity.Business.Service.Provider\VSoft.Company.UI.ACT.Activity.Business.Service.Provider.csproj", "{9E990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{09000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.Data.DVO", "company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO\VSoft.Company.UI.ACT.Activity.Data.DVO.csproj", "{9F990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Data.DVO", "company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO\VSoft.Company.UI.ACT.Activity.Data.DVO.csproj", "{9F990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.Data.DVO.Extension", "company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO.Extension\VSoft.Company.UI.ACT.Activity.Data.DVO.Extension.csproj", "{A0990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.Data.DVO.Extension", "company\ACT\Activity\data\VSoft.Company.UI.ACT.Activity.Data.DVO.Extension\VSoft.Company.UI.ACT.Activity.Data.DVO.Extension.csproj", "{A0990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{0A000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.csproj", "{A1990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.csproj", "{A1990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.csproj", "{A2990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.csproj", "{A2990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider.csproj", "{A3990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider\VSoft.Company.UI.ACT.Activity.View.Main.Cpn.Code.Provider.csproj", "{A3990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.Main.Page", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Page\VSoft.Company.UI.ACT.Activity.View.Main.Page.csproj", "{A4990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Main.Page", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Main.Page\VSoft.Company.UI.ACT.Activity.View.Main.Page.csproj", "{A4990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.Module", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Module\VSoft.Company.UI.ACT.Activity.View.Module.csproj", "{A5990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Module", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Module\VSoft.Company.UI.ACT.Activity.View.Module.csproj", "{A5990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.Share", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Share\VSoft.Company.UI.ACT.Activity.View.Share.csproj", "{A6990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Share", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Share\VSoft.Company.UI.ACT.Activity.View.Share.csproj", "{A6990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.Share.Code", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Share.Code\VSoft.Company.UI.ACT.Activity.View.Share.Code.csproj", "{A7990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.Share.Code", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.Share.Code\VSoft.Company.UI.ACT.Activity.View.Share.Code.csproj", "{A7990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.ACT.Activity.View.TestUi", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.TestUi\VSoft.Company.UI.ACT.Activity.View.TestUi.csproj", "{A8990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.ACT.Activity.View.TestUi", "company\ACT\Activity\view\VSoft.Company.UI.ACT.Activity.View.TestUi\VSoft.Company.UI.ACT.Activity.View.TestUi.csproj", "{A8990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CTM", "CTM", "{0B000000-0000-0000-0000-000000000000}"
 EndProject
@@ -58,37 +58,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{0C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{0D000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.Business.Service", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service\VSoft.Company.UI.CTM.Customer.Business.Service.csproj", "{A9990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service\VSoft.Company.UI.CTM.Customer.Business.Service.csproj", "{A9990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Provider", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Provider\VSoft.Company.UI.CTM.Customer.Business.Service.Provider.csproj", "{AA990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Provider", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Provider\VSoft.Company.UI.CTM.Customer.Business.Service.Provider.csproj", "{AA990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Share", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Share\VSoft.Company.UI.CTM.Customer.Business.Service.Share.csproj", "{AB990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Share", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Share\VSoft.Company.UI.CTM.Customer.Business.Service.Share.csproj", "{AB990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider\VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider.csproj", "{AC990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider", "company\CTM\Customer\business\VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider\VSoft.Company.UI.CTM.Customer.Business.Service.Share.Provider.csproj", "{AC990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{0E000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.Data.DVO", "company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO\VSoft.Company.UI.CTM.Customer.Data.DVO.csproj", "{AD990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Data.DVO", "company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO\VSoft.Company.UI.CTM.Customer.Data.DVO.csproj", "{AD990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.Data.DVO.Extension", "company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.csproj", "{AE990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.Data.DVO.Extension", "company\CTM\Customer\data\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension\VSoft.Company.UI.CTM.Customer.Data.DVO.Extension.csproj", "{AE990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{0F000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.csproj", "{AF990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.csproj", "{AF990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.csproj", "{B0990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.csproj", "{B0990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider.csproj", "{B1990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider\VSoft.Company.UI.CTM.Customer.View.Main.Cpn.Code.Provider.csproj", "{B1990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.Main.Page", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Page\VSoft.Company.UI.CTM.Customer.View.Main.Page.csproj", "{B2990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Main.Page", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Main.Page\VSoft.Company.UI.CTM.Customer.View.Main.Page.csproj", "{B2990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.Module", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Module\VSoft.Company.UI.CTM.Customer.View.Module.csproj", "{B3990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Module", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Module\VSoft.Company.UI.CTM.Customer.View.Module.csproj", "{B3990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.Share", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Share\VSoft.Company.UI.CTM.Customer.View.Share.csproj", "{B4990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Share", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Share\VSoft.Company.UI.CTM.Customer.View.Share.csproj", "{B4990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.Share.Code", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Share.Code\VSoft.Company.UI.CTM.Customer.View.Share.Code.csproj", "{B5990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.Share.Code", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.Share.Code\VSoft.Company.UI.CTM.Customer.View.Share.Code.csproj", "{B5990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.CTM.Customer.View.TestUi", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.TestUi\VSoft.Company.UI.CTM.Customer.View.TestUi.csproj", "{B6990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.CTM.Customer.View.TestUi", "company\CTM\Customer\view\VSoft.Company.UI.CTM.Customer.View.TestUi\VSoft.Company.UI.CTM.Customer.View.TestUi.csproj", "{B6990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEA", "DEA", "{10000000-0000-0000-0000-000000000000}"
 EndProject
@@ -96,195 +96,343 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deal", "Deal", "{11000000-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{12000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.Business.Service", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service\VSoft.Company.UI.DEA.Deal.Business.Service.csproj", "{B7990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service\VSoft.Company.UI.DEA.Deal.Business.Service.csproj", "{B7990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Provider", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Provider\VSoft.Company.UI.DEA.Deal.Business.Service.Provider.csproj", "{B8990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Provider", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Provider\VSoft.Company.UI.DEA.Deal.Business.Service.Provider.csproj", "{B8990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Share", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Share\VSoft.Company.UI.DEA.Deal.Business.Service.Share.csproj", "{B9990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Share", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Share\VSoft.Company.UI.DEA.Deal.Business.Service.Share.csproj", "{B9990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider\VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider.csproj", "{BA990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider", "company\DEA\Deal\business\VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider\VSoft.Company.UI.DEA.Deal.Business.Service.Share.Provider.csproj", "{BA990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{13000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.Data.DVO", "company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO\VSoft.Company.UI.DEA.Deal.Data.DVO.csproj", "{BB990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Data.DVO", "company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO\VSoft.Company.UI.DEA.Deal.Data.DVO.csproj", "{BB990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.Data.DVO.Extension", "company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.csproj", "{BC990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.Data.DVO.Extension", "company\DEA\Deal\data\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension\VSoft.Company.UI.DEA.Deal.Data.DVO.Extension.csproj", "{BC990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{14000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.csproj", "{BD990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.csproj", "{BD990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.csproj", "{BE990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.csproj", "{BE990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider.csproj", "{BF990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider\VSoft.Company.UI.DEA.Deal.View.Main.Cpn.Code.Provider.csproj", "{BF990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.Main.Page", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Page\VSoft.Company.UI.DEA.Deal.View.Main.Page.csproj", "{C0990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Main.Page", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Main.Page\VSoft.Company.UI.DEA.Deal.View.Main.Page.csproj", "{C0990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.Module", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Module\VSoft.Company.UI.DEA.Deal.View.Module.csproj", "{C1990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Module", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Module\VSoft.Company.UI.DEA.Deal.View.Module.csproj", "{C1990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.Share", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Share\VSoft.Company.UI.DEA.Deal.View.Share.csproj", "{C2990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Share", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Share\VSoft.Company.UI.DEA.Deal.View.Share.csproj", "{C2990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.Share.Code", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Share.Code\VSoft.Company.UI.DEA.Deal.View.Share.Code.csproj", "{C3990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.Share.Code", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.Share.Code\VSoft.Company.UI.DEA.Deal.View.Share.Code.csproj", "{C3990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DEA.Deal.View.TestUi", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.TestUi\VSoft.Company.UI.DEA.Deal.View.TestUi.csproj", "{C4990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DEA.Deal.View.TestUi", "company\DEA\Deal\view\VSoft.Company.UI.DEA.Deal.View.TestUi\VSoft.Company.UI.DEA.Deal.View.TestUi.csproj", "{C4990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DST", "DST", "{15000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DQU", "DQU", "{15000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.DST.DealStep.View.Module", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Module\VSoft.Company.UI.DST.DealStep.View.Module.csproj", "{CF990000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DealQuotation", "DealQuotation", "{16000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRC", "PRC", "{1A000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{17000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCategory", "ProductCategory", "{1B000000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.Business.Service", "company\DQU\DealQuotation\business\VSoft.Company.UI.DQU.DealQuotation.Business.Service\VSoft.Company.UI.DQU.DealQuotation.Business.Service.csproj", "{C5990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.Business.Service.Provider", "company\DQU\DealQuotation\business\VSoft.Company.UI.DQU.DealQuotation.Business.Service.Provider\VSoft.Company.UI.DQU.DealQuotation.Business.Service.Provider.csproj", "{C6990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.Business.Service.Share", "company\DQU\DealQuotation\business\VSoft.Company.UI.DQU.DealQuotation.Business.Service.Share\VSoft.Company.UI.DQU.DealQuotation.Business.Service.Share.csproj", "{C7990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.Business.Service.Share.Provider", "company\DQU\DealQuotation\business\VSoft.Company.UI.DQU.DealQuotation.Business.Service.Share.Provider\VSoft.Company.UI.DQU.DealQuotation.Business.Service.Share.Provider.csproj", "{C8990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{18000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.Data.DVO", "company\DQU\DealQuotation\data\VSoft.Company.UI.DQU.DealQuotation.Data.DVO\VSoft.Company.UI.DQU.DealQuotation.Data.DVO.csproj", "{C9990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.Data.DVO.Extension", "company\DQU\DealQuotation\data\VSoft.Company.UI.DQU.DealQuotation.Data.DVO.Extension\VSoft.Company.UI.DQU.DealQuotation.Data.DVO.Extension.csproj", "{CA990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{19000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn\VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn.csproj", "{CB990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn.Code", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn.Code\VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn.Code.csproj", "{CC990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn.Code.Provider", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn.Code.Provider\VSoft.Company.UI.DQU.DealQuotation.View.Main.Cpn.Code.Provider.csproj", "{CD990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.Main.Page", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.Main.Page\VSoft.Company.UI.DQU.DealQuotation.View.Main.Page.csproj", "{CE990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.Module", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.Module\VSoft.Company.UI.DQU.DealQuotation.View.Module.csproj", "{CF990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.Share", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.Share\VSoft.Company.UI.DQU.DealQuotation.View.Share.csproj", "{D0990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.Share.Code", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.Share.Code\VSoft.Company.UI.DQU.DealQuotation.View.Share.Code.csproj", "{D1990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DQU.DealQuotation.View.TestUi", "company\DQU\DealQuotation\view\VSoft.Company.UI.DQU.DealQuotation.View.TestUi\VSoft.Company.UI.DQU.DealQuotation.View.TestUi.csproj", "{D2990000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DST", "DST", "{1A000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DealStep", "DealStep", "{1B000000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{1C000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service\VSoft.Company.UI.PRC.ProductCategory.Business.Service.csproj", "{D3990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.Business.Service", "company\DST\DealStep\business\VSoft.Company.UI.DST.DealStep.Business.Service\VSoft.Company.UI.DST.DealStep.Business.Service.csproj", "{D3990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider.csproj", "{D4990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.Business.Service.Provider", "company\DST\DealStep\business\VSoft.Company.UI.DST.DealStep.Business.Service.Provider\VSoft.Company.UI.DST.DealStep.Business.Service.Provider.csproj", "{D4990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.csproj", "{D5990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.Business.Service.Share", "company\DST\DealStep\business\VSoft.Company.UI.DST.DealStep.Business.Service.Share\VSoft.Company.UI.DST.DealStep.Business.Service.Share.csproj", "{D5990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider.csproj", "{D6990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.Business.Service.Share.Provider", "company\DST\DealStep\business\VSoft.Company.UI.DST.DealStep.Business.Service.Share.Provider\VSoft.Company.UI.DST.DealStep.Business.Service.Share.Provider.csproj", "{D6990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{1D000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.Data.DVO", "company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.csproj", "{D7990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.Data.DVO", "company\DST\DealStep\data\VSoft.Company.UI.DST.DealStep.Data.DVO\VSoft.Company.UI.DST.DealStep.Data.DVO.csproj", "{D7990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension", "company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension.csproj", "{D8990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.Data.DVO.Extension", "company\DST\DealStep\data\VSoft.Company.UI.DST.DealStep.Data.DVO.Extension\VSoft.Company.UI.DST.DealStep.Data.DVO.Extension.csproj", "{D8990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{1E000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.csproj", "{D9990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.Main.Cpn", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Main.Cpn\VSoft.Company.UI.DST.DealStep.View.Main.Cpn.csproj", "{D9990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.csproj", "{DA990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code\VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code.csproj", "{DA990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider.csproj", "{DB990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code.Provider", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code.Provider\VSoft.Company.UI.DST.DealStep.View.Main.Cpn.Code.Provider.csproj", "{DB990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Page", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Page\VSoft.Company.UI.PRC.ProductCategory.View.Main.Page.csproj", "{DC990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.Main.Page", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Main.Page\VSoft.Company.UI.DST.DealStep.View.Main.Page.csproj", "{DC990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.Module", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Module\VSoft.Company.UI.PRC.ProductCategory.View.Module.csproj", "{DD990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.Module", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Module\VSoft.Company.UI.DST.DealStep.View.Module.csproj", "{DD990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.Share", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Share\VSoft.Company.UI.PRC.ProductCategory.View.Share.csproj", "{DE990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.Share", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Share\VSoft.Company.UI.DST.DealStep.View.Share.csproj", "{DE990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.Share.Code", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Share.Code\VSoft.Company.UI.PRC.ProductCategory.View.Share.Code.csproj", "{DF990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.Share.Code", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.Share.Code\VSoft.Company.UI.DST.DealStep.View.Share.Code.csproj", "{DF990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRC.ProductCategory.View.TestUi", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.TestUi\VSoft.Company.UI.PRC.ProductCategory.View.TestUi.csproj", "{E0990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.DST.DealStep.View.TestUi", "company\DST\DealStep\view\VSoft.Company.UI.DST.DealStep.View.TestUi\VSoft.Company.UI.DST.DealStep.View.TestUi.csproj", "{E0990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRO", "PRO", "{1F000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRC", "PRC", "{1F000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{20000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCategory", "ProductCategory", "{20000000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{21000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.Business.Service", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service\VSoft.Company.UI.PRO.Product.Business.Service.csproj", "{E1990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service\VSoft.Company.UI.PRC.ProductCategory.Business.Service.csproj", "{E1990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.Business.Service.Provider", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Provider\VSoft.Company.UI.PRO.Product.Business.Service.Provider.csproj", "{E2990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Provider.csproj", "{E2990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.Business.Service.Share", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Share\VSoft.Company.UI.PRO.Product.Business.Service.Share.csproj", "{E3990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.csproj", "{E3990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider\VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider.csproj", "{E4990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider", "company\PRC\ProductCategory\business\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider\VSoft.Company.UI.PRC.ProductCategory.Business.Service.Share.Provider.csproj", "{E4990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{22000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.Data.DVO", "company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO\VSoft.Company.UI.PRO.Product.Data.DVO.csproj", "{E5990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Data.DVO", "company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.csproj", "{E5990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.Data.DVO.Extension", "company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO.Extension\VSoft.Company.UI.PRO.Product.Data.DVO.Extension.csproj", "{E6990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension", "company\PRC\ProductCategory\data\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension\VSoft.Company.UI.PRC.ProductCategory.Data.DVO.Extension.csproj", "{E6990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{23000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn\VSoft.Company.UI.PRO.Product.View.Main.Cpn.csproj", "{E7990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.csproj", "{E7990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.csproj", "{E8990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.csproj", "{E8990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider.csproj", "{E9990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRC.ProductCategory.View.Main.Cpn.Code.Provider.csproj", "{E9990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.Main.Page", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Page\VSoft.Company.UI.PRO.Product.View.Main.Page.csproj", "{EA990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Main.Page", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Main.Page\VSoft.Company.UI.PRC.ProductCategory.View.Main.Page.csproj", "{EA990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.Module", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Module\VSoft.Company.UI.PRO.Product.View.Module.csproj", "{EB990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Module", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Module\VSoft.Company.UI.PRC.ProductCategory.View.Module.csproj", "{EB990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.Share", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Share\VSoft.Company.UI.PRO.Product.View.Share.csproj", "{EC990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Share", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Share\VSoft.Company.UI.PRC.ProductCategory.View.Share.csproj", "{EC990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.Share.Code", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Share.Code\VSoft.Company.UI.PRO.Product.View.Share.Code.csproj", "{ED990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.Share.Code", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.Share.Code\VSoft.Company.UI.PRC.ProductCategory.View.Share.Code.csproj", "{ED990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.PRO.Product.View.TestUi", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.TestUi\VSoft.Company.UI.PRO.Product.View.TestUi.csproj", "{EE990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRC.ProductCategory.View.TestUi", "company\PRC\ProductCategory\view\VSoft.Company.UI.PRC.ProductCategory.View.TestUi\VSoft.Company.UI.PRC.ProductCategory.View.TestUi.csproj", "{EE990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEA", "TEA", "{24000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRF", "PRF", "{24000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Team", "Team", "{25000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductFeature", "ProductFeature", "{25000000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{26000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.Business.Service", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\VSoft.Company.UI.TEA.Team.Business.Service.csproj", "{EF990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service", "company\PRF\ProductFeature\business\VSoft.Company.UI.PRF.ProductFeature.Business.Service\VSoft.Company.UI.PRF.ProductFeature.Business.Service.csproj", "{EF990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.Business.Service.Provider", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj", "{F0990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service.Provider", "company\PRF\ProductFeature\business\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Provider\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Provider.csproj", "{F0990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj", "{F1990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share", "company\PRF\ProductFeature\business\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.csproj", "{F1990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.csproj", "{F2990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.Provider", "company\PRF\ProductFeature\business\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.Provider\VSoft.Company.UI.PRF.ProductFeature.Business.Service.Share.Provider.csproj", "{F2990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{27000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.Data.DVO", "company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\VSoft.Company.UI.TEA.Team.Data.DVO.csproj", "{F3990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.Data.DVO", "company\PRF\ProductFeature\data\VSoft.Company.UI.PRF.ProductFeature.Data.DVO\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.csproj", "{F3990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.Data.DVO.Extension", "company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.csproj", "{F4990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.Data.DVO.Extension", "company\PRF\ProductFeature\data\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.Extension\VSoft.Company.UI.PRF.ProductFeature.Data.DVO.Extension.csproj", "{F4990000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{28000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn\VSoft.Company.UI.TEA.Team.View.Main.Cpn.csproj", "{F5990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.csproj", "{F5990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.csproj", "{F6990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.csproj", "{F6990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.csproj", "{F7990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.Provider", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRF.ProductFeature.View.Main.Cpn.Code.Provider.csproj", "{F7990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.Main.Page", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Page\VSoft.Company.UI.TEA.Team.View.Main.Page.csproj", "{F8990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.Main.Page", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.Main.Page\VSoft.Company.UI.PRF.ProductFeature.View.Main.Page.csproj", "{F8990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.Module", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Module\VSoft.Company.UI.TEA.Team.View.Module.csproj", "{F9990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.Module", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.Module\VSoft.Company.UI.PRF.ProductFeature.View.Module.csproj", "{F9990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.Share", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Share\VSoft.Company.UI.TEA.Team.View.Share.csproj", "{FA990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.Share", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.Share\VSoft.Company.UI.PRF.ProductFeature.View.Share.csproj", "{FA990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.Share.Code", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Share.Code\VSoft.Company.UI.TEA.Team.View.Share.Code.csproj", "{FB990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.Share.Code", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.Share.Code\VSoft.Company.UI.PRF.ProductFeature.View.Share.Code.csproj", "{FB990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.TEA.Team.View.TestUi", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.TestUi\VSoft.Company.UI.TEA.Team.View.TestUi.csproj", "{FC990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRF.ProductFeature.View.TestUi", "company\PRF\ProductFeature\view\VSoft.Company.UI.PRF.ProductFeature.View.TestUi\VSoft.Company.UI.PRF.ProductFeature.View.TestUi.csproj", "{FC990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USR", "USR", "{29000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PRO", "PRO", "{29000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{2A000000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{2A000000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{2B000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.Business.Service", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service\VSoft.Company.UI.USR.User.Business.Service.csproj", "{FD990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service\VSoft.Company.UI.PRO.Product.Business.Service.csproj", "{FD990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.Business.Service.Provider", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Provider\VSoft.Company.UI.USR.User.Business.Service.Provider.csproj", "{FE990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service.Provider", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Provider\VSoft.Company.UI.PRO.Product.Business.Service.Provider.csproj", "{FE990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.Business.Service.Share", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Share\VSoft.Company.UI.USR.User.Business.Service.Share.csproj", "{FF990000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service.Share", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Share\VSoft.Company.UI.PRO.Product.Business.Service.Share.csproj", "{FF990000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.Business.Service.Share.Provider", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Share.Provider\VSoft.Company.UI.USR.User.Business.Service.Share.Provider.csproj", "{009A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider", "company\PRO\Product\business\VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider\VSoft.Company.UI.PRO.Product.Business.Service.Share.Provider.csproj", "{009A0000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{2C000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.Data.DVO", "company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO\VSoft.Company.UI.USR.User.Data.DVO.csproj", "{019A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Data.DVO", "company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO\VSoft.Company.UI.PRO.Product.Data.DVO.csproj", "{019A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.Data.DVO.Extension", "company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO.Extension\VSoft.Company.UI.USR.User.Data.DVO.Extension.csproj", "{029A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.Data.DVO.Extension", "company\PRO\Product\data\VSoft.Company.UI.PRO.Product.Data.DVO.Extension\VSoft.Company.UI.PRO.Product.Data.DVO.Extension.csproj", "{029A0000-0000-0000-0000-000000000000}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{2D000000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.Main.Cpn", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn\VSoft.Company.UI.USR.User.View.Main.Cpn.csproj", "{039A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn\VSoft.Company.UI.PRO.Product.View.Main.Cpn.csproj", "{039A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.Main.Cpn.Code", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn.Code\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.csproj", "{049A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.csproj", "{049A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider.csproj", "{059A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider\VSoft.Company.UI.PRO.Product.View.Main.Cpn.Code.Provider.csproj", "{059A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.Main.Page", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Page\VSoft.Company.UI.USR.User.View.Main.Page.csproj", "{069A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Main.Page", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Main.Page\VSoft.Company.UI.PRO.Product.View.Main.Page.csproj", "{069A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.Module", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Module\VSoft.Company.UI.USR.User.View.Module.csproj", "{079A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Module", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Module\VSoft.Company.UI.PRO.Product.View.Module.csproj", "{079A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.Share", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Share\VSoft.Company.UI.USR.User.View.Share.csproj", "{089A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Share", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Share\VSoft.Company.UI.PRO.Product.View.Share.csproj", "{089A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.Share.Code", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Share.Code\VSoft.Company.UI.USR.User.View.Share.Code.csproj", "{099A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.Share.Code", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.Share.Code\VSoft.Company.UI.PRO.Product.View.Share.Code.csproj", "{099A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSoft.Company.UI.USR.User.View.TestUi", "company\USR\User\view\VSoft.Company.UI.USR.User.View.TestUi\VSoft.Company.UI.USR.User.View.TestUi.csproj", "{0A9A0000-0000-0000-0000-000000000000}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.PRO.Product.View.TestUi", "company\PRO\Product\view\VSoft.Company.UI.PRO.Product.View.TestUi\VSoft.Company.UI.PRO.Product.View.TestUi.csproj", "{0A9A0000-0000-0000-0000-000000000000}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main.UI.WebApp", "company\Main\MainUI\view\Main.UI.WebApp\Main.UI.WebApp.csproj", "{0B9A0000-0000-0000-0000-000000000000}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEA", "TEA", "{2E000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Team", "Team", "{2F000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{30000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service\VSoft.Company.UI.TEA.Team.Business.Service.csproj", "{0B9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Provider", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Provider.csproj", "{0C9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share\VSoft.Company.UI.TEA.Team.Business.Service.Share.csproj", "{0D9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider", "company\TEA\Team\business\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider\VSoft.Company.UI.TEA.Team.Business.Service.Share.Provider.csproj", "{0E9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{31000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Data.DVO", "company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO\VSoft.Company.UI.TEA.Team.Data.DVO.csproj", "{0F9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.Data.DVO.Extension", "company\TEA\Team\data\VSoft.Company.UI.TEA.Team.Data.DVO.Extension\VSoft.Company.UI.TEA.Team.Data.DVO.Extension.csproj", "{109A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{32000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn\VSoft.Company.UI.TEA.Team.View.Main.Cpn.csproj", "{119A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.csproj", "{129A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider\VSoft.Company.UI.TEA.Team.View.Main.Cpn.Code.Provider.csproj", "{139A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Main.Page", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Main.Page\VSoft.Company.UI.TEA.Team.View.Main.Page.csproj", "{149A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Module", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Module\VSoft.Company.UI.TEA.Team.View.Module.csproj", "{159A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Share", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Share\VSoft.Company.UI.TEA.Team.View.Share.csproj", "{169A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.Share.Code", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.Share.Code\VSoft.Company.UI.TEA.Team.View.Share.Code.csproj", "{179A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.TEA.Team.View.TestUi", "company\TEA\Team\view\VSoft.Company.UI.TEA.Team.View.TestUi\VSoft.Company.UI.TEA.Team.View.TestUi.csproj", "{189A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UCU", "UCU", "{33000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserCustomer", "UserCustomer", "{34000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{35000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.Business.Service", "company\UCU\UserCustomer\business\VSoft.Company.UI.UCU.UserCustomer.Business.Service\VSoft.Company.UI.UCU.UserCustomer.Business.Service.csproj", "{199A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.Business.Service.Provider", "company\UCU\UserCustomer\business\VSoft.Company.UI.UCU.UserCustomer.Business.Service.Provider\VSoft.Company.UI.UCU.UserCustomer.Business.Service.Provider.csproj", "{1A9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.Business.Service.Share", "company\UCU\UserCustomer\business\VSoft.Company.UI.UCU.UserCustomer.Business.Service.Share\VSoft.Company.UI.UCU.UserCustomer.Business.Service.Share.csproj", "{1B9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.Business.Service.Share.Provider", "company\UCU\UserCustomer\business\VSoft.Company.UI.UCU.UserCustomer.Business.Service.Share.Provider\VSoft.Company.UI.UCU.UserCustomer.Business.Service.Share.Provider.csproj", "{1C9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{36000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.Data.DVO", "company\UCU\UserCustomer\data\VSoft.Company.UI.UCU.UserCustomer.Data.DVO\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.csproj", "{1D9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension", "company\UCU\UserCustomer\data\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension\VSoft.Company.UI.UCU.UserCustomer.Data.DVO.Extension.csproj", "{1E9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{37000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.csproj", "{1F9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.csproj", "{209A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Provider", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Provider\VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Code.Provider.csproj", "{219A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.Main.Page", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.Main.Page\VSoft.Company.UI.UCU.UserCustomer.View.Main.Page.csproj", "{229A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.Module", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.Module\VSoft.Company.UI.UCU.UserCustomer.View.Module.csproj", "{239A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.Share", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.Share\VSoft.Company.UI.UCU.UserCustomer.View.Share.csproj", "{249A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.Share.Code", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.Share.Code\VSoft.Company.UI.UCU.UserCustomer.View.Share.Code.csproj", "{259A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.UCU.UserCustomer.View.TestUi", "company\UCU\UserCustomer\view\VSoft.Company.UI.UCU.UserCustomer.View.TestUi\VSoft.Company.UI.UCU.UserCustomer.View.TestUi.csproj", "{269A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USR", "USR", "{38000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{39000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{3A000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service\VSoft.Company.UI.USR.User.Business.Service.csproj", "{279A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service.Provider", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Provider\VSoft.Company.UI.USR.User.Business.Service.Provider.csproj", "{289A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service.Share", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Share\VSoft.Company.UI.USR.User.Business.Service.Share.csproj", "{299A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Business.Service.Share.Provider", "company\USR\User\business\VSoft.Company.UI.USR.User.Business.Service.Share.Provider\VSoft.Company.UI.USR.User.Business.Service.Share.Provider.csproj", "{2A9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{3B000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Data.DVO", "company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO\VSoft.Company.UI.USR.User.Data.DVO.csproj", "{2B9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.Data.DVO.Extension", "company\USR\User\data\VSoft.Company.UI.USR.User.Data.DVO.Extension\VSoft.Company.UI.USR.User.Data.DVO.Extension.csproj", "{2C9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "view", "view", "{3C000000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Cpn", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn\VSoft.Company.UI.USR.User.View.Main.Cpn.csproj", "{2D9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Cpn.Code", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn.Code\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.csproj", "{2E9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider\VSoft.Company.UI.USR.User.View.Main.Cpn.Code.Provider.csproj", "{2F9A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Main.Page", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Main.Page\VSoft.Company.UI.USR.User.View.Main.Page.csproj", "{309A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Module", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Module\VSoft.Company.UI.USR.User.View.Module.csproj", "{319A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Share", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Share\VSoft.Company.UI.USR.User.View.Share.csproj", "{329A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.Share.Code", "company\USR\User\view\VSoft.Company.UI.USR.User.View.Share.Code\VSoft.Company.UI.USR.User.View.Share.Code.csproj", "{339A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSoft.Company.UI.USR.User.View.TestUi", "company\USR\User\view\VSoft.Company.UI.USR.User.View.TestUi\VSoft.Company.UI.USR.User.View.TestUi.csproj", "{349A0000-0000-0000-0000-000000000000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main.UI.WebApp", "company\Main\MainUI\view\Main.UI.WebApp\Main.UI.WebApp.csproj", "{359A0000-0000-0000-0000-000000000000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -464,10 +612,62 @@ Global
 		{C4990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C4990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{CF990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2990000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{D3990000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D3990000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3990000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
@@ -696,6 +896,174 @@ Global
 		{0B9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{109A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{119A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{139A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{149A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{149A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{159A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{159A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{169A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{169A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{179A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{179A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{189A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{189A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{199A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{199A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1A9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1B9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{209A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{209A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{219A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{219A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{229A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{229A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{239A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{239A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{249A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{249A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{259A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{259A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{269A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{269A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{279A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{279A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{289A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{289A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{299A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{299A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2A9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2B9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{309A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{309A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{319A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{319A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{329A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{329A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{339A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{339A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{349A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{349A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{359A0000-0000-0000-0000-000000000000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359A0000-0000-0000-0000-000000000000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359A0000-0000-0000-0000-000000000000}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{359A0000-0000-0000-0000-000000000000}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -763,7 +1131,24 @@ Global
 		{C3990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
 		{C4990000-0000-0000-0000-000000000000} = {14000000-0000-0000-0000-000000000000}
 		{15000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
-		{CF990000-0000-0000-0000-000000000000} = {15000000-0000-0000-0000-000000000000}
+		{16000000-0000-0000-0000-000000000000} = {15000000-0000-0000-0000-000000000000}
+		{17000000-0000-0000-0000-000000000000} = {16000000-0000-0000-0000-000000000000}
+		{C5990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{C6990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{C7990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{C8990000-0000-0000-0000-000000000000} = {17000000-0000-0000-0000-000000000000}
+		{18000000-0000-0000-0000-000000000000} = {16000000-0000-0000-0000-000000000000}
+		{C9990000-0000-0000-0000-000000000000} = {18000000-0000-0000-0000-000000000000}
+		{CA990000-0000-0000-0000-000000000000} = {18000000-0000-0000-0000-000000000000}
+		{19000000-0000-0000-0000-000000000000} = {16000000-0000-0000-0000-000000000000}
+		{CB990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{CC990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{CD990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{CE990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{CF990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D0990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D1990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
+		{D2990000-0000-0000-0000-000000000000} = {19000000-0000-0000-0000-000000000000}
 		{1A000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
 		{1B000000-0000-0000-0000-000000000000} = {1A000000-0000-0000-0000-000000000000}
 		{1C000000-0000-0000-0000-000000000000} = {1B000000-0000-0000-0000-000000000000}
@@ -840,6 +1225,63 @@ Global
 		{089A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
 		{099A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
 		{0A9A0000-0000-0000-0000-000000000000} = {2D000000-0000-0000-0000-000000000000}
-		{0B9A0000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{2E000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{2F000000-0000-0000-0000-000000000000} = {2E000000-0000-0000-0000-000000000000}
+		{30000000-0000-0000-0000-000000000000} = {2F000000-0000-0000-0000-000000000000}
+		{0B9A0000-0000-0000-0000-000000000000} = {30000000-0000-0000-0000-000000000000}
+		{0C9A0000-0000-0000-0000-000000000000} = {30000000-0000-0000-0000-000000000000}
+		{0D9A0000-0000-0000-0000-000000000000} = {30000000-0000-0000-0000-000000000000}
+		{0E9A0000-0000-0000-0000-000000000000} = {30000000-0000-0000-0000-000000000000}
+		{31000000-0000-0000-0000-000000000000} = {2F000000-0000-0000-0000-000000000000}
+		{0F9A0000-0000-0000-0000-000000000000} = {31000000-0000-0000-0000-000000000000}
+		{109A0000-0000-0000-0000-000000000000} = {31000000-0000-0000-0000-000000000000}
+		{32000000-0000-0000-0000-000000000000} = {2F000000-0000-0000-0000-000000000000}
+		{119A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{129A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{139A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{149A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{159A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{169A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{179A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{189A0000-0000-0000-0000-000000000000} = {32000000-0000-0000-0000-000000000000}
+		{33000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{34000000-0000-0000-0000-000000000000} = {33000000-0000-0000-0000-000000000000}
+		{35000000-0000-0000-0000-000000000000} = {34000000-0000-0000-0000-000000000000}
+		{199A0000-0000-0000-0000-000000000000} = {35000000-0000-0000-0000-000000000000}
+		{1A9A0000-0000-0000-0000-000000000000} = {35000000-0000-0000-0000-000000000000}
+		{1B9A0000-0000-0000-0000-000000000000} = {35000000-0000-0000-0000-000000000000}
+		{1C9A0000-0000-0000-0000-000000000000} = {35000000-0000-0000-0000-000000000000}
+		{36000000-0000-0000-0000-000000000000} = {34000000-0000-0000-0000-000000000000}
+		{1D9A0000-0000-0000-0000-000000000000} = {36000000-0000-0000-0000-000000000000}
+		{1E9A0000-0000-0000-0000-000000000000} = {36000000-0000-0000-0000-000000000000}
+		{37000000-0000-0000-0000-000000000000} = {34000000-0000-0000-0000-000000000000}
+		{1F9A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{209A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{219A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{229A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{239A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{249A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{259A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{269A0000-0000-0000-0000-000000000000} = {37000000-0000-0000-0000-000000000000}
+		{38000000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
+		{39000000-0000-0000-0000-000000000000} = {38000000-0000-0000-0000-000000000000}
+		{3A000000-0000-0000-0000-000000000000} = {39000000-0000-0000-0000-000000000000}
+		{279A0000-0000-0000-0000-000000000000} = {3A000000-0000-0000-0000-000000000000}
+		{289A0000-0000-0000-0000-000000000000} = {3A000000-0000-0000-0000-000000000000}
+		{299A0000-0000-0000-0000-000000000000} = {3A000000-0000-0000-0000-000000000000}
+		{2A9A0000-0000-0000-0000-000000000000} = {3A000000-0000-0000-0000-000000000000}
+		{3B000000-0000-0000-0000-000000000000} = {39000000-0000-0000-0000-000000000000}
+		{2B9A0000-0000-0000-0000-000000000000} = {3B000000-0000-0000-0000-000000000000}
+		{2C9A0000-0000-0000-0000-000000000000} = {3B000000-0000-0000-0000-000000000000}
+		{3C000000-0000-0000-0000-000000000000} = {39000000-0000-0000-0000-000000000000}
+		{2D9A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{2E9A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{2F9A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{309A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{319A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{329A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{339A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{349A0000-0000-0000-0000-000000000000} = {3C000000-0000-0000-0000-000000000000}
+		{359A0000-0000-0000-0000-000000000000} = {05000000-0000-0000-0000-000000000000}
 	EndGlobalSection
 EndGlobal

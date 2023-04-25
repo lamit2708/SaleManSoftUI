@@ -15,9 +15,10 @@ namespace VSoft.Company.UI.UCU.UserCustomer.View.Main.Code.Provider.Pages
         {
             BusinessService = service;
         }
-        public async Task OnInitializedAsync(string teamId)
+        public async Task OnInitializedAsync(string? teamId)
         {
-            var pagingRs = await BusinessService.GetUserCustomer(teamId);
+            var id = Convert.ToInt32(teamId ?? "0");
+            var pagingRs = await BusinessService.GetUserCustomer(id);
             if (pagingRs.IsSuccessed)
             {
                 var data = pagingRs.ResultObj;
