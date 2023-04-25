@@ -25,6 +25,10 @@ namespace VSoft.Company.UI.DEA.Deal.View.Share.Components
         [Parameter]
         public Action<string>? OnStepChange { get; set; }
 
+
+        [Parameter]
+        public string? DetailPath { get; set; }
+
         protected async override Task OnInitializedAsync()
         {
             await base.OnInitializedAsync();
@@ -60,6 +64,12 @@ namespace VSoft.Company.UI.DEA.Deal.View.Share.Components
                 DealTag.DealStepId = DealTag.DealStepId - 1;
                 OnStepChange?.Invoke(message);
             }
+        }
+
+
+        protected string GetDetailPath(long id)
+        {
+            return $"{DetailPath}/{id}";
         }
     }
 }

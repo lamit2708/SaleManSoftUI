@@ -2,7 +2,6 @@
 using VegunSoft.Framework.Ui.Component.Popups;
 using VegunSoft.Framework.Paging.Provider.Response;
 using VegunSoft.Framework.Paging.Provider.Request;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 using Blazored.Toast.Services;
 using Microsoft.AspNetCore.Components;
 using VegunSoft.Framework.Base.Entity.Enum;

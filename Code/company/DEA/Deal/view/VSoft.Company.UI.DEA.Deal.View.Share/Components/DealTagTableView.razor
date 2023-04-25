@@ -24,7 +24,7 @@
                             if (dealTag.DealStepId == step.Key)
                             {
                                 <div class="p-2 pt-2">
-                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@true" IsNextDisable="@false" />
+                                        <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@true" IsNextDisable="@false" DetailPath="@DetailPath"/>
                                 </div>
                             }
                         }
@@ -41,7 +41,7 @@
                             if (dealTag.DealStepId == step.Key)
                             {
                                 <div class="p-2 pt-2">
-                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@false" IsNextDisable="@true" />
+                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@false" IsNextDisable="@true" DetailPath="@DetailPath" />
                                 </div>
                             }
                         }
@@ -58,7 +58,7 @@
                             if (dealTag.DealStepId == step.Key)
                             {
                                 <div class="p-2 pt-2">
-                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@false" IsNextDisable="@false" />
+                                    <DealTagView OnStepChange="@OnStepChange" DealTag="dealTag" IsPreviouseDisable="@false" IsNextDisable="@false" DetailPath="@DetailPath" />
                                 </div>
                             }
                         }
