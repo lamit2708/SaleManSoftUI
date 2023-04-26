@@ -94,11 +94,11 @@ namespace VSoft.Company.UI.UCU.UserCustomer.Business.Service.Provider.Services
             return null;
         }
 
-        public async Task<MDvoResult<UserCustomerDvo>> GetUserCustomer(string id)
+        public async Task<MDvoResult<UserCustomerDvo>> GetUserCustomer(int valId)
         {
-            var valId = string.IsNullOrEmpty(id) ? "0" : id;
+           // int valId = id ?? 0;
 
-            var apiRs = await ClientService.FindAsync(new MDtoRequestFindByString() { Id = valId });
+            var apiRs = await ClientService.FindAsync(new MDtoRequestFindByInt() { Id = valId });
             if (apiRs != null)
             {
                 if (apiRs.IsSuccess)

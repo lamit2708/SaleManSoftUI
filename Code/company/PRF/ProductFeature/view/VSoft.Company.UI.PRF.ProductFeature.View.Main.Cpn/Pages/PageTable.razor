@@ -4,7 +4,7 @@
 @using VegunSoft.Framework.Ui.Component.Pagination;
 @using VegunSoft.Framework.Ui.Component.Indicatiors;
 
-<h3>Danh sách khách hàng</h3>
+<h3>Danh sách tính năng sản phẩm</h3>
 @if (ProductFeatures == null)
 {
 	<LoadingIndicator></LoadingIndicator>
@@ -21,10 +21,10 @@ else
 				<thead>
 					<tr>
 						@*<th>Id</th>*@
-						<th class="w-25">Tên tính năng</th>
+						<th>Tên tính năng</th>
 						<th>Mô tả</th>
-						<th class="w-25">Giá</th>
-						<th class="w-25">Sản phẩm</th>
+						<th>Giá</th>
+						<th>Sản phẩm</th>
 						<th class="w-50">Chức năng</th>
 					</tr>
 				</thead>

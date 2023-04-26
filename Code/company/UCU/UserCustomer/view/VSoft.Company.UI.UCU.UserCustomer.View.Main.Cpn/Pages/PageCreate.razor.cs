@@ -50,6 +50,7 @@ namespace VSoft.Company.UI.UCU.UserCustomer.View.Main.Cpn.Pages
                 //PricePossible = PricePossible,
                 CustomerId = customerId,
                 UserId = UserId,
+                TeamId = 0,
                 //OrderId = null,
                 //PridictPrice = PredictPrice ?? 0
             };
